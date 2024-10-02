@@ -113,13 +113,10 @@
 
 > *Student 2 should complete this section.*
 
-## Example
+## System Architecture Diagram
 
-> Example: Here's how you can include images in markdown documents...
-
-<!-- Basically, just use HTML! -->
 
 <p align="center">
-  <img src="./res/cat.png" width="300px">
+  <img src="./res/final_project_diagram-10.png" width="600px">
 </p>
 
