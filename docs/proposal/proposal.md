@@ -88,11 +88,11 @@ No non-standard hardware components are required. Users will interact with the a
 
 This project involves several technologies that require learning:
 
-
 1. **Natural Language Processing (NLP):** Applying NLP for timeline extraction from clinical protocols.
 2. **Generative AI Models:** Using text-to-image and text-to-video generation tools, which require understanding of generative AI and computer vision techniques.
 3. **Adobe API Integration:** Understanding Adobe’s PDF extraction API to effectively parse clinical trial protocols.
 4. **React JS:** While JavaScript is a common language, building a complex frontend application in React may present learning challenges.
+5. **Clinical Trial Knowledge:** Gaining an understanding of how clinical trials are structured, including their phases, key outcomes (PROs, ClinROs), and the overall workflow involved in trial management.
 
 ### Breakdown of work
 
