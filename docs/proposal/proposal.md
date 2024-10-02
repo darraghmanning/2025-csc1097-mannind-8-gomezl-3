@@ -115,8 +115,7 @@ This project involves several technologies that require learning:
 
 ## System Architecture Diagram
 
-
 <p align="center">
-  <img src="./res/final_project_diagram-10.png" width="600px" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./res/final_project_diagram-10.png" width="600px">
 </p>
 
