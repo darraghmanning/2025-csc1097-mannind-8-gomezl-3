@@ -2,15 +2,14 @@
 
 ## SECTION A
 
-|                     |                         |
-|---------------------|-------------------------|
-|Project Title:       | TimelineXtract          |
-|Student 1 Name:      | Lorena Gomez            |
-|Student 1 ID:        | 21734359                |
-|Student 2 Name:      | Darragh Manning         |
-|Student 2 ID:        | 21506373                |
-|Project Supervisor:  | Tomas Ward              |
-
+|                     |                 |
+| ------------------- | --------------- |
+| Project Title:      | TimelineXtract  |
+| Student 1 Name:     | Lorena Gomez    |
+| Student 1 ID:       | 21734359        |
+| Student 2 Name:     | Darragh Manning |
+| Student 2 ID:       | 21506373        |
+| Project Supervisor: | Tomas Ward      |
 
 ## SECTION B
 
@@ -68,7 +67,7 @@ The idea for this project came from Lorena's experience in the field and first h
 ### Programming tools / Tech stack
 
 - **Backend:** Django framework
-- **Frontend:** React JS 
+- **Frontend:** React JS
 - **Database:** MongoDB will be used for storing protocol documents, patient data, and generated timelines.
 - **Machine Learning:** OpenAI models for generative AI and Adobe API for PDF extraction.
 - **Other Tools:** Some visual tool to display the extracted timeline data.
@@ -76,6 +75,37 @@ The idea for this project came from Lorena's experience in the field and first h
 ### Hardware
 
 Any device with browser access.
+
+### Evaluation
+
+**First feature: Timeline extraction**
+
+- Objective: Evaluate the feature's accuracy and conversion to JSON.
+
+- Methodology: Compare extracted JSON to a manually extracted JSON.
+
+- Metrics
+  • Precision: Measures how many of the extracted elements are correct.
+  • Recall: Measures how many relevant elements were successfully extracted.
+  • F1 Score: A combination score of the two previous metrics.
+
+- Evaluation Criteria: An acceptable F1 score has to be decided later.
+
+**Second Feature: Generation of Images for patient procedures**
+
+- Objective: Evaluate accuracy of image generation feature
+
+- Methodology: Text to image -> Image to text
+- Comparison: Original text similar to output of Image to text tool?
+
+- Metrics
+  • Relevance: Generated image correctly represents the key steps of procedure?
+  • Accuracy: Specific details of input text represented in image?
+  • Coherence: Meaning lost between translation to image and back to text?
+  • Human Evaluation: Subjective assessment of the generated image
+
+- Evaluation Criteria
+  So long as generated image is easier to use for procedure than text description alone.
 
 ### Learning Challenges
 
@@ -101,6 +131,7 @@ This project involves several technologies that require learning:
 - Frontend Development: Use UI/UX principles to give the web app a sleek look.
 - Image generation: Develop Text-to-Image feature.
 - Documentation: Keep us ahead of the deadlines.
+- Git: Add issues to the git repository
 - Expo Preperation: Plan the stall for the expo and consider what need to be done for it.
 
 ## System Architecture Diagram
@@ -108,4 +139,3 @@ This project involves several technologies that require learning:
 <p align="center">
   <img src="./res/final_project_diagram-10.png" width="600px">
 </p>
-
