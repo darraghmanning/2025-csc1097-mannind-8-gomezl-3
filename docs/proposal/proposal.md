@@ -16,84 +16,78 @@
 
 ### Introduction
 
-This project is focused on developing a web-based application leveraging machine learning techniques to optimize the clinical trial process. Clinical trials are essential for validating the safety and efficacy of new treatments, but they can be complex, time-consuming, and costly. By streamlining key aspects of these trials, our platform aims to reduce trial time and improve patient compliance.
+Getting a pharmaceutical to market is very expensive and time consuming. Part of this is understanding a CTP, a large document a vendor must refer to. Speeding up the clinical trial process can reduce costs and save lives, allowing new treatments to reach patients more quickly.
+
+This project is a web application leveraging machine learning techniques to optimize the clinical trial process.
 
 ### Outline
 
-The project aims to deliver a web-based application with two core features designed to assist both clinical trial vendors and patients:
+The app has two main features.
 
-1. Automated Timeline Extraction for Vendors: Utilizes Natural Language Processing (NLP) to extract Patient-Reported Outcomes (PROs) and Clinician-Reported Outcomes (ClinROs) timelines from clinical trial protocols, presented in a structured calendar format.
-1. Generative AI for Patients: Generates instructional videos or images, using Generative AI, to guide patients in performing at-home clinical procedures described in trial documents.
+1. Timeline Extraction: Uses NLP to extract PROs and ClinROs from CTPs, and presentes the info visually
+2. Image Generation: Generates instructional videos or images, from textual desciptions of patient procedures.
 
-
-The application will enhance efficiency for vendors and provide accessible, clear instructions for patients, thereby improving compliance and the overall success of clinical trials.
+Additionally we may add a feature where the user can interact with an LLM and ask questions about their timeline.
 
 ### Background
 
-The idea for this project stems from challenges encountered in clinical trials, where managing trial protocols and ensuring patient adherence are major bottlenecks. Many trials are delayed due to the complexity of manual data extraction and patient miscompliance with home procedures. With advancements in machine learning, especially in NLP and generative AI, these challenges can be addressed by automating repetitive tasks and creating interactive tools for patients.
+The idea for this project came from Lorena's experience in the field and first hand experience with the challenges encountered in clinical trials. We believe we can help both patients and the pharma companies with this project.
 
 ### Achievements
 
 **The project will deliver:**
 
-- **Automatic Timeline Extraction:** The web application will allow vendors to upload clinical trial protocols and receive structured timelines for PROs and ClinROs.
-
-- **Generative AI Media for Patients:** The application will generate personalized step-by-step instructional videos or images based on textual descriptions, allowing patients to confidently follow trial procedures.
+- **Automatic Timeline Extraction:**
+- **Generative AI Media for Patients:**
 
 **Target Users:**
 
-- **Vendors:** Companies managing clinical trials, who need efficient ways to handle protocol documents and schedules.
-- **Patients:** Participants in clinical trials, especially those required to follow specific procedures at home.
+- **Vendors:** Companies managing clinical trials,
+- **Patients:** Participants in clinical trials.
 
 ### Justification
 
 **The project is essential because:**
 
-- **Speeding Up Trials:** Clinical trial protocols are lengthy and complex, and manually extracting schedules is inefficient. Automating this process saves time and resources.
+- **Speeding Up Trials:** Clinical trial protocols are lengthy and expensive, and manually extracting schedules is inefficient. Automating this process saves time and resources.
 
-- **Improving Patient Compliance:** Patients often struggle to follow complex clinical procedures at home. Clear, AI-generated visual instructions can help reduce errors and enhance adherence.
+- **Improving Patient Compliance:** Patients often struggle to follow complex clinical procedures at home. Clear, AI-generated visual instructions can help reduce errors.
+
+- **Getting treatment to market:** The longer these trials take the longer critically sick individuals are unable to access medicine that could be life-saving.
 
 **Use Cases:**
 
-- **Vendors**: Can use the platform to manage multiple clinical trials more efficiently.
-- **Patients**: Will benefit from easy-to-follow instructional videos, improving the overall success of the trials.
+- **Vendors**: Automate and shorten the process of making a timeline from a CTP
+- **Patients**: Get visual instuctions on the procedures they must perform in the CTP
 
 ### Programming language(s)
-
-The project will primarily be developed using the following languages:
 
 - **Python:** Backend processing, NLP, and AI model integration.
 - **JavaScript (React JS):** Frontend development for the web interface.
 
 ### Programming tools / Tech stack
 
-- **Backend:** Python (Django framework) for server-side logic, with most of the machine learning models and data processing being handled in Python.
-- **Frontend:** React JS for building a responsive, user-friendly web interface.
+- **Backend:** Django framework
+- **Frontend:** React JS 
 - **Database:** MongoDB will be used for storing protocol documents, patient data, and generated timelines.
 - **Machine Learning:** OpenAI models for generative AI and Adobe API for PDF extraction.
-- **Other Tools:** Graphing tools for visualizing extracted timelines in an intuitive calendar format.
+- **Other Tools:** Some visual tool to display the extracted timeline data.
 
 ### Hardware
 
-No non-standard hardware components are required. Users will interact with the application through standard web browsers.
+Any device with browser access.
 
 ### Learning Challenges
 
 This project involves several technologies that require learning:
 
 1. **Natural Language Processing (NLP):** Applying NLP for timeline extraction from clinical protocols.
-2. **Generative AI Models:** Using text-to-image and text-to-video generation tools, which require understanding of generative AI and computer vision techniques.
-3. **Adobe API Integration:** Understanding Adobe’s PDF extraction API to effectively parse clinical trial protocols.
-4. **React JS:** While JavaScript is a common language, building a complex frontend application in React may present learning challenges.
-5. **Clinical Trial Knowledge:** Gaining an understanding of how clinical trials are structured, including their phases, key outcomes (PROs, ClinROs), and the overall workflow involved in trial management.
+2. **Generative AI Models:** Learn how to use text-to-image and image-to-text tools.
+3. **Adobe API Integration:** Understand how to use this tool to parse clinical trial protocols.
+4. **React JS:** Building a complex frontend application in React may present learning challenges.
+5. **Clinical Trial Knowledge:** Gaining an understanding of how clinical trials are structured,.
 
 ### Breakdown of work
-
-> Clearly identify who will undertake which parts of the project.
->
-> It must be clear from the explanation of this breakdown of work both that each student is responsible for
-> separate, clearly-defined tasks, and that those responsibilities substantially cover all of the work required
-> for the project.
 
 #### Lorena's Responsibilities
 
@@ -102,9 +96,12 @@ This project involves several technologies that require learning:
 - Database Setup: Design and manage the MongoDB database for storing protocols and timelines.
 - API Integration: Handle the integration with external services such as OpenAI’s generative models and Adobe’s PDF extraction service.
 
-#### Student 2
+#### Darragh's responsibilty
 
-> *Student 2 should complete this section.*
+- Frontend Development: Use UI/UX principles to give the web app a sleek look.
+- Image generation: Develop Text-to-Image feature.
+- Documentation: Keep us ahead of the deadlines.
+- Expo Preperation: Plan the stall for the expo and consider what need to be done for it.
 
 ## System Architecture Diagram
 
