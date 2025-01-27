@@ -1,0 +1,105 @@
+{
+    "Project Title": "Peanut Allergy Oral Immunotherapy Study of AR101 for Desensitization in Children and Adolescents: Real-World, Open-Label, Quality of Life Study",
+    "Sponsor": "Aimmune Therapeutics, Inc.",
+    "Study Number": "ARC009",
+    "Protocol Version and Date": "1.0 - 11 April 2018",
+    "Study Title": "AR101 Health-Related Quality of Life (HRQOL) Study in Peanut-Allergic Subjects",
+    "Phase": "3b",
+    "Therapeutic Area": "Peanut Allergy",
+    "Number of Patients": "Approximately 200",
+    "Number of Sites": "Approximately 45 in Europe",
+    "Duration of Treatment": "Approximately 18 months",
+    "Schedule of Assessments": "Table 1: Order of Subject and Parent/Caregiver Questionnaires To Be Completed, Section 5.2",
+    "questionnaires": [
+        {
+            "LongName": "European Quality of Life 5-Dimensions (EQ-5D-5L)",
+            "shortName": "EQ-5D-5L",
+            "type": "PRO"
+        },
+        {
+            "LongName": "EQ-5D Youth (EQ-5D-Y)",
+            "shortName": "EQ-5D-Y",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Quality of Life Questionnaire - Parent Form (FAQLQ-PF)",
+            "shortName": "FAQLQ-PF",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Quality of Life Questionnaire - Teenager Form (FAQLQ-PFT)",
+            "shortName": "FAQLQ-PFT",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Independent Measure - Parent Form (FAIM-PF)",
+            "shortName": "FAIM-PF",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Independent Measure - Teenager Form (FAIM-PFT)",
+            "shortName": "FAIM-PFT",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Quality of Life Questionnaire - Child Form (FAQLQ-CF)",
+            "shortName": "FAQLQ-CF",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Independent Measure - Child Form (FAIM-CF)",
+            "shortName": "FAIM-CF",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Quality of Life Questionnaire - Teenager Form (FAQLQ-TF)",
+            "shortName": "FAQLQ-TF",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Independent Measure - Teenager Form (FAIM-TF)",
+            "shortName": "FAIM-TF",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Food Allergy Quality of Life - Parental Burden (FAQL-PB)",
+            "shortName": "FAQL-PB",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Hospital Anxiety and Depression Scale (HADS)",
+            "shortName": "HADS",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Treatment Satisfaction Questionnaire for Medication (TSQM-9)",
+            "shortName": "TSQM-9",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Global Assessment of Health-Related Quality of Life",
+            "shortName": "Bespoke Global Assessment",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Bespoke Assessment of Control of Peanut Allergy",
+            "shortName": "Bespoke Control Assessment",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Bespoke Assessment of Food Challenge Outcomes",
+            "shortName": "Bespoke Food Challenge Assessment",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Exit Questionnaire",
+            "shortName": "Bespoke Exit Questionnaire",
+            "type": "PRO"
+        },
+        {
+            "LongName": "Qualitative Exit Interview",
+            "shortName": "Qualitative Exit Interview",
+            "type": "PRO"
+        }
+    ]
+}
