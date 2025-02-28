@@ -1,6 +1,9 @@
 import json
 import os
+import logging
 from srcExtractor.utils.data_processing import similar, extract_time_points
+
+logging.basicConfig(level=logging.INFO)
 
 def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, similarity_threshold):
     """
@@ -73,3 +76,20 @@ def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, 
         return {"success": questionnaire_json_data}
     except Exception as e:
         return {"error": f"Failed to find matching questionnaires in the JSON output from the questionnaire extraction process: {str(e)}"}
+
+def match_questionnaires_with_timelines(pdf_file_name):
+    """Match extracted questionnaires with timelines."""
+    try:
+        response = find_matching_questionnaires(
+            f"output/{pdf_file_name}.json",
+            f"table_extraction_output/json_{pdf_file_name}/",
+            similarity_threshold=0.6,
+        )
+        if "error" in response:
+            return response
+
+        return {"extracted_data": response["success"]}
+
+    except Exception as e:
+        logging.error(f"Error matching questionnaires: {e}")
+        return {"error": "Failed to match questionnaires"}

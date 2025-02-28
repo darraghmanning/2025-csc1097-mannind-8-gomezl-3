@@ -1,22 +1,13 @@
-import json
 import os
-import time
-import datetime
-from django.http import JsonResponse
+import json
+import logging
 from pathlib import Path
-from django.views.decorators.csrf import csrf_exempt
-from django.core.files.storage import default_storage
-from django.core.files.base import ContentFile
-from srcExtractor.services.questionnaire_extraction import send_to_chatgpt
-from srcExtractor.services.table_classifier import classify_all_tables_in_folder
-from srcExtractor.services.table_extraction import extract_tables
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from srcExtractor.utils.pdf_validation import handle_pdf_upload
-from srcExtractor.utils.data_processing import convert_valid_files_to_json
+from srcExtractor.utils.pdf_processing import process_pdf_with_chatgpt, extract_and_classify_tables
+from srcExtractor.utils.file_handler import save_temp_pdf, remove_temp_file
 from srcExtractor.utils.match_questionnaires import find_matching_questionnaires
 
-# Create your views here.
 @csrf_exempt
 def upload_pdf(request):
     """
@@ -28,100 +19,62 @@ def upload_pdf(request):
     Returns:
         JsonResponse: JSON response with the status and result of the operation.
     """
-    if request.method == 'POST':
-        try:
-            # Validate the file in the request
-            if 'pdf_file' not in request.FILES:
-                return JsonResponse({"error": "No PDF file provided in the request."}, status=400)
+    if request.method != 'POST':
+        return JsonResponse({"message": "Waiting for a PDF to be uploaded."}, status=200)
 
-            # Get the uploaded file
-            pdf_file = request.FILES['pdf_file']
+    try:
+        # Step 1: Validate Request
+        pdf_file = request.FILES.get('pdf_file')
+        if not pdf_file:
+            return JsonResponse({"error": "No PDF file provided in the request."}, status=400)
 
-            # Save the file temporarily
-            temp_file_path = default_storage.save(
-                f"temp/{pdf_file.name}",
-                ContentFile(pdf_file.read())
-            )
+        temp_file_path = save_temp_pdf(pdf_file)
+        data = {"file_name": os.path.basename(temp_file_path)}
 
-            data = {}
+        # Step 2: Authenticate User
+        """ Authenticate user using Google Log in API"""
 
-            # Step 1: Authenticate User
-            """ Authenticate user using Google Log in API"""
+        # Step 3: Add user to the database
+        """ Code for the upload of user to database """
 
-            # Step 2: Handle PDF upload
-            pdf_file_response = handle_pdf_upload(temp_file_path)
-            if 'error' in pdf_file_response:
-                return JsonResponse(pdf_file_response, status=400)
-            
-            # Extract and add file name
-            file_name = os.path.basename(pdf_file_response["success"])
-            data['file_name'] = file_name
+        # Step 4: Retrieve user ID
+        """ Get the user ID from the database to link the PDF information extractracted to the user """
 
-            # Step 3: Add user to the database
-            """ Code for the upload of user to database """
+        # Step 5: Process PDF with ChatGPT
+        chatgpt_data = process_pdf_with_chatgpt(temp_file_path)
+        if 'error' in chatgpt_data:
+            return JsonResponse(chatgpt_data, status=400)
 
-            # Step 4: Retrieve user ID
-            """ Get the user ID from the database to link the PDF information extractracted to the user """
+        data.update(chatgpt_data)
+        pdf_file_name = Path(data['file_name']).stem
 
-            # Step 5: Send PDF content to ChatGPT for processing
-            start_time = time.time()
-            start_date = datetime.datetime.now()
-            data["upload_date"] = start_date
-            data["created_at"] = start_date
-            chatgpt_data = send_to_chatgpt(pdf_file_response["success"])
-            end_time = time.time()
+        # Step 6: Extract and Classify Tables
+        tables_response = extract_and_classify_tables(temp_file_path, pdf_file_name)
+        if "error" in tables_response:
+            return JsonResponse(tables_response, status=400)
 
-            data["response_time"] = str(end_time - start_time)
-            data["processed_at"] = datetime.datetime.now()
+        # Step 7: Match Questionnaires with Extracted Timelines
+        matching_questionnaires_response = find_matching_questionnaires(
+            f"output/{pdf_file_name}.json",
+            f"table_extraction_output/json_{pdf_file_name}/",
+            similarity_threshold=0.6,
+        )
+        if "error" in matching_questionnaires_response:
+            return JsonResponse(matching_questionnaires_response, status=400)
 
-            if 'error' in chatgpt_data:
-                return JsonResponse(chatgpt_data, status=400)
-            elif 'error_message' in chatgpt_data:
-                data['error_message'] = chatgpt_data["error_message"]
-            else:
-                data['extracted_data'] = chatgpt_data["extracted_data"]
-            data['response'] = chatgpt_data["response"]
+        data["extracted_data"] = matching_questionnaires_response["success"]
 
-            pdf_file_name = Path(file_name).stem
+        # Step 8: Add PDF information extraction to the database
+        """ Code to upload PDF information extracted to the database """
 
-            # Step 6: Extract tables
-            extract_tables_result = extract_tables(pdf_file_response["success"], pdf_file_name)
-            if "error" in extract_tables_result:
-                return JsonResponse(extract_tables_result, status=400)
-
-            # Step 7: Classify the extracted tables
-            valid_files = classify_all_tables_in_folder(f"table_extraction_output/extracted_{pdf_file_name}/tables")
-            if "error" in valid_files:
-                return JsonResponse(valid_files, status=400)
-
-            # Step 8: Convert valid files tables to JSON
-            if valid_files["success"]:
-                convert_valid_files_to_json(valid_files["success"], f"table_extraction_output/json_{pdf_file_name}/")
-
-            # Step 9: Extract Timelines that match with the previously extracted questionnaires
-            matching_questionnaires_response = find_matching_questionnaires(
-                f"output/{pdf_file_name}.json",
-                f"table_extraction_output/json_{pdf_file_name}/",
-                similarity_threshold=0.6,
-            )
-
-            if "error" in matching_questionnaires_response:
-                return JsonResponse(matching_questionnaires_response, status=400)
+        # Step 9: Save Results and Cleanup
+        remove_temp_file(temp_file_path)
+        logging.info(f"Protocol {pdf_file_name} processed successfully.")
         
-            data["extracted_data"] = matching_questionnaires_response["success"]
+        return JsonResponse({"output": data['extracted_data']}, status=201)
 
-            # Step 8: Add PDF information extraction to the database
-            """ Code to upload PDF information extracted to the database """
-
-            # Success response
-            print(f"Protocol {pdf_file_name} processed successfully, to see the results in a JSON file format go to output/{file_name}.")
-            
-            # Remove the temporary file
-            if os.path.exists(temp_file_path):
-                os.remove(temp_file_path)
-
-            return JsonResponse({"output": data['extracted_data']}, status=201)
-        except json.JSONDecodeError:
-            return JsonResponse({"error": "Invalid JSON format."}, status=400)
-    
-    return JsonResponse({"message": "Waiting for a PDF to be uploaded."}, status=200)
+    except json.JSONDecodeError:
+        return JsonResponse({"error": "Invalid JSON format."}, status=400)
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
+        return JsonResponse({"error": f"An unexpected error occurred: {str(e)}"}, status=500)
