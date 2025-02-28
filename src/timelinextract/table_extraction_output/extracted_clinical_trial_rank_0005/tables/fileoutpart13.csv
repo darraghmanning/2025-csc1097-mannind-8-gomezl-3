@@ -1,0 +1,7 @@
+﻿Event Name  ,Elevated Total Bilirubin  
+Grade of Event  ,Management/Next Dose for Vincristine  
+Grade 1  ,No change in next dose  
+Grade 2  ,50 % dosing of baseline dose of vincristine*  
+Grade 3  ,25% dosing of baseline dose of vincristine*  
+Grade 4  ,Off protocol therapy  
+"* If bilirubin within normal range after reduced dose, may rechallenge with next dose increment for subsequent cycle.  "

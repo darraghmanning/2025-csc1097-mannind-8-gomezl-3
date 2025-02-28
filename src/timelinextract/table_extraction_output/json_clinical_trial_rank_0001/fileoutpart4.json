@@ -1,0 +1,135 @@
+[
+    {
+        "Reporter ": "Investigator  ",
+        "Data to be collected  ": "Unique Study subject  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Month/Year of Birth  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Gender  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Weight  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Height  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Date of diagnosis  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Location of Psoriasis  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Body Surface Area  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Commonly associated comorbidities  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Smoking habits  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Alcohol consumption  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Prior psoriasis treatment  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "",
+        "12 months visit (week 48-56)  ": ""
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Psoriasis treatment during study period  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Date of discontinuation of psoriasis treatment during study period  ",
+        "Base-line Visit (Day 0)  ": "",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "Reason for discontinuation of psoriasis treatment during study period  ",
+        "Base-line Visit (Day 0)  ": "",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "PASI  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "QoL component grid  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    },
+    {
+        "Reporter ": "Patient ",
+        "Data to be collected  ": "DLQI  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    },
+    {
+        "Reporter ": "",
+        "Data to be collected  ": "PSO-TARGET QoL component grid  ",
+        "Base-line Visit (Day 0)  ": "X  ",
+        "3 months Visit (week 12-16)  ": "X  ",
+        "12 months visit (week 48-56)  ": "X  "
+    }
+]

@@ -1,0 +1,13 @@
+﻿Karnofsky Performance Scale  ,,ECOG Performance Status Scale  
+Percent  ,Description  ,Grade  ,Description  
+100  ,"Normal, no complaints, no evidence of disease.  ",0  ,"Normal activity. Fully active, able to carry on all pre-disease performance without restriction.  "
+90  ,Able to carry on normal activity; minor signs or symptoms of disease.  
+80  ,Normal activity with effort; some signs or symptoms of disease.  ,1  ,"Symptoms, but ambulatory. Restricted in physically strenuous activity, but ambulatory and able to carry out work of a light or sedentary nature (e.g., light housework, office work). "
+70  ,"Cares for self, unable to carry on normal activity or to do active work.  "
+60  ,"Requires occasional assistance, but is able to care for most of his/her needs.  ",2  ,"In bed <50% of the time. Ambulatory and capable of all self-care, but unable to carry out any work activities. Up and about more than 50% of waking hours.  "
+50  ,Requires considerable assistance and frequent medical care.  
+40  ,"Disabled, requires special care and assistance.  ",3  ,"In bed >50% of the time. Capable of only limited self-care, confined to bed or chair more than 50% of waking hours. "
+30  ,"Severely disabled, hospitalization indicated. Death not imminent.  "
+20  ,"Very sick, hospitalization indicated. Death not imminent.  ",4  ,100% bedridden. Completely disabled. Cannot carry on any self-care. Totally confined to bed or chair. 
+10  ,"Moribund, fatal processes progressing rapidly.  "
+0  ,Dead.  ,5  ,Dead.  

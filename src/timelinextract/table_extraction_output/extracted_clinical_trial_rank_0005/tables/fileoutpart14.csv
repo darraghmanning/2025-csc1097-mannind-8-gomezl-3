@@ -1,0 +1,6 @@
+﻿Event Name  ,Pulmonary Toxicity  
+Grade of Event  ,Management/Next Dose  
+Grade 1-2  ,"Hold and investigate*. If confirmed treat with corticosteroids. If a greater than 4% decrease in oxygen saturation develops or persists after treatment of an intercurrent infection, such as Pneumocystis jirovecii pneumonia (PCP), then bleomycin will be permanently discontinued.  "
+Grade 3  ,"Decrease subsequent dose to 75%. If a greater than 4% decrease in oxygen saturation develops or persists after treatment of an intercurrent infection, such as Pneumocystis jirovecii pneumonia (PCP), then bleomycin will be permanently discontinued.  "
+Grade 4  ,Discontinue.  
+* Duration of hold must not exceed 21 days after scheduled dose  

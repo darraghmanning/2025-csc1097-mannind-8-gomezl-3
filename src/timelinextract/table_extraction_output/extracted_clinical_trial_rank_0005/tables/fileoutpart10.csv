@@ -1,0 +1,7 @@
+﻿Event Name  ,Thrombocytopenia  
+Grade of Event  ,Management/Next Dose  
+"≤ Grade 1 (LLN-75,000/mm3)  ",No change in next dose  
+"Grade 2 (< 75,000-50,000/mm3  ",No change in next dose  
+"Grade 3 (< 50,000- 25,000/mm3)  ","Delay start of cycle * until > 50,000. Resume at 50% dosing of bleomycin.  "
+"Grade 4 (< 25,000)  ",Delay start of cycle * until < Grade 2. Resume at 50% dosing of bleomycin. **  
+*Participants requiring a delay of > 2 weeks should go off protocol therapy.**Participants requiring > two dose reductions should go off protocol therapy.  

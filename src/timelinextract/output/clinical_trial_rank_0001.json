@@ -1,0 +1,46 @@
+{
+    "Project Title": "Evaluation of the sensitivity and specificity, compared to DLQI as a standard tool, of a novel QoL questionnaire (treat to the Patient satiSfactiOn TARGET in Psoriasis patients) among moderate to severe psoriasis patients treated with brodalumab (Kyntheum\u00ae)",
+    "Sponsor": "LEO Pharma France",
+    "Study Number": "2020-A00652-37",
+    "Protocol Version and Date": "Version: 2.0, Date: 25-05-2020",
+    "Study Title": "Evaluation of the sensitivity and specificity, compared to DLQI as a standard tool, of a novel QoL questionnaire (treat to the PSOriasis patient satiSfactiOn TARGET) among moderate to severe psoriasis patients treated with brodalumab (Kyntheum\u00ae)",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Psoriasis",
+    "Number of Patients": "150",
+    "Number of Sites": "10",
+    "Indication": "Psoriasis",
+    "Duration of Treatment": "56 weeks",
+    "Schedule of Assessments": "Section number not specified, needs to refer to a table.",
+    "questionnaires": [
+        {
+            "longName": "Dermatology Life Quality Index",
+            "shortName": "DLQI",
+            "type": "PRO",
+            "questionnaireTiming": [
+                "Base-line Visit (Day 0)",
+                "3 months Visit (week 12-16)",
+                "12 months visit (week 48-56)"
+            ]
+        },
+        {
+            "longName": "Psoriasis Area and Severity Index",
+            "shortName": "PASI",
+            "type": "ClinRO",
+            "questionnaireTiming": [
+                "Base-line Visit (Day 0)",
+                "3 months Visit (week 12-16)",
+                "12 months visit (week 48-56)"
+            ]
+        },
+        {
+            "longName": "PSO-TARGET QoL Component Grid",
+            "shortName": "PSO-TARGET",
+            "type": "PRO",
+            "questionnaireTiming": [
+                "Base-line Visit (Day 0)",
+                "3 months Visit (week 12-16)",
+                "12 months visit (week 48-56)"
+            ]
+        }
+    ]
+}

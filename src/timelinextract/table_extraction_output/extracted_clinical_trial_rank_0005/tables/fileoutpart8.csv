@@ -1,0 +1,6 @@
+﻿Event Name  ,Anemia  
+Grade of Event  ,Management/Next Dose  
+≤ Grade 1  (LLN - 10g/dL)  ,No change in next dose  
+Grade 2 (< 10 - 8.0 g/dL)  ,No change in next dose  
+Grade 3 – 4 (< 8 g/dL)  ,"Red blood cell transfusion is recommended to increase the hemoglobin level to ≥ 8.0 g/dL. Chemotherapy can continue for hemoglobin < 8.0 – 6.5 g/dL.  For hemoglobin < 6.5 g/dL, chemotherapy should be held and the participant transfused with red blood cells until the hemoglobin level has returned to ≥ 8.0 g/dL. Study medication may then be resumed at full dose.  If hemoglobin < 6.5 g/dL recurs after resumption of chemotherapy, the participant should again be transfused as above. Chemotherapy may then be resumed as follows: 25% reduction in the dose of both drugs.  "
+Participants requiring > two dose reductions should go off protocol therapy.  
