@@ -51,7 +51,6 @@ def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, 
                         study_procedure = value.strip().lower()
                         for questionnaire_name, questionnaire_entry in first_questionnaires.items():
                             score = similar(questionnaire_name, study_procedure)
-                            print(score, questionnaire_name, study_procedure)
                             if score >= similarity_threshold:
                                 matching_questionnaires.append(questionnaire_entry)
 
