@@ -1,0 +1,28 @@
+.home-container {
+    text-align: center;
+    margin-top: 20vh;
+    padding: 0% 20%;
+}
+
+.arrow-image {
+    width: 5rem;
+    height: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.arrow-image:hover {
+    transform: scale(1.1);
+}
+
+.home-title{
+    font-size: 2rem;
+    color: #27332B;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #2C3930;
+
+}

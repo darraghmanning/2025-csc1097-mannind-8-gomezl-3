@@ -1,0 +1,92 @@
+{
+    "Project Title": "A Randomized Multicenter Phase II Study Using 2-1[Hexyloxyethyl]-2-Devinylpyropheophorbide-A (HPPH) with PDT versus Standard of Care Surgery for Patients with T1/T2 N0 Squamous Cell Carcinoma of the Oral Cavity",
+    "Sponsor": "Roswell Park Cancer Institute",
+    "Study Number": "I 33616",
+    "Protocol Version and Date": "Not Available",
+    "Study Title": "A Randomized Multicenter Phase II Study Using 2-1[Hexyloxyethyl]-2-Devinylpyropheophorbide-A (HPPH) with PDT versus Standard of Care Surgery for Patients with T1/T2 N0 Squamous Cell Carcinoma of the Oral Cavity",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Oral Cavity Cancer",
+    "Number of Patients": "114",
+    "Number of Sites": "3",
+    "Indication": "T1/T2 N0 Squamous Cell Carcinoma of the Oral Cavity",
+    "Duration of Treatment": "Not Available",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "Performance Status (ECOG)",
+            "shortName": "ECOG",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline, Day 0, Day 1, Week 1, 4-6 weeks, 12-16 weeks",
+            "questionnaireTiming": [
+                "Baseline1",
+                "~12-16 Weeks Post Treatment",
+                "Follow-Up2",
+                "About 12-16 W Post Surgery"
+            ]
+        },
+        {
+            "longName": "Quality of Life Questionnaire",
+            "shortName": "QoL",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 12-16 weeks, 6, 12, 18, and 24 months",
+            "questionnaireTiming": [
+                "Baseline1",
+                "~12-16 Weeks Post Treatment",
+                "About 12-16 W Post Surgery"
+            ]
+        },
+        {
+            "longName": "Normal Tissue Toxicity Grade",
+            "shortName": "Toxicity",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Day 0, Day 1, 2 weeks",
+            "questionnaireTiming": [
+                "Day 1 Treatment",
+                "~1 Week Post Treatment",
+                "~4-6 Weeks Post Treatment",
+                "About 1 Week Post Surgery",
+                "About  4-6 W  Post Surgery"
+            ]
+        },
+        {
+            "longName": "Clinical Examination",
+            "shortName": "Exam",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline, Day 0, Day 1, Week 1, 4-6 weeks, 12-16 weeks",
+            "questionnaireTiming": [
+                "Baseline1",
+                "~1 Week Post Treatment",
+                "~4-6 Weeks Post Treatment",
+                "~12-16 Weeks Post Treatment",
+                "Follow-Up2",
+                "About 1 Week Post Surgery",
+                "About  4-6 W  Post Surgery",
+                "About 12-16 W Post Surgery"
+            ]
+        },
+        {
+            "longName": "Response Clinical Evaluation",
+            "shortName": "Response Clinical",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At each follow-up visit and at 2 years",
+            "questionnaireTiming": [
+                "Baseline1",
+                "~12-16 Weeks Post Treatment",
+                "Follow-Up2",
+                "About 12-16 W Post Surgery"
+            ]
+        },
+        {
+            "longName": "Response Pathological Evaluation",
+            "shortName": "Response Pathological",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At routine visits, only if clinically indicated",
+            "questionnaireTiming": [
+                "Baseline1",
+                "~12-16 Weeks Post Treatment",
+                "Follow-Up2",
+                "About 12-16 W Post Surgery"
+            ]
+        }
+    ]
+}

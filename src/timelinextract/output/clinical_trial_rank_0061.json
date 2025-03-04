@@ -1,0 +1,116 @@
+{
+    "Project Title": "A 28-week, randomized, double-blind, placebo-controlled, parallel-group, multi-center, study in rhEPO na\u00efve non-dialysis participants with anemia associated with chronic kidney disease to evaluate the efficacy, safety and effects on quality of life of daprodustat compared to placebo.",
+    "Sponsor": "GlaxoSmithKline",
+    "Study Number": "Not Available",
+    "Protocol Version and Date": "Not Available",
+    "Study Title": "Anemia Studies in CKD: Erythropoiesis via a Novel PHI Daprodustat in Non-Dialysis participants evaluating Hemoglobin and Quality of life (ASCEND-NHQ)",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Anemia associated with chronic kidney disease",
+    "Number of Patients": "Approximately 600 participants planned to be randomized",
+    "Number of Sites": "Not Available",
+    "Indication": "Anemia associated with chronic kidney disease",
+    "Duration of Treatment": "28 weeks",
+    "Schedule of Assessments": "Table 1 (Schedule of Activities)",
+    "questionnaires": [
+        {
+            "longName": "Chronic Kidney Disease - Anemia Questionnaire",
+            "shortName": "CKD-AQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 4, 8, 12, 16, 20, 24, and 28",
+            "questionnaireTiming": [
+                "Early Treatment Discontinuation Visit (within 2 weeks of discontinuing study treatment)",
+                "Day 1 through Week 28"
+            ]
+        },
+        {
+            "longName": "Patient Global Impression of Severity",
+            "shortName": "PGI-S",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 2, 4, 8, 12, 16, 20, 24, and 28",
+            "questionnaireTiming": [
+                "Week -2",
+                "Treatment Period: Day 1 through Week 28",
+                "Week 8",
+                "Week 12",
+                "Week 28",
+                "Early Treatment Discontinuation Visit (within 2 weeks of discontinuing study treatment)",
+                "Day 1 through Week 28"
+            ]
+        },
+        {
+            "longName": "Patient Global Impression of Change",
+            "shortName": "PGI-C",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 2, 4, 8, and 12",
+            "questionnaireTiming": [
+                "Week -2",
+                "Treatment Period: Day 1 through Week 28",
+                "Week 8",
+                "Week 12",
+                "Week 28",
+                "Early Treatment Discontinuation Visit (within 2 weeks of discontinuing study treatment)",
+                "Day 1 through Week 28"
+            ]
+        },
+        {
+            "longName": "Health Related Quality of Life",
+            "shortName": "SF-36",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 2, 4, 8, 12, 16, 20, 24, and 28",
+            "questionnaireTiming": [
+                "Treatment Period: Day 1 through Week 28",
+                "Week 8",
+                "Week 12",
+                "Week 28",
+                "Early Treatment Discontinuation Visit (within 2 weeks of discontinuing study treatment)",
+                "Day 1 through Week 28"
+            ]
+        },
+        {
+            "longName": "Health Status",
+            "shortName": "EQ-5D-5L & EQ-VAS",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 2, 4, 8, 12, 16, 20, 24, and 28",
+            "questionnaireTiming": [
+                "Early Treatment Discontinuation Visit (within 2 weeks of discontinuing study treatment)",
+                "Day 1 through Week 28"
+            ]
+        },
+        {
+            "longName": "Work Productivity and Activity Impairment Questionnaire",
+            "shortName": "WPAI-ANS-CPV",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 2, 4, 8, 12, 16, 20, 24, and 28",
+            "questionnaireTiming": [
+                "Treatment Period: Day 1 through Week 28",
+                "Week 8",
+                "Week 12",
+                "Week 28",
+                "Early Treatment Discontinuation Visit (within 2 weeks of discontinuing study treatment)",
+                "Day 1 through Week 28"
+            ]
+        },
+        {
+            "longName": "Actigraphy",
+            "shortName": "Actigraphy",
+            "type": "Observer-Reported Outcome (ObsRO)",
+            "questionnaireSchedule": "Worn from Day 1 through Week 28",
+            "questionnaireTiming": [
+                "Week -2",
+                "Week 4",
+                "Week 8",
+                "Week 24",
+                "Treatment Period: Day 1 through Week 28",
+                "Week 12",
+                "Week 28",
+                "Day 1 through Week 28"
+            ]
+        },
+        {
+            "longName": "Patient Feedback Survey",
+            "shortName": "Patient Feedback Survey",
+            "type": "PREM",
+            "questionnaireSchedule": "Schedule not specified in the document"
+        }
+    ]
+}

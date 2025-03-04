@@ -81,3 +81,4 @@ def classify_all_tables_in_folder(folder_path):
         return {"success" : yes_files}
     except Exception as e:
         return {"error": f"Failed to classify all CSV files in the specified folder as a Schedule of Events (SoE) or not: {str(e)}"}
+    
