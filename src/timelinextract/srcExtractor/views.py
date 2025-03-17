@@ -4,9 +4,18 @@ import logging
 from pathlib import Path
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+from srcExtractor.utils.pdf_validation import handle_pdf_upload
 from srcExtractor.utils.pdf_processing import process_pdf_with_chatgpt, extract_and_classify_tables
 from srcExtractor.utils.file_handler import save_temp_pdf, remove_temp_file
 from srcExtractor.utils.match_questionnaires import find_matching_questionnaires
+from django.contrib.auth import get_user_model
+from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework.permissions import AllowAny
+import requests
+
+User = get_user_model()
 
 @csrf_exempt
 def upload_pdf(request):
@@ -30,6 +39,10 @@ def upload_pdf(request):
 
         temp_file_path = save_temp_pdf(pdf_file)
         data = {"file_name": os.path.basename(temp_file_path)}
+
+        handle_pdf_upload_response = handle_pdf_upload(temp_file_path)
+        if "error" in handle_pdf_upload_response:
+            return JsonResponse(handle_pdf_upload_response, status=400)
 
         # Step 2: Authenticate User
         """ Authenticate user using Google Log in API"""
@@ -78,3 +91,44 @@ def upload_pdf(request):
     except Exception as e:
         logging.error(f"Unexpected error: {e}")
         return JsonResponse({"error": f"An unexpected error occurred: {str(e)}"}, status=500)
+
+class GoogleLoginView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        token = request.data.get("token")
+        if not token:
+            return Response({"error": "Token is required"}, status=400)
+
+        # Verify Google token
+        google_response = requests.get(
+            f"https://www.googleapis.com/oauth2/v3/tokeninfo?id_token={token}"
+        )
+        google_data = google_response.json()
+
+        if "email" not in google_data:
+            return Response({"error": "Invalid Google token"}, status=400)
+
+        email = google_data["email"]
+        first_name = google_data.get("given_name", "")
+        last_name = google_data.get("family_name", "")
+
+        # Check if user exists, otherwise create a new one
+        user, created = User.objects.get_or_create(email=email, defaults={
+            "first_name": first_name,
+            "last_name": last_name,
+            "username": email.split("@")[0],  # Ensure username uniqueness
+        })
+
+        # Generate JWT token
+        refresh = RefreshToken.for_user(user)
+        return Response({
+            "refresh": str(refresh),
+            "access": str(refresh.access_token),
+            "user": {
+                "id": user.id,
+                "email": user.email,
+                "first_name": user.first_name,
+                "last_name": user.last_name,
+            }
+        })
