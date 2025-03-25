@@ -1,7 +1,0 @@
-﻿Event Name  ,Neutropenia  
-Grade of Event  ,Management/Next Dose  
-≤ Grade 1  (LLN-1500/mm3)  ,No change in next dose  
-Grade 2 (< 1500-1000/mm3)  ,No change in next dose  
-Grade 3 (< 1000-500/mm3)  ,"Delay start of cycle * until < Grade 3. No change in next dose. If delayed a second time, decrease bleomycin by 25%. **  "
-Grade 4 (< 500/mm3)  ,Delay start of cycle * until < Grade 3. Resume but decrease bleomycin dose 25%. ***  
-"*Participants requiring a delay of > 2 weeks should go off protocol therapy.**Participants requiring > two dose reductions should go off protocol therapy.  *** Febrile neutropenia: ANC < 0.5x109/L plus fever requiring hospitalization, reduce dose to 11mg/m2 for all future BV therapy.  "

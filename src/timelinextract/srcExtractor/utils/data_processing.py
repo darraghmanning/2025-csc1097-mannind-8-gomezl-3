@@ -6,6 +6,7 @@ from .data_validation import is_json
 from pathlib import Path
 from difflib import SequenceMatcher
 
+
 def clean_text(content):
     """
     Clean the provided text by replacing newlines with <br> tags and removing metadata.
@@ -33,6 +34,7 @@ def extract_json(content):
     json_pattern = r'```json(.*?)\n```'
     json_match = re.search(json_pattern, content, re.DOTALL)
     return clean_text(json_match.group(1).strip() if json_match else content)
+
 
 def save_merged_data_to_json(merged_data, pdf_file_path, output_directory='output'):
     """
@@ -66,6 +68,7 @@ def save_merged_data_to_json(merged_data, pdf_file_path, output_directory='outpu
             return {"error": "The provided data is not valid JSON."}
     except Exception as e:
         return {"error": f"An unexpected error occurred: {e}"}
+
 
 def csv_to_json(csv_file_path, json_file_path):
     """
@@ -101,6 +104,7 @@ def csv_to_json(csv_file_path, json_file_path):
     except Exception as e:
         return {"error" : f"An unexpected error occurred while turning a CSV file into a JSON file: {e}"}
 
+
 def convert_valid_files_to_json(yes_files, output_folder):
     """
     Convert multiple CSV files classified as "YES" to JSON files.
@@ -125,6 +129,7 @@ def convert_valid_files_to_json(yes_files, output_folder):
         return {"success" : "All YES files successfully converted to JSON."}  
     except Exception as e:
         return {"error" :f"An unexpected error occurred while coverting yes files to json: {e}"}
+
 
 def merge_json_files(folder_path1, folder_path2, output_file):
     """
@@ -156,6 +161,7 @@ def merge_json_files(folder_path1, folder_path2, output_file):
     except Exception as e:
         return {"error" :f"An unexpected error occurred while merging the JSON files: {e}"}
 
+
 def similar(a, b):
     """
     Calculate the similarity ratio between two strings.
@@ -171,6 +177,7 @@ def similar(a, b):
         return 1.0
     return SequenceMatcher(None, a, b).ratio()
 
+
 def extract_time_points(entry):
     """
     Extracts keys from a dictionary where the corresponding value is marked as "X" (case-insensitive).
@@ -182,3 +189,36 @@ def extract_time_points(entry):
         list: List of keys where the value is exactly "X".
     """
     return [key.strip() for key, value in entry.items() if isinstance(value, str) and value.strip().lower() == "x"]
+
+
+def merge_json_files_into_one(pdf_file_name):
+    """
+    Merges all JSON files inside the folder table_extraction_output/json_<pdf_file_name>/
+    into one JSON object.
+
+    Args:
+        pdf_file_name (str): The name of the PDF (without .pdf).
+
+    Returns:
+        dict: A dictionary containing either the merged data or an error message.
+    """
+    folder_path = Path(f"table_extraction_output/json_{pdf_file_name}/")
+    merged_data = {}
+    errors = []
+
+    if not folder_path.exists() or not folder_path.is_dir():
+        return {"error": f"Folder not found: {folder_path}"}
+
+    for file in folder_path.glob("*.json"):
+        try:
+            with open(file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                file_name = file.stem
+                merged_data[file_name] = data
+        except Exception as e:
+            errors.append(f"Error in {file.name}: {str(e)}")
+
+    if errors:
+        return {"error": errors}
+    
+    return {"success": merged_data}

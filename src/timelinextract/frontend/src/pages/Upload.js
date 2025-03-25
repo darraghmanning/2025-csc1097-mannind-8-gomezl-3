@@ -15,6 +15,11 @@ function Upload() {
     const formData = new FormData();
     formData.append("pdf_file", file);
 
+    const user = JSON.parse(localStorage.getItem("user"));
+    if (user) {
+      formData.append("email", user.email);
+    }
+
     try {
       const response = await axios.post("http://127.0.0.1:8000/srcExtractor/upload/", formData);
       localStorage.setItem("response", JSON.stringify(response.data));

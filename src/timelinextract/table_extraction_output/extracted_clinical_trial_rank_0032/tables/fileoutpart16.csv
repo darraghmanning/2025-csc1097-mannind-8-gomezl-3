@@ -1,6 +1,0 @@
-﻿Score  ,Category  ,Description  
-0  ,Clear  ,Plaque elevation = 0 (no elevation over normal skin) Scaling = 0 (no evidence of scaling) Erythema = 0 (except for residual hyperpigmentation/  hypopigmentation)  
-1  ,Almost Clear  ,"Plaque elevation = ± (possible but difficult to ascertain whether there is a slight elevation above normal skin) Scaling = ± (surface dryness with some desquamation) Erythema = ± (faint, diffuse pink or slight red coloration)  "
-2  ,Mild  ,"Plaque elevation = slight (slight but definite elevation, typically edges are indistinct or sloped) Scaling = fine (fine scale partially or mostly covering lesions) Erythema = mild (light red coloration)  "
-3  ,Moderate  ,Plaque elevation = marked (marked definite elevation with rough or sloped edges) Scaling = coarser (coarser scale covering most or all of the lesions)  Erythema = moderate (definite red coloration)  
-4  ,Severe  ,"Plaque elevation = marked (marked elevation typically with hard or sharp edges) Scaling = coarser (coarse, non tenacious scale predominates covering most or all of the lesions)  Erythema = severe (very bright red coloration)  "

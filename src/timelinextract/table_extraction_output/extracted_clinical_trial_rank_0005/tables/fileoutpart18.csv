@@ -1,6 +1,0 @@
-﻿RELATIONSHIP  ,ATTRIBUTION  ,DESCRIPTION  
-Unrelated to treatment/intervention  ,Unrelated  ,The AE is clearly NOT related to the intervention  
-,Unlikely  ,The AE is doubtfully related to the intervention  
-Related to treatment/intervention  ,Possible  ,The AE may be related to the intervention  
-,Probable  ,The AE is likely related to the intervention  
-,Definite  ,The AE is clearly related to the intervention  

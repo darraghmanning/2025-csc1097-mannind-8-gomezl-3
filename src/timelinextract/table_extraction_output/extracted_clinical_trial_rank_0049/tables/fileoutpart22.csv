@@ -1,7 +1,0 @@
-﻿Drug withdrawn  ,"The study drug or comparative drug is discontinued because of an adverse event (including withdrawal by the study subject at his/her own discretion).  When the study is discontinued but administration of the study drug or comparative drug is still continued, the classification should be “Dose not changed.”  "
-Dose not changed  ,"The dose was not changed after the onset of the adverse event.  The study drug or comparative drug was discontinued, reduced, or increased because of another adverse event.  The study drug was discontinued or reduced for a reason other than the adverse event, e.g., inadvertence of the study subject.  "
-Unknown  ,It has not been possible to determine what action has been taken because the study subject is lost to follow-up.  
-Not Applicable  ,The administration of the study drug or comparative drug had already been completed or discontinued before the onset of the adverse event.  
-Dose reduced  ,The dose of the study drug or comparative drug is reduced because of an adverse event (including dose reduction by the study subject at his/her own discretion).  
-Dose increased  ,The dose of the study drug or comparative drug was increased because of the adverse event (including dose increase by the study subject at his/her own discretion).  
-Washout  ,"If administration of the study drug or comparative drug is suspended (i.e., interrupted) (including suspension/interruption by the study subject at his/her own discretion) because of the adverse event but resumed thereafter, shall be defined as “washout”.  "

@@ -1,9 +1,0 @@
-﻿Endpoint  ,Name  ,Description  ,Timeframe  
-Primary  ,Dermatology Life Quality Index (DLQI)  ,Proportion of subjects who achieve a ≥ 4-point reduction from baseline  ,Weeks 16  
-Secondary  ,DLQI  ,Proportion of subjects who achieve a ≥ 4-point reduction from baseline  ,"Weeks 32, 52  "
-,DLQI  ,Mean change from baseline  ,"Weeks 16, 32, 52  "
-,Itch Numeric Rating Scale  (NRS)  ,Mean change from baseline in Itch NRS score  ,"Weeks 16, 32, 52  "
-,Skin Discomfort/Pain Visual Analog Scale (VAS)  ,Mean change from baseline in skin discomfort/pain VAS  ,"Weeks 16, 32, 52  "
-,Body Surface Area (BSA)  ,Mean percent change in BSA affected by psoriasis  ,"Weeks 16, 32, 52  "
-,Patient Benefit Index (PBI)  ,Proportion of subjects who achieve PBI score of ≥ 1  ,"Weeks 16, 32, 52  "
-,Psoriasis Area Severity Index  (PASI)  ,Proportion of subjects who achieve  PASI < 3  ,"Weeks 16, 32, 52  "

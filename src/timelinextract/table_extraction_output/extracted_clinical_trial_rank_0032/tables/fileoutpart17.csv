@@ -1,6 +1,0 @@
-﻿Score  ,Category  ,Category Description  
-0  ,Clear  ,Scalp Plaque Elevation = 0 (no elevation over normal skin) Scalp Scaling = 0 (no evidence of scaling) Scalp Erythema = 0 (except for residual hyperpigmentation/hypopigmentation)  
-1  ,Almost Clear  ,"Scalp Plaque Elevation = ± (possible but difficult to ascertain whether there is a slight elevation above normal skin) Scalp Scaling = ± (surface dryness with some desquamation) Scalp Erythema = ± (faint, diffuse pink or slight red coloration)  "
-2  ,Mild  ,"Scalp Plaque Elevation = slight (slight but definite elevation, typically edges are indistinct or sloped) Scalp Scaling = fine (fine scale partially or mostly covering lesions) Scalp Erythema = mild (light red coloration)  "
-3  ,Moderate  ,Scalp Plaque Elevation = marked (marked definite elevation with rough or sloped edges)  Scalp Scaling = coarser (coarser scale covering most or all of the lesions)  Scalp Erythema = moderate (definite red coloration)  
-4  ,Severe  ,"Scalp Plaque Elevation = marked (marked elevation typically with hard or sharp edges)  Scalp Scaling = coarser (coarse, non tenacious scale predominates covering most or all of the lesions)  Scalp Erythema = severe (very bright red coloration)  "
