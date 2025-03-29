@@ -1,6 +1,6 @@
 import os
 import logging
-from bson import ObjectId
+from bson.objectid import ObjectId
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, ConfigurationError
 from dotenv import load_dotenv

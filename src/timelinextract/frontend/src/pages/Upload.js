@@ -25,7 +25,9 @@ function Upload() {
       localStorage.setItem("response", JSON.stringify(response.data));
       navigate("/response");
     } catch (error) {
-      alert("Upload failed");
+      // Extract and display the error from the backend
+      const errorMessage = error.response?.data?.error || "Upload failed. Please try again.";
+      alert(errorMessage);
       setLoading(false);
     }
   };

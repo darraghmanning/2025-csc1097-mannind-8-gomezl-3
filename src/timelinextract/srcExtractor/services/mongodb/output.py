@@ -1,5 +1,5 @@
 import json
-from bson import ObjectId
+from bson.objectid import ObjectId
 from . import mongodb
 
 
