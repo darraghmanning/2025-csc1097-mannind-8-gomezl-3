@@ -1,14 +1,5 @@
-variables:
-  MONGO_DB_DATABASE: $MONGO_DB_DATABASE
-  MONGO_DB_ROOT_USERNAME: $MONGO_DB_ROOT_USERNAME
-  MONGO_DB_ROOT_PASSWORD: $MONGO_DB_ROOT_PASSWORD
-  MONGO_DB_HOST: mongodb+srv://${MONGO_DB_ROOT_USERNAME}:${MONGO_DB_ROOT_PASSWORD}@cluster0.1viz4.mongodb.net/
-
 default:
   image: python:3.13.1
-  services:
-    - name: pymongo:4.11.3
-      alias: pymongo
   cache:
     paths:
       - ~/.cache/pip
