@@ -24,19 +24,14 @@ build:
     - python3 manage.py migrate
     - python3 manage.py check
 
-lint:
-  stage: lint
-  script:
-    - echo "Running flake8 linting..."
-    - flake8 src/timelinextract/
-  allow_failure: false
-
 test:
   stage: test
   script:
     - echo "Running Django system checks and tests..."
     - python3 manage.py check
     - python3 manage.py test
+    - echo "Running flake8 linting..."
+    - flake8 src/timelinextract/
   variables:
     DJANGO_SETTINGS_MODULE: timelinextract.settings
 
