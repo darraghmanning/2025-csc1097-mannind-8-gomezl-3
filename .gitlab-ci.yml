@@ -1,0 +1,34 @@
+default:
+  image: python:3.13.1
+  cache:
+    paths:
+      - ~/.cache/pip
+  before_script:
+    - pip3 install --upgrade pip
+    - pip3 install -r src/requirements.txt
+    - pip3 install flake8
+
+build:
+  stage: build
+  script:
+    - python3 src/timelinextract/manage.py makemigrations
+    - python3 src/timelinextract/manage.py migrate
+    - python3 src/timelinextract/manage.py check
+
+test:
+  stage: test
+  script:
+    - echo "Running Django system checks and tests..."
+    - python3 src/timelinextract/manage.py test
+    - echo "Running flake8 linting..."
+    - flake8 src/timelinextract/
+  variables:
+    DJANGO_SETTINGS_MODULE: timelinextract.settings
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Define your deployment steps here!"
+    - echo "No deployment for now"
+  environment: production
+
