@@ -1,10 +1,10 @@
 from django.test import TestCase
-from pathlib import Path
 from unittest.mock import patch, mock_open
 from srcExtractor.utils.data_processing import (
     clean_text, extract_json, save_merged_data_to_json,
     csv_to_json, merge_json_files, similar, extract_time_points
 )
+
 
 class DataProcessingTests(TestCase):
 

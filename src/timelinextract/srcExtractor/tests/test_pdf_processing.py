@@ -2,13 +2,15 @@ from django.test import TestCase
 from unittest.mock import patch, mock_open
 from srcExtractor.utils.pdf_processing import extract_and_classify_tables
 
+
 class PDFProcessingTests(TestCase):
 
+    @patch("os.makedirs")
     @patch("builtins.open", new_callable=mock_open, read_data=b"fake pdf content")
     @patch("srcExtractor.utils.pdf_processing.extract_tables", return_value={"success": True})
     @patch("srcExtractor.utils.pdf_processing.classify_all_tables_in_folder", return_value={"success": ["table1.csv", "table2.csv"]})
     @patch("srcExtractor.utils.data_processing.convert_valid_files_to_json")
-    def test_extract_and_classify_tables_success(self, mock_convert_json, mock_classify, mock_extract, mock_file):
+    def test_extract_and_classify_tables_success(self, mock_convert_json, mock_classify, mock_extract, mock_file, mock_mkdir):
         """Test successful extraction and classification of tables from a PDF."""
         
         result = extract_and_classify_tables("sample.pdf", "sample")
