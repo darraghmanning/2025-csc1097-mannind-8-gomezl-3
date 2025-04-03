@@ -19,7 +19,7 @@ def add_tables(data):
 
     user_id = data.get('user_id')
     pdf_id = data.get('pdf_id')
-    classified_response = json.dumps(data.get('classified_response'))
+    classified_response = json.dumps(data.get('classified_response', {}))
 
     # Validation checks
     if not all([user_id, pdf_id, classified_response]):
@@ -35,7 +35,7 @@ def add_tables(data):
     if not mongodb.is_pdf_id_valid(pdf_id, pdf_collection):
         return {"error": "pdf_id does not exist in the PDFs collection."}
 
-    if not isinstance(classified_response, str) or not classified_response.strip():
+    if not isinstance(classified_response, str) or not classified_response.strip() or classified_response == "{}":
         return {"error": "Response must be a non-empty string."}
 
     # Construct the new document

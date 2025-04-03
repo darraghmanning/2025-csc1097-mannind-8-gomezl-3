@@ -108,6 +108,3 @@ def compress_file(file_path):
     
     except Exception as e:
         return {"error": f"Failed to compress file '{file_path}': {str(e)}"}
-
-
-

@@ -1,6 +1,7 @@
 import os
 from .data_validation import extract_text_from_pdf
 
+
 def handle_pdf_upload(pdf_file_path):
     """
     Handle the upload of a PDF file, validate it, and extract text.

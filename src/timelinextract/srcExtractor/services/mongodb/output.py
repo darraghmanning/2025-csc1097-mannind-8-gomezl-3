@@ -23,7 +23,7 @@ def add_output(data):
     pdf_id = data.get('pdf_id')
     query_id = data.get('query_id')
     table_id = data.get('table_id')
-    output = json.dumps(data.get('output'))
+    output = json.dumps(data.get('output', {}))
     response_time = data.get('response_time')
 
     # Validation checks
@@ -50,7 +50,7 @@ def add_output(data):
     if not mongodb.is_table_id_valid(table_id, table_collection):
         return {"error": "table_id does not exist in the Tables collection."}
 
-    if not isinstance(output, str) or not output.strip():
+    if not isinstance(output, str) or not output.strip() or output == "{}":
         return {"error": "Output must be a non-empty string."}
 
     if not isinstance(response_time, str) or len(response_time.strip()) == 0:
