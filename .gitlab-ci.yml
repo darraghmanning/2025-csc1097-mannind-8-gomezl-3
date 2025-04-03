@@ -30,7 +30,7 @@ stages:
   - test
   - deploy
 
-flake8-lint:
+lint:
   stage: lint
   script:
     - echo "Running flake8 linting..."
