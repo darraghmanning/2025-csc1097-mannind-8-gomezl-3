@@ -11,16 +11,15 @@ default:
 build:
   stage: build
   script:
-    - python3 manage.py makemigrations
-    - python3 manage.py migrate
-    - python3 manage.py check
+    - python3 src/timelinextract/manage.py makemigrations
+    - python3 src/timelinextract/manage.py migrate
+    - python3 src/timelinextract/manage.py check
 
 test:
   stage: test
   script:
     - echo "Running Django system checks and tests..."
-    - python3 manage.py check
-    - python3 manage.py test
+    - python3 src/timelinextract/manage.py test
     - echo "Running flake8 linting..."
     - flake8 src/timelinextract/
   variables:
