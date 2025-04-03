@@ -17,7 +17,7 @@ default:
     - pip3 install -r requirements.txt
     - pip3 install flake8
 
-migrate:
+build:
   stage: build
   script:
     - python3 manage.py makemigrations
