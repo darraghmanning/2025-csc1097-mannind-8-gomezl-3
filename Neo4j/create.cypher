@@ -1,4 +1,4 @@
-CALL apoc.load.json("file:///study.json") YIELD value AS data
+CALL apoc.load.json("file:///default.json") YIELD value AS data
 WITH data
 CREATE (s:Study {
   title: data.`Project Title`,
