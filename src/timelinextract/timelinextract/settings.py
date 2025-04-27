@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure--%d1pl#k-%x065_osmscrkg=p-faqqnu@s-fpa(ywr2gr0@v86
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://two025-csc1097-mannind-8-gomezl-3.onrender.com/'
+    'two025-csc1097-mannind-8-gomezl-3.onrender.com/'
 ]
 
 
