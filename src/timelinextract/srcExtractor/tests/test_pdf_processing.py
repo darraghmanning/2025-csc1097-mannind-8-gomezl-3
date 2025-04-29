@@ -28,7 +28,10 @@ class PDFProcessingTests(TestCase):
 
     @patch("builtins.open", new_callable=mock_open, read_data=b"fake pdf content")
     @patch("srcExtractor.utils.pdf_processing.extract_tables", return_value={"success": True})
-    @patch("srcExtractor.utils.pdf_processing.classify_all_tables_in_folder", return_value={"error": "No Schedule of Events table found in the protocol."})
+    @patch(
+        "srcExtractor.utils.pdf_processing.classify_all_tables_in_folder",
+        return_value={"error": "No Schedule of Events table found in the protocol."}
+    )
     def test_extract_and_classify_tables_no_valid_files(self, mock_classify, mock_extract, mock_file):
         """Test when no valid tables are found after classification."""
         result = extract_and_classify_tables("sample.pdf", "sample")

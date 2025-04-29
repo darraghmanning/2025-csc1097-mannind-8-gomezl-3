@@ -1,9 +1,11 @@
 # .flake8
 [flake8]
-max-line-length = 300
+max-line-length = 150
 exclude = 
     .git,
     __pycache__,
+    srcExtractor/admin.py,
+    srcExtractor/models.py,
     venv,
     node_modules,
     frontend/node_modules,

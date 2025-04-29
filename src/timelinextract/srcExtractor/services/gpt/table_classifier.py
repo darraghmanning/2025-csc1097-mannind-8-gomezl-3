@@ -37,7 +37,10 @@ def classify_table(csv_file_path):
         response = openai.chat.completions.create(
             messages=[
                 {"role": "system", "content": "You are a helpful assistant that processes tables from clinical trial documents."},
-                {"role": "user", "content": f"Analyse the following input table (CSV format) {csv_content} and follow the instructions: {classifier_prompt}"}
+                {"role": "user", "content": (
+                                            f"Analyse the following input table (CSV format) {csv_content} "
+                                            f"and follow the instructions: {classifier_prompt}"
+                                        )}
             ],
             model=MODEL,
         )

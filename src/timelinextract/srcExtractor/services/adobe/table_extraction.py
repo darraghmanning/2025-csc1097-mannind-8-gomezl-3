@@ -36,7 +36,12 @@ def extract_tables(pdf_file, file_name):
         client_secret = os.getenv('PDF_SERVICES_CLIENT_SECRET')
 
         if not client_id or not client_secret:
-            return {"error": "Adobe API client id or secret not found. Please set the PDF_SERVICES_CLIENT_ID and PDF_SERVICES_CLIENT_SECRET environment variable."}
+            return {
+                "error": (
+                    "Adobe API client id or secret not found. "
+                    "Please set the PDF_SERVICES_CLIENT_ID and PDF_SERVICES_CLIENT_SECRET environment variable."
+                )
+            }
 
         # Step 2: Initialize Adobe PDF Services credentials
         credentials = ServicePrincipalCredentials(client_id, client_secret)
