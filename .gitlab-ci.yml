@@ -19,9 +19,10 @@ test:
   stage: test
   script:
     - echo "Running Django system checks and tests..."
-    - python3 src/timelinextract/manage.py test
+    - python3 src/timelinextract/manage.py test src/timelinextract/srcExtractor/tests
     - echo "Running flake8 linting..."
-    - flake8 src/timelinextract/
+    - cd src/timelinextract
+    - flake8 .
   variables:
     DJANGO_SETTINGS_MODULE: timelinextract.settings
 

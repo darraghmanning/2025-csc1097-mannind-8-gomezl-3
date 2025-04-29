@@ -29,7 +29,11 @@ SECRET_KEY = 'django-insecure--%d1pl#k-%x065_osmscrkg=p-faqqnu@s-fpa(ywr2gr0@v86
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'two025-csc1097-mannind-8-gomezl-3.onrender.com',
+    'https://two025-csc1097-mannind-8-gomezl-3.onrender.com',
+    'http://two025-csc1097-mannind-8-gomezl-3.onrender.com'
+]
 
 
 # Application definition
