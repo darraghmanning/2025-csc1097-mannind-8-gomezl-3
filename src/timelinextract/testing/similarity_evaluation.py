@@ -17,10 +17,12 @@ SIMILARITY_THRESHOLD = 0.75
 
 # --- Utility Functions ---
 
+
 def string_to_list(text):
     if isinstance(text, str):
         return [item.strip() for item in text.split('\n') if item.strip()]
     return text
+
 
 def extract_ground_truth_timepoints(val):
     print("Valor....")
@@ -41,6 +43,7 @@ def extract_ground_truth_timepoints(val):
     except Exception:
         return []
 
+
 def read_json_file(file_path):
     try:
         with open(file_path, 'rb') as f:
@@ -55,6 +58,7 @@ def read_json_file(file_path):
     except Exception as e:
         logging.error(f"Failed to read JSON file {file_path}: {e}")
         return None
+
 
 def extract_predictions(folder_path):
     file_names, questionnaires, timepoints = [], [], []
@@ -90,6 +94,7 @@ def extract_predictions(folder_path):
                 timepoints.append(None)
     return file_names, questionnaires, timepoints
 
+
 def load_data(ground_truth_path, predictions_folder):
     ground_truth_df = pd.read_csv(ground_truth_path, encoding='unicode_escape')
     files, preds, times = extract_predictions(predictions_folder)
@@ -119,6 +124,7 @@ def load_data(ground_truth_path, predictions_folder):
 
 # --- Main Execution ---
 
+
 def main():
     logging.info("Loading and preparing data...")
     df = load_data(GROUND_TRUTH_PATH, PREDICTIONS_FOLDER)
@@ -127,7 +133,9 @@ def main():
     result_df, metrics = evaluate_dataframe_similarity(df, 'predicted_questionnaires', 'ground_truth_questionnaires', threshold=SIMILARITY_THRESHOLD)
 
     logging.info("Evaluating timepoints similarity...")
-    timepoint_result_df, timepoint_metrics = evaluate_dataframe_similarity(df, 'predicted_timepoints', 'ground_truth_timepoints', threshold=SIMILARITY_THRESHOLD)
+    timepoint_result_df, timepoint_metrics = evaluate_dataframe_similarity(
+                                    df, 'predicted_timepoints', 'ground_truth_timepoints', threshold=SIMILARITY_THRESHOLD
+                                )
 
     logging.info(f"Saving evaluation results to {OUTPUT_PATH}")
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
@@ -147,6 +155,7 @@ def main():
     show_detailed_results(result_df, 0)
 
     logging.info("Analysis complete.")
+
 
 if __name__ == "__main__":
     main()

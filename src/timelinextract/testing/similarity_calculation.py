@@ -10,6 +10,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # --- Core Functions ---
 
+
 def compute_embeddings(items):
     """Compute embeddings for a list of questionnaire strings."""
     if not isinstance(items, list) or not items:
