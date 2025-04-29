@@ -1,0 +1,27 @@
+{
+    "Project Title": "Longitudinal Quality of Life Study Among Participants with AIDS-Associated Kaposi Sarcoma at Bugando Medical Centre, in Mwanza, Tanzania",
+    "Sponsor": "National Cancer Institute",
+    "Study Number": "AMC Protocol #S007",
+    "Protocol Version and Date": "Version 2.0, 20 March 2018",
+    "Study Title": "Longitudinal Quality of Life Study Among Participants with AIDS-Associated Kaposi Sarcoma",
+    "Phase": "Pilot",
+    "Therapeutic Area": "Kaposi Sarcoma",
+    "Number of Patients": "Minimum: 12, Maximum: 20",
+    "Number of Sites": "1",
+    "Indication": "AIDS-Associated Kaposi Sarcoma",
+    "Duration of Treatment": "7 months",
+    "Schedule of Assessments": "Appendix I: Schedule of Evaluations",
+    "questionnaires": [
+        {
+            "longName": "Functional Assessment of Cancer Therapy - General",
+            "shortName": "FACT-G",
+            "type": "PRO",
+            "questionnaireSchedule": "At baseline, after 3 cycles, at treatment completion, and 3 months after treatment completion.",
+            "questionnaireTiming": [
+                "Cycle 4",
+                "Treatment Discontinuation",
+                "Off Study"
+            ]
+        }
+    ]
+}

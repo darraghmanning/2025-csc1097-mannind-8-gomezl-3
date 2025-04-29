@@ -1,0 +1,49 @@
+{
+    "Project Title": "NIS-PSO-TARGET Non-Interventional Study Protocol",
+    "Sponsor": "LEO Pharma France",
+    "Study Number": "RCB: 2020-A00652-37",
+    "Protocol Version and Date": "Not Available",
+    "Study Title": "NIS-PSO-TARGET Non-Interventional Study Protocol",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Psoriasis",
+    "Number of Patients": "150",
+    "Number of Sites": "Approximately 25 sites",
+    "Indication": "Psoriasis vulgaris",
+    "Duration of Treatment": "52 weeks",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "Psoriasis Area and Severity Index",
+            "shortName": "PASI",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Collected at baseline, 12 weeks, and 52 weeks.",
+            "questionnaireTiming": [
+                "Base-line Visit (Day 0)",
+                "3 months Visit (week 12-16)",
+                "12 months visit (week 48-56)"
+            ]
+        },
+        {
+            "longName": "Dermatology Life Quality Index",
+            "shortName": "DLQI",
+            "type": "PRO",
+            "questionnaireSchedule": "Collected at baseline, 12 weeks, and 52 weeks.",
+            "questionnaireTiming": [
+                "Base-line Visit (Day 0)",
+                "3 months Visit (week 12-16)",
+                "12 months visit (week 48-56)"
+            ]
+        },
+        {
+            "longName": "PSO-TARGET Quality of Life Component Grid",
+            "shortName": "PSO-TARGET",
+            "type": "PRO",
+            "questionnaireSchedule": "Collected at baseline and 12 weeks.",
+            "questionnaireTiming": [
+                "Base-line Visit (Day 0)",
+                "3 months Visit (week 12-16)",
+                "12 months visit (week 48-56)"
+            ]
+        }
+    ]
+}
