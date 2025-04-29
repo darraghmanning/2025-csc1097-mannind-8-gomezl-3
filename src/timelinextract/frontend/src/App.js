@@ -8,7 +8,6 @@ import Upload from "./pages/Upload";
 import DisplayResponse from "./pages/DisplayResponse";
 import Error from "./pages/Error";
 import Navbar from "./components/Navbar";
-import './App.css';
 
 const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID;
 
