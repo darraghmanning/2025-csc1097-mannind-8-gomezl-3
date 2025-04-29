@@ -14,7 +14,7 @@ def extract_and_classify_tables(pdf_file_path, pdf_file_name):
             return tables_result
 
         valid_files = classify_all_tables_in_folder(f"table_extraction_output/extracted_{pdf_file_name}/tables")
-        
+
         if not valid_files:
             return {"error": "No Schedule of Events table found in the protocol."}
 

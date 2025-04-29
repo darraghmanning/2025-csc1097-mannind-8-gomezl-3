@@ -94,7 +94,7 @@ def compress_file(file_path):
         bytes: Gzip-compressed file content.
     """
     if not os.path.exists(file_path):
-        return  {"error": f"File not found: {file_path}"}
+        return {"error": f"File not found: {file_path}"}
 
     try:
         with open(file_path, 'rb') as f:
@@ -105,6 +105,6 @@ def compress_file(file_path):
             gz_file.write(original_data)
 
         return {"success": buffer.getvalue()}
-    
+
     except Exception as e:
         return {"error": f"Failed to compress file '{file_path}': {str(e)}"}

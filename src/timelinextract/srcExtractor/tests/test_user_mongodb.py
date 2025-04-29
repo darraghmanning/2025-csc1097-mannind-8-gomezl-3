@@ -4,7 +4,7 @@ from srcExtractor.services.mongodb import user
 
 
 class UserMongoDBTests(TestCase):
-    
+
     def test_is_valid_email(self):
         self.assertTrue(user.is_valid_email("user@example.com"))
         self.assertTrue(user.is_valid_email("user.name+tag@example.co.uk"))

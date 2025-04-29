@@ -5,9 +5,10 @@ from srcExtractor.utils.data_processing import similar, extract_time_points
 
 logging.basicConfig(level=logging.INFO)
 
+
 def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, similarity_threshold):
     """
-    Finds matching questionnaires between a provided questionnaire JSON file and 
+    Finds matching questionnaires between a provided questionnaire JSON file and
     multiple timeline JSON files in a given folder based on a similarity threshold.
 
     Args:
@@ -23,7 +24,7 @@ def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, 
         # Load the first JSON file
         with open(questionnaire_json_file, 'r', encoding='utf-8') as f:
             questionnaire_json_data = json.load(f)
-        
+
         # Extract LongName and ShortName from the first JSON
         first_questionnaires = {}
         for q in questionnaire_json_data.get("questionnaires", []):
@@ -31,12 +32,12 @@ def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, 
             short_name = q['shortName'].strip().lower()
             first_questionnaires[long_name] = q
             first_questionnaires[short_name] = q
-        
+
         # Iterate through all JSON files in the second folder
         for file_name in os.listdir(timeline_json_folder):
             if file_name.endswith('.json'):
                 timeline_json_path = os.path.join(timeline_json_folder, file_name)
-                
+
                 with open(timeline_json_path, "r", encoding="utf-8") as f:
                     timeline_json_data = json.load(f)
 
@@ -76,6 +77,7 @@ def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, 
         return {"success": questionnaire_json_data}
     except Exception as e:
         return {"error": f"Failed to find matching questionnaires in the JSON output from the questionnaire extraction process: {str(e)}"}
+
 
 def match_questionnaires_with_timelines(pdf_file_name):
     """Match extracted questionnaires with timelines."""

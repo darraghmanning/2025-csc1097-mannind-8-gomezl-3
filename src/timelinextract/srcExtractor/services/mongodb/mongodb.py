@@ -55,7 +55,7 @@ def get_database():
 def get_collection(collection_name):
     """
     Get the specified MongoDB collection.
-    
+
     Returns:
         Collection: MongoDB collection object.
     """

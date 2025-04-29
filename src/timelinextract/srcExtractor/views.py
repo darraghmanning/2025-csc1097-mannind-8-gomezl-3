@@ -25,6 +25,7 @@ import requests
 
 User = get_user_model()
 
+
 @csrf_exempt
 def upload_pdf(request):
     """
@@ -141,15 +142,16 @@ def upload_pdf(request):
         # Step 9: Save Results and Cleanup
         remove_temp_file(temp_file_path)
         logging.info(f"Protocol {pdf_file_name} processed successfully.")
-        
+
         return JsonResponse({"output": data['extracted_data']}, status=201)
 
-    except json.JSONDecodeError:
+    except json.JSONDecodeError as e:
         logging.error(f"Invalid JSON format: {e}")
         return JsonResponse({"error": "Invalid JSON format."}, status=400)
     except Exception as e:
         logging.error(f"Unexpected error: {e}")
         return JsonResponse({"error": f"An unexpected error occurred: {str(e)}"}, status=500)
+
 
 class GoogleLoginView(APIView):
     permission_classes = [AllowAny]

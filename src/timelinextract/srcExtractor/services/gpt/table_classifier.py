@@ -6,10 +6,11 @@ from srcExtractor.utils.prompts import PROMPTS
 # Load .env file
 load_dotenv()
 
+
 def classify_table(csv_file_path):
     """
     Classifies a given CSV file as a Schedule of Events (SoE) table or not.
-    
+
     Args:
         csv_file_path (str): Path to the CSV file.
 
@@ -29,7 +30,7 @@ def classify_table(csv_file_path):
         # Ensure the file exists
         if not os.path.isfile(csv_file_path):
             return {"error": f"CSV file not found: {csv_file_path}"}
-        
+
         with open(csv_file_path, "r") as file:
             csv_content = file.read()
 
@@ -40,9 +41,10 @@ def classify_table(csv_file_path):
             ],
             model=MODEL,
         )
-        return {"success" : response.choices[0].message.content.strip()}
+        return {"success": response.choices[0].message.content.strip()}
     except Exception as e:
         return {"error": f"Failed to process CSV content with GPT-4o: {str(e)}"}
+
 
 def classify_all_tables_in_folder(folder_path):
     """
@@ -57,7 +59,7 @@ def classify_all_tables_in_folder(folder_path):
     try:
         # Ensure the folder exists
         if not os.path.isdir(folder_path):
-            return {"error" : f"Folder not found: {folder_path}"}
+            return {"error": f"Folder not found: {folder_path}"}
 
         # List to store filenames that get a "YES"
         yes_files = []
@@ -77,8 +79,7 @@ def classify_all_tables_in_folder(folder_path):
                     if "yes" in result["success"].lower():
                         yes_files.append(folder_path + "/" + filename)
                 except Exception as e:
-                    return {"error" : f"Error processing {filename}: {e}"}
-        return {"success" : yes_files}
+                    return {"error": f"Error processing {filename}: {e}"}
+        return {"success": yes_files}
     except Exception as e:
         return {"error": f"Failed to classify all CSV files in the specified folder as a Schedule of Events (SoE) or not: {str(e)}"}
-    

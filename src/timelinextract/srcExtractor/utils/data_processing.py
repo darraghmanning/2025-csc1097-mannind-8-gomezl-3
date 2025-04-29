@@ -10,7 +10,7 @@ from difflib import SequenceMatcher
 def clean_text(content):
     """
     Clean the provided text by replacing newlines with <br> tags and removing metadata.
-    
+
     Args:
         content (str): Input text content.
 
@@ -20,6 +20,7 @@ def clean_text(content):
     content = re.sub(r'\n', r'<br>', content)
     cleaned_text = re.sub(r'【[\d:†source]+】', '', content)
     return cleaned_text
+
 
 def extract_json(content):
     """
@@ -92,17 +93,17 @@ def csv_to_json(csv_file_path, json_file_path):
 
             csv_file.seek(0)
             csv_reader = csv.DictReader(csv_file, fieldnames=header)
-            next(csv_reader, None) # Skip header row
+            next(csv_reader, None)  # Skip header row
 
             data = [row for row in csv_reader]
 
         with open(json_file_path, 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=4)
-        return {"success" : "CSV file converted to JSON successfully."}
+        return {"success": "CSV file converted to JSON successfully."}
     except FileNotFoundError:
-        return {"error" : f"File not found: {csv_file_path}"}
+        return {"error": f"File not found: {csv_file_path}"}
     except Exception as e:
-        return {"error" : f"An unexpected error occurred while turning a CSV file into a JSON file: {e}"}
+        return {"error": f"An unexpected error occurred while turning a CSV file into a JSON file: {e}"}
 
 
 def convert_valid_files_to_json(yes_files, output_folder):
@@ -126,9 +127,9 @@ def convert_valid_files_to_json(yes_files, output_folder):
             response = csv_to_json(csv_file_path, json_file_path)
             if "error" in response:
                 return response
-        return {"success" : "All YES files successfully converted to JSON."}  
+        return {"success": "All YES files successfully converted to JSON."}
     except Exception as e:
-        return {"error" :f"An unexpected error occurred while coverting yes files to json: {e}"}
+        return {"error": f"An unexpected error occurred while coverting yes files to json: {e}"}
 
 
 def merge_json_files(folder_path1, folder_path2, output_file):
@@ -151,15 +152,15 @@ def merge_json_files(folder_path1, folder_path2, output_file):
                 if file_name.endswith('.json'):
                     file_path = os.path.join(folder_path, file_name)
                     with open(file_path, 'r', encoding='utf-8') as file:
-                            data = json.load(file)
-                            if isinstance(data, list):
-                                merged_data.extend(data)
+                        data = json.load(file)
+                        if isinstance(data, list):
+                            merged_data.extend(data)
 
         with open(output_file, 'w', encoding='utf-8') as out_file:
             json.dump(merged_data, out_file, indent=4)
-        return {"success" : f"JSON files merged successfully into {output_file}."}
+        return {"success": f"JSON files merged successfully into {output_file}."}
     except Exception as e:
-        return {"error" :f"An unexpected error occurred while merging the JSON files: {e}"}
+        return {"error": f"An unexpected error occurred while merging the JSON files: {e}"}
 
 
 def similar(a, b):
@@ -220,5 +221,5 @@ def merge_json_files_into_one(pdf_file_name):
 
     if errors:
         return {"error": errors}
-    
+
     return {"success": merged_data}

@@ -28,7 +28,7 @@ def add_user(data):
     """
     email = data.get('email')
 
-    if  not email:
+    if not email:
         return {"error": "Missing required field: email."}
 
     if not is_valid_email(email):
@@ -41,14 +41,13 @@ def add_user(data):
         if result:
             return {"message": f"User '{email}' already exists.",
                     "user_id": str(result.get('_id'))
-            }
+                    }
 
         new_user = {"email": email}
         result = collection.insert_one(new_user)
         return {"message": f"User '{email}' created successfully.",
                 "user_id": str(result.inserted_id)
-        }
+                }
 
     except Exception as e:
         return {"error": f"Failed to add user: {str(e)}"}
-

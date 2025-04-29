@@ -7,13 +7,13 @@ from adobe.pdfservices.operation.pdf_services_media_type import PDFServicesMedia
 from adobe.pdfservices.operation.pdfjobs.params.extract_pdf.extract_pdf_params import ExtractPDFParams
 from adobe.pdfservices.operation.pdfjobs.params.extract_pdf.extract_element_type import ExtractElementType
 from adobe.pdfservices.operation.pdfjobs.params.extract_pdf.table_structure_type import TableStructureType
-from adobe.pdfservices.operation.pdfjobs.params.extract_pdf.extract_pdf_params import ExtractPDFParams
 from adobe.pdfservices.operation.pdfjobs.result.extract_pdf_result import ExtractPDFResult
 from adobe.pdfservices.operation.exception.exceptions import ServiceApiException, SdkException
 from adobe.pdfservices.operation.pdfjobs.jobs.extract_pdf_job import ExtractPDFJob
 
 # Load .env file
 load_dotenv()
+
 
 def extract_tables(pdf_file, file_name):
     """
@@ -32,8 +32,8 @@ def extract_tables(pdf_file, file_name):
         with open(pdf_file, "rb") as file:
             input_stream = file.read()
 
-        client_id=os.getenv('PDF_SERVICES_CLIENT_ID')
-        client_secret=os.getenv('PDF_SERVICES_CLIENT_SECRET')
+        client_id = os.getenv('PDF_SERVICES_CLIENT_ID')
+        client_secret = os.getenv('PDF_SERVICES_CLIENT_SECRET')
 
         if not client_id or not client_secret:
             return {"error": "Adobe API client id or secret not found. Please set the PDF_SERVICES_CLIENT_ID and PDF_SERVICES_CLIENT_SECRET environment variable."}
@@ -43,7 +43,7 @@ def extract_tables(pdf_file, file_name):
 
         # Step 3: Create a PDF Services instance
         pdf_services = PDFServices(credentials=credentials)
-        
+
         # Step 4: Upload the PDF file
         input_asset = pdf_services.upload(input_stream=input_stream, mime_type=PDFServicesMediaType.PDF)
 
@@ -73,7 +73,7 @@ def extract_tables(pdf_file, file_name):
 
         if "error" in unzip_response:
             return unzip_response
-        
+
         print(f"Extraction of tables completed successfully for {file_name}")
 
         return {"success": f"Tables from PDF file were extracted successfully {output_file_path}"}
@@ -81,6 +81,7 @@ def extract_tables(pdf_file, file_name):
         return {"error": f"Failed to extract tables from the PDF file: {str(e)}"}
     except Exception as e:
         return {"error": f"An unexpected error occurred: {str(e)}"}
+
 
 def unzip_file(zip_file_path, output_dir):
     """
@@ -99,7 +100,7 @@ def unzip_file(zip_file_path, output_dir):
 
         with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
             zip_ref.extractall(extract_path)
-            return {"success" : f"Extracted all files to {extract_path}"}
+            return {"success": f"Extracted all files to {extract_path}"}
     except zipfile.BadZipFile:
         return {"error": f"The file at {zip_file_path} is not a valid zip file or is corrupted."}
     except Exception as e:

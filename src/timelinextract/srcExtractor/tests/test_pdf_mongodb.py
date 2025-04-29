@@ -1,4 +1,3 @@
-import io
 import gzip
 from django.test import TestCase
 from unittest.mock import patch, MagicMock, mock_open

@@ -12,7 +12,7 @@ class PDFProcessingTests(TestCase):
     @patch("srcExtractor.utils.data_processing.convert_valid_files_to_json")
     def test_extract_and_classify_tables_success(self, mock_convert_json, mock_classify, mock_extract, mock_file, mock_mkdir):
         """Test successful extraction and classification of tables from a PDF."""
-        
+
         result = extract_and_classify_tables("sample.pdf", "sample")
 
         self.assertIn("valid_files", result)

@@ -3,6 +3,7 @@ from PyPDF2 import PdfReader
 import json
 from django.conf import settings
 
+
 def extract_text_from_pdf(pdf_file):
     """
     Extract text from a PDF file and validate it.
@@ -25,10 +26,11 @@ def extract_text_from_pdf(pdf_file):
 
         if not is_verbal_text(text):
             return {"error": "The provided text does not appear to be verbal text."}
-        
+
         return {"success": True}
     except Exception as e:
         return {"error": f"Error processing PDF: {str(e)}"}
+
 
 def load_common_words(filepath):
     """
@@ -47,6 +49,7 @@ def load_common_words(filepath):
         raise FileNotFoundError(f"File not found: {filepath}")
     except Exception as e:
         raise RuntimeError(f"Error loading common words file: {e}")
+
 
 def is_verbal_text(text):
     """
@@ -70,13 +73,14 @@ def is_verbal_text(text):
         num_english_words = sum(1 for word in common_english_words if word in text)
         proportion_english_words = num_english_words / len(common_english_words)
 
-        #Check the proportion of common English words
+        # Check the proportion of common English words
         num_english_words = sum(1 for word in common_english_words if word in text)
         proportion_english_words = num_english_words / len(common_english_words)
-        
+
         return proportion_english_words >= 0.1
     except Exception as e:
         raise RuntimeError(f"Error determining if text is verbal: {e}")
+
 
 def is_json(my_data):
     """

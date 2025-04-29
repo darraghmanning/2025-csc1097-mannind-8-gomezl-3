@@ -2,6 +2,7 @@ from django.test import TestCase
 from unittest.mock import patch, mock_open, MagicMock
 from srcExtractor.utils.data_validation import extract_text_from_pdf, load_common_words, is_verbal_text, is_json
 
+
 class DataValidationTests(TestCase):
 
     @patch("srcExtractor.utils.data_validation.is_verbal_text")

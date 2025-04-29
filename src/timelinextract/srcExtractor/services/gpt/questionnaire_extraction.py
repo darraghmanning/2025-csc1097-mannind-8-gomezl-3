@@ -1,12 +1,12 @@
 import os
 import openai
 from dotenv import load_dotenv
-from pathlib import Path
 from srcExtractor.utils.data_processing import extract_json, save_merged_data_to_json
 from srcExtractor.utils.prompts import PROMPTS
 
 # Load .env file
 load_dotenv()
+
 
 def openai_run(client, pdf_file, file_response, prompt):
     """
@@ -35,6 +35,7 @@ def openai_run(client, pdf_file, file_response, prompt):
             return messages.data[0].content[0].text.value
     return None
 
+
 def send_to_chatgpt(pdf_file_path):
     """
     Handle a PDF file upload and interact with GPT for extracting protocol information.
@@ -49,7 +50,7 @@ def send_to_chatgpt(pdf_file_path):
 
     protocol_prompt = PROMPTS["protocol_extraction"]
     questionnaire_prompt = PROMPTS["questionnaire_extraction"]
- 
+
     api_key = os.getenv('CHATGPT_API_KEY')
 
     if not api_key:
@@ -75,7 +76,7 @@ def send_to_chatgpt(pdf_file_path):
 
         if not questionnaire_content:
             return {"error": "Failed to extract questionnaire information."}
-        
+
         # Step 4: Merge and save the extracted data
         extracted_protocol = extract_json(protocol_content)
         extracted_questionnaires = extract_json(questionnaire_content)

@@ -2,13 +2,14 @@ from django.test import TestCase
 from unittest.mock import patch
 from srcExtractor.utils.pdf_validation import handle_pdf_upload
 
+
 class PDFUploadTests(TestCase):
 
     @patch("os.path.getsize", return_value=1024)
     @patch("srcExtractor.utils.pdf_validation.extract_text_from_pdf", return_value={"text": "Sample text from PDF"})
     def test_handle_pdf_upload_success(self, mock_extract_text, mock_getsize):
         """Test successful PDF file upload and text extraction."""
-        
+
         result = handle_pdf_upload("test.pdf")
 
         self.assertIn("success", result)
@@ -45,7 +46,7 @@ class PDFUploadTests(TestCase):
     @patch("srcExtractor.utils.pdf_validation.extract_text_from_pdf", return_value={"error": "PDF extraction failed"})
     def test_handle_pdf_upload_extraction_error(self, mock_extract_text, mock_getsize):
         """Test when text extraction from the PDF fails."""
-        
+
         result = handle_pdf_upload("corrupt.pdf")
 
         self.assertIn("error", result)
@@ -55,7 +56,7 @@ class PDFUploadTests(TestCase):
     @patch("srcExtractor.utils.pdf_validation.extract_text_from_pdf", side_effect=Exception("Extraction process failed"))
     def test_handle_pdf_upload_unexpected_extraction_exception(self, mock_extract_text, mock_getsize):
         """Test when an unexpected exception occurs during text extraction."""
-        
+
         result = handle_pdf_upload("test.pdf")
 
         self.assertIn("error", result)

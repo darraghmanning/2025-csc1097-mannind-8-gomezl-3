@@ -2,6 +2,7 @@ from django.test import TestCase
 from unittest.mock import patch, MagicMock
 from srcExtractor.utils.file_handler import save_temp_pdf, remove_temp_file
 
+
 class FileHandlerTests(TestCase):
 
     @patch("srcExtractor.utils.file_handler.default_storage.save")
@@ -10,9 +11,9 @@ class FileHandlerTests(TestCase):
         mock_file = MagicMock()
         mock_file.name = "test.pdf"
         mock_file.read.return_value = b"PDF content"
-        
+
         mock_save.return_value = "temp/test.pdf"
-        
+
         result = save_temp_pdf(mock_file)
         self.assertEqual(result, "temp/test.pdf")
         mock_save.assert_called_once()

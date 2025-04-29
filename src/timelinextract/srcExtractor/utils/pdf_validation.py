@@ -15,7 +15,7 @@ def handle_pdf_upload(pdf_file_path):
 
     if not pdf_file_path:
         return {"error": "No PDF file in data."}
-    
+
     # Validate the file type and size
     try:
         file_name = os.path.basename(pdf_file_path)
@@ -28,7 +28,7 @@ def handle_pdf_upload(pdf_file_path):
             return {"error": "Uploaded PDF file is empty."}
     except Exception as e:
         return {"error": f"Error validating the file: {e}"}
-    
+
     # Extract text from the PDF file
     try:
         response = extract_text_from_pdf(pdf_file_path)
