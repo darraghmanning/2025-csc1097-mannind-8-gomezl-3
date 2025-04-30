@@ -1,0 +1,43 @@
+{
+    "Project Title": "Testing Decision Aids to Improve Prostate Cancer",
+    "Sponsor": "Alliance",
+    "Study Number": "A191402CD",
+    "Protocol Version and Date": "Update #06, 11/30/2018",
+    "Study Title": "Testing two decision aids on patient knowledge and communication when choosing a course of treatment for prostate cancer",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Prostate Cancer",
+    "Number of Patients (if known)": "172",
+    "Number of Sites (if known)": "20",
+    "Indication": "Localized Prostate Cancer",
+    "Duration of Treatment": "4 years",
+    "Schedule of Assessments": "Table 5.0 (Study Calendar)",
+    "questionnaires": [
+        {
+            "longName": "Prostate Cancer Treatment Questionnaire",
+            "shortName": "PCTQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered immediately after consultation.",
+            "questionnaireTiming": [
+                "12 months after baseline**"
+            ]
+        },
+        {
+            "longName": "Decisional Conflict Scale",
+            "shortName": "DCS",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered immediately after consultation."
+        },
+        {
+            "longName": "Expanded Prostate Cancer Index Composite Short Form",
+            "shortName": "EPIC-26",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered 12 months after initial consultation."
+        },
+        {
+            "longName": "Decisional Regret Scale",
+            "shortName": "DRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered 12 months after initial consultation."
+        }
+    ]
+}

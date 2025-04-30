@@ -1,0 +1,51 @@
+{
+    "Project Title": "An Open-Label, Randomized Phase 3 Study to Evaluate Enfortumab Vedotin vs Chemotherapy in Subjects with Previously Treated Locally Advanced or Metastatic Urothelial Cancer (EV-301)",
+    "Sponsor": "Astellas Pharma Global Development Inc. (APGD)",
+    "Study Number": "7465-CL-0301",
+    "Protocol Version and Date": "Version 4.0, 14 Sep 2020",
+    "Study Title": "An Open-Label, Randomized Phase 3 Study to Evaluate Enfortumab Vedotin vs Chemotherapy in Subjects with Previously Treated Locally Advanced or Metastatic Urothelial Cancer (EV-301)",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Urothelial Cancer",
+    "Number of Patients": "600 (approximately)",
+    "Number of Sites": "Not Available",
+    "Indication": "Locally advanced or metastatic urothelial cancer",
+    "Duration of Treatment": "28-day cycle for Arm A and 21-day cycle for Arm B",
+    "Schedule of Assessments": "Table 1, Section V",
+    "questionnaires": [
+        {
+            "longName": "EORTC Quality of Life Questionnaire",
+            "shortName": "QLQ-C30",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline (Day -7 to -1), Day 1 of each week for first 12 weeks, then every 12 weeks, EOT and follow-up visit",
+            "questionnaireTiming": [
+                "Base Date   (Visit  ): Day 1   (Every Cycle  )",
+                "Base Date   (Visit  ): Date of Last Dose   (End of Treatment1  )",
+                "Base Date   (Visit  ): Date of last Dose + 30 days   (Follow-up2  )"
+            ]
+        },
+        {
+            "longName": "EuroQOL 5-dimensions",
+            "shortName": "EQ-5D-5L",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline (Day -7 to -1), Day 1 of each week for first 12 weeks, then every 12 weeks, EOT and follow-up visit",
+            "questionnaireTiming": [
+                "Base Date   (Visit  ): Day 1   (Every Cycle  )",
+                "Base Date   (Visit  ): Date of Last Dose   (End of Treatment1  )",
+                "Base Date   (Visit  ): Date of last Dose + 30 days   (Follow-up2  )"
+            ]
+        },
+        {
+            "longName": "Healthcare Resource Utilization Questionnaire",
+            "shortName": "HRU",
+            "type": "PRO",
+            "questionnaireSchedule": "Monthly (Day 1 of every 4 weeks), starting on Week 5, at EOT and follow-up visit",
+            "questionnaireTiming": [
+                "Base Date   (Visit  ): Day 1   (Every Cycle  )",
+                "Base Date   (Visit  ): Date of Last Dose   (End of Treatment1  )",
+                "Base Date   (Visit  ): Date of last Dose + 30 days   (Follow-up2  )",
+                "Base Date   (Visit  ): Date of Last Dose   (End of Treatment21  )",
+                "Base Date   (Visit  ): Date of last Dose +30 days   (Follow-up18  )"
+            ]
+        }
+    ]
+}

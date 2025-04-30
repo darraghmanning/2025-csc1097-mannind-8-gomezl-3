@@ -1,0 +1,56 @@
+{
+    "Project Title": "Phase II study evaluating combination chemotherapy + Radiotherapy (RT) with avelumab in muscle invasive bladder cancer.",
+    "Sponsor": "Mayo Clinic Cancer Center",
+    "Study Number": "MC1752",
+    "Protocol Version and Date": "21JUN2018",
+    "Study Title": "Phase II study evaluating combination chemotherapy + Radiotherapy (RT) with avelumab in muscle invasive bladder cancer.",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Muscle Invasive Bladder Cancer",
+    "Number of Patients": "Approximately 30 patients total",
+    "Number of Sites": "Not Available",
+    "Indication": "Muscle invasive bladder cancer (T2-T4a N0M0)",
+    "Duration of Treatment": "10 cycles of Avelumab administered every 14 days",
+    "Schedule of Assessments": "Section 4.0 and Table 2a",
+    "questionnaires": [
+        {
+            "longName": "EORTC QLQ-BLM30",
+            "shortName": "QLQ-BLM30",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, end of treatment, 6 months follow-up, 9 months follow-up, 12 months follow-up",
+            "questionnaireTiming": [
+                "Tests and procedures: Screening (<28 days prior to reg)"
+            ]
+        },
+        {
+            "longName": "ECOG Performance Status",
+            "shortName": "ECOG PS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Screening, every cycle and follow-up visits (up to 12 months)",
+            "questionnaireTiming": [
+                "Tests and procedures: Screening (\u226428 days prior to reg)",
+                "Tests and procedures: C1 (D1)   (Active Monitoring Phase  )",
+                "Tests and procedures: \u226470 days prior to reg"
+            ]
+        },
+        {
+            "longName": "Quality of Life (QOL) forms",
+            "shortName": "QOL",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening, every cycle and follow-up visits (up to 12 months)",
+            "questionnaireTiming": [
+                "Tests and procedures: Screening (\u226428 days prior to reg)"
+            ]
+        },
+        {
+            "longName": "Adverse Event Assessment",
+            "shortName": "AE Assessment",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Every visit during active monitoring phase",
+            "questionnaireTiming": [
+                "Tests and procedures",
+                "Tests and procedures: Screening (\u226428 days prior to reg)",
+                "Tests and procedures: C1 (D1)   (Active Monitoring Phase  )"
+            ]
+        }
+    ]
+}

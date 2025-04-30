@@ -1,0 +1,76 @@
+{
+    "Project Title": "NET-PRO Protocol v 1.3",
+    "Sponsor": "Not Available",
+    "Study Number": "Not Available",
+    "Protocol Version and Date": "Version 1.3, April 2022",
+    "Study Title": "NET-PRO Protocol",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Not Available",
+    "Number of Patients": "3010",
+    "Number of Sites": "14",
+    "Indication": "Not Available",
+    "Duration of Treatment": "18 months",
+    "Schedule of Assessments": "Table 1, Section 4",
+    "questionnaires": [
+        {
+            "longName": "European Organization for Research and Treatment of Cancer - Quality of Life Questionnaire",
+            "shortName": "EORTC QLQ-C30",
+            "type": "PRO",
+            "questionnaireSchedule": "baseline, 6 months, 12 months, 18 months",
+            "questionnaireTiming": [
+                "Concept/measure: Baseline  Survey",
+                "Concept/measure: Follow- up  Surveys"
+            ]
+        },
+        {
+            "longName": "European Organization for Research and Treatment of Cancer - Quality of Life Questionnaire - Neuroendocrine Carcinoid Module",
+            "shortName": "EORTC QLQ-GI.NET21",
+            "type": "PRO",
+            "questionnaireSchedule": "every 6 months over 18 months (i.e., baseline, 6, 12, and 18 month follow-ups)",
+            "questionnaireTiming": [
+                "Concept/measure: Baseline  Survey",
+                "Concept/measure: Follow- up  Surveys"
+            ]
+        },
+        {
+            "longName": "Chart Review Form",
+            "shortName": "CRF",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Upon enrollment, data to be collected continuously.",
+            "questionnaireTiming": [
+                "Concept/measure: Baseline  Survey",
+                "Concept/measure: Follow- up  Surveys"
+            ]
+        },
+        {
+            "longName": "Quality of Life Questionnaire \u2013 Cancer Version",
+            "shortName": "QLQ-C30",
+            "type": "PRO",
+            "questionnaireSchedule": "[change in means across baseline, 6, 12, and 18 month time points]",
+            "questionnaireTiming": [
+                "Concept/measure: Baseline  Survey",
+                "Concept/measure: Follow- up  Surveys"
+            ]
+        },
+        {
+            "longName": "Patient Health Questionnaire",
+            "shortName": "PHQ",
+            "type": "ObsRO",
+            "questionnaireSchedule": "As part of baseline survey and follow-ups.",
+            "questionnaireTiming": [
+                "Concept/measure: Baseline  Survey",
+                "Concept/measure: Follow- up  Surveys"
+            ]
+        },
+        {
+            "longName": "Electronic Medical Record Data",
+            "shortName": "EMR",
+            "type": "Composite",
+            "questionnaireSchedule": "Continuous updates as required.",
+            "questionnaireTiming": [
+                "Concept/measure: Baseline  Survey",
+                "Concept/measure: Follow- up  Surveys"
+            ]
+        }
+    ]
+}

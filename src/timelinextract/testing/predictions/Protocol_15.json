@@ -1,0 +1,79 @@
+{
+    "Project Title": "Testing the use of dexamethasone mouthwash to prevent or treat painful mouth sores in patients being treated with everolimus",
+    "Sponsor": "Alliance",
+    "Study Number": "A221701",
+    "Protocol Version and Date": "NCI version date 8/14/2020  Update #03",
+    "Study Title": "Testing the use of dexamethasone mouthwash to prevent or treat painful mouth sores in patients being treated with everolimus",
+    "Phase": "Phase III",
+    "Therapeutic Area": "Pain management in cancer treatment",
+    "Number of Patients": "Not Available",
+    "Number of Sites": "Not Available",
+    "Indication": "Mucositis oral",
+    "Duration of Treatment": "8 weeks",
+    "Schedule of Assessments": "Appendix II - Numerical Analogue Mouth Pain Scale, Appendix IV - PRO-CTCAE items",
+    "questionnaires": [
+        {
+            "longName": "Numerical Analogue Mouth Pain Scale",
+            "shortName": "Numerical Analog Pain Scale",
+            "type": "PRO",
+            "questionnaireSchedule": "Daily; completed every day for one week, starting on the first day of study treatment.",
+            "questionnaireTiming": [
+                "",
+                "Baseline*"
+            ]
+        },
+        {
+            "longName": "Numerical Analogue Self-Assessment",
+            "shortName": "Numerical Analog Self-Assessment",
+            "type": "PRO",
+            "questionnaireSchedule": "Weekly; completed at the end of the week during the study.",
+            "questionnaireTiming": [
+                "",
+                "Baseline*",
+                "Weekly, for 8 weeks from start of treatment"
+            ]
+        },
+        {
+            "longName": "PRO-CTCAE (Mouth/throat sores, Sleep, Fatigue items)",
+            "shortName": "PRO-CTCAE",
+            "type": "PRO",
+            "questionnaireSchedule": "Weekly; two items regarding mouth sores, two regarding insomnia, and two regarding fatigue.",
+            "questionnaireTiming": [
+                "",
+                "Baseline*",
+                "Weekly, for 8 weeks from start of treatment"
+            ]
+        },
+        {
+            "longName": "Patient Reported Mouthwash Use Frequency",
+            "shortName": "Mouthwash Use Frequency",
+            "type": "PRO",
+            "questionnaireSchedule": "Weekly; included in the weekly survey.",
+            "questionnaireTiming": [
+                "",
+                "Weekly, for 8 weeks from start of treatment"
+            ]
+        },
+        {
+            "longName": "Normalcy of Diet Scale",
+            "shortName": "Normalcy of Diet",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Weekly; to assess dietary intake and restrictions.",
+            "questionnaireTiming": [
+                "",
+                "Weekly, for 8 weeks from start of treatment"
+            ]
+        },
+        {
+            "longName": "Nurse Weekly Phone Call Assessment",
+            "shortName": "Nurse Assessment",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Weekly; information collected regarding patient treatment and adherence.",
+            "questionnaireTiming": [
+                "Baseline*",
+                "Weekly, for 8 weeks from start of treatment",
+                ""
+            ]
+        }
+    ]
+}

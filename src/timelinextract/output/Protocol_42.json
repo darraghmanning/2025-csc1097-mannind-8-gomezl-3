@@ -1,0 +1,129 @@
+{
+    "Project Title": "A randomised, double-blind, placebo-controlled, phase 3 trial to evaluate the efficacy and safety of tralokinumab monotherapy in subjects with moderate-to-severe atopic dermatitis (AD) who are candidates for systemic therapy \u2013 ECZTRA 1 (ECZema TRAlokinumab trial no. 1)",
+    "Sponsor": "LEO Pharma A/S",
+    "Study Number": "LP0162-1325",
+    "Protocol Version and Date": "Version: 4.0, Date: 14-Aug-2018",
+    "Study Title": "A randomised, double-blind, placebo-controlled, phase 3 trial to evaluate the efficacy and safety of tralokinumab monotherapy in subjects with moderate-to-severe atopic dermatitis (AD) who are candidates for systemic therapy",
+    "Phase": "Phase III",
+    "Therapeutic Area": "Atopic dermatitis",
+    "Number of Patients": "Not Available",
+    "Number of Sites": "Approximately 130 sites in Europe, North America, and Japan.",
+    "Indication": "Moderate-to-severe atopic dermatitis",
+    "Duration of Treatment": "Initial treatment period of 16 weeks followed by a maintenance treatment period of up to 36 weeks",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "Eczema-related Sleep Numeric Rating Scale",
+            "shortName": "Eczema-related Sleep NRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Daily from Week -2 to Week 52"
+        },
+        {
+            "longName": "Worst Daily Pruritus Numeric Rating Scale",
+            "shortName": "Worst Daily Pruritus NRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Daily from Week -2 to Week 52"
+        },
+        {
+            "longName": "Average Daily Pruritus Numeric Rating Scale",
+            "shortName": "Average Daily Pruritus NRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Daily from Week -2 to Week 52"
+        },
+        {
+            "longName": "Patient Global Impression of Bother",
+            "shortName": "PGI-B",
+            "type": "PRO",
+            "questionnaireSchedule": "Daily from Week -2 to Week 52"
+        },
+        {
+            "longName": "Patient Global Impression of Severity",
+            "shortName": "PGI-S",
+            "type": "PRO",
+            "questionnaireSchedule": "Daily from Week -2 to Week 52"
+        },
+        {
+            "longName": "Patient-Oriented Eczema Measure",
+            "shortName": "POEM",
+            "type": "PRO",
+            "questionnaireSchedule": "At trial site during visits",
+            "questionnaireTiming": [
+                "Visit: 3   (Initial treatment period  )",
+                "Visit: 16",
+                "Visit: 20",
+                "Visit: 24",
+                "Visit: 28"
+            ]
+        },
+        {
+            "longName": "Dermatology Life Quality Index",
+            "shortName": "DLQI",
+            "type": "PRO",
+            "questionnaireSchedule": "At trial site during visits",
+            "questionnaireTiming": [
+                "Visit: 3   (Initial treatment period  )",
+                "Visit: 16",
+                "Visit: 20",
+                "Visit: 24",
+                "Visit: 28"
+            ]
+        },
+        {
+            "longName": "EuroQoL 5-Dimension Health Questionnaire 5 Level",
+            "shortName": "EQ-5D-5L",
+            "type": "PRO",
+            "questionnaireSchedule": "At trial site during visits",
+            "questionnaireTiming": [
+                "Visit: 3   (Initial treatment period  )",
+                "Visit: 16",
+                "Visit: 20",
+                "Visit: 24",
+                "Visit: 28"
+            ]
+        },
+        {
+            "longName": "36-Item Short Form Health Survey",
+            "shortName": "SF-36",
+            "type": "PRO",
+            "questionnaireSchedule": "At trial site during visits",
+            "questionnaireTiming": [
+                "Visit: 3   (Initial treatment period  )",
+                "Visit: 16",
+                "Visit: 20",
+                "Visit: 24",
+                "Visit: 28"
+            ]
+        },
+        {
+            "longName": "Work Productivity and Activity Impairment \u2013 General Health",
+            "shortName": "WPAI-GH",
+            "type": "PRO",
+            "questionnaireSchedule": "At trial site during visits",
+            "questionnaireTiming": [
+                "Visit: 3   (Initial treatment period  )",
+                "Visit: 16",
+                "Visit: 20",
+                "Visit: 24",
+                "Visit: 28"
+            ]
+        },
+        {
+            "longName": "Hospital Anxiety and Depression Scale",
+            "shortName": "HADS",
+            "type": "PRO",
+            "questionnaireSchedule": "At trial site during visits",
+            "questionnaireTiming": [
+                "Visit: 3   (Initial treatment period  )"
+            ]
+        },
+        {
+            "longName": "Treatment Satisfaction Questionnaire for Medicine",
+            "shortName": "TSQM",
+            "type": "PRO",
+            "questionnaireSchedule": "At trial site during visits",
+            "questionnaireTiming": [
+                "Visit: 18"
+            ]
+        }
+    ]
+}

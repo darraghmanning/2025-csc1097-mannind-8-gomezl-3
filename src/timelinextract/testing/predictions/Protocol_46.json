@@ -1,0 +1,46 @@
+{
+    "Project Title": "Gene Therapy for Achromatopsia (CNGA3)",
+    "Sponsor": "MeiraGTx UK II Ltd.",
+    "Study Number": "CNGA3 MGT012",
+    "Protocol Version and Date": "Version 6.0, 16Apr2021",
+    "Study Title": "An open label, multi-centre, Phase I/II dose escalation trial of an adeno-associated virus vector (AAV8-hG1.7p.coCNGA3) for gene therapy of children with Achromatopsia owing to defects in CNGA3",
+    "Phase": "Phase I/II",
+    "Therapeutic Area": "Achromatopsia",
+    "Number of Patients (if known)": "Up to 18 participants",
+    "Number of Sites (if known)": "Not Available",
+    "Indication": "Achromatopsia",
+    "Duration of Treatment": "Not Available",
+    "Schedule of Assessments": "Table 2: Trial Assessments, Section 5.6",
+    "questionnaires": [
+        {
+            "longName": "Impact of Visual Impairment (IVI)",
+            "shortName": "IVI",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, Follow-ups"
+        },
+        {
+            "longName": "EQ5D-5L",
+            "shortName": "EQ5D-5L",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, Follow-ups"
+        },
+        {
+            "longName": "EQ5D-Y",
+            "shortName": "EQ5D-Y",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, Follow-ups"
+        },
+        {
+            "longName": "Photoaversion Questionnaire (Baseline)",
+            "shortName": "Photoaversion Baseline",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered once at baseline"
+        },
+        {
+            "longName": "Photoaversion Device Questionnaire (After Surgery)",
+            "shortName": "Photoaversion After Surgery",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at week 12 and 24 post-surgery"
+        }
+    ]
+}

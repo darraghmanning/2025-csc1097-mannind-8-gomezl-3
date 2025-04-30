@@ -1,0 +1,94 @@
+{
+    "Project Title": "A Multi-Center, Double-Blind, Sham-Controlled, Randomized Trial of Dual Field PEMF Therapy [Provant\u00ae Therapy System] in Lower Extremity Painful Diabetic Distal Symmetric Peripheral Neuropathy (DSPN) (The RELIEF Trial)",
+    "Sponsor": "Regenesis Biomedical, Inc.",
+    "Study Number": "RBI.2017.002",
+    "Protocol Version and Date": "Version C, dated 17JUL2018",
+    "Study Title": "A Multi-Center, Double-Blind, Sham-Controlled, Randomized Trial of Dual Field PEMF Therapy [Provant\u00ae Therapy System] in Lower Extremity Painful Diabetic Distal Symmetric Peripheral Neuropathy (DSPN) (The RELIEF Trial)",
+    "Phase": "Phase III",
+    "Therapeutic Area": "Diabetic Distal Symmetric Peripheral Neuropathy (DSPN)",
+    "Number of Patients": "Not Available",
+    "Number of Sites": "Not Available",
+    "Indication": "Symptomatic diabetic distal symmetric peripheral neuropathy",
+    "Duration of Treatment": "120 days (4 months)",
+    "Schedule of Assessments": "Table 1, within Section 3.12",
+    "questionnaires": [
+        {
+            "longName": "Patient Global Impression",
+            "shortName": "PGI",
+            "type": "PRO",
+            "questionnaireSchedule": "Collected at Months 1, 2, 3, 4, 8, and 12",
+            "questionnaireTiming": [
+                "Period   (APPENDIX A: TIME  ): M1  Visit   (Part A  )",
+                "Period   (APPENDIX A: TIME  ): M2  Visit",
+                "Period   (APPENDIX A: TIME  ): M3  Visit",
+                "Period   (APPENDIX A: TIME  ): M4  Visit",
+                "Period   (APPENDIX A: TIME  ): M8  Visit   (Part B  )"
+            ]
+        },
+        {
+            "longName": "Work Productivity and Activity Impairment Questionnaire",
+            "shortName": "WPAIQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed at Enrollment Visit, Month 2, Month 4",
+            "questionnaireTiming": [
+                "Period   (APPENDIX A: TIME  ): Enrollment (Baseline)",
+                "Period   (APPENDIX A: TIME  ): M2  Visit",
+                "Period   (APPENDIX A: TIME  ): M4  Visit"
+            ]
+        },
+        {
+            "longName": "NeuroQoL",
+            "shortName": "NeuroQoL",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed at Enrollment Visit, Month 2, Month 4, Month 8, Month 12",
+            "questionnaireTiming": [
+                "Period   (APPENDIX A: TIME  ): Enrollment (Baseline)",
+                "Period   (APPENDIX A: TIME  ): M2  Visit",
+                "Period   (APPENDIX A: TIME  ): M4  Visit",
+                "Period   (APPENDIX A: TIME  ): M8  Visit   (Part B  )"
+            ]
+        },
+        {
+            "longName": "Skin Perfusion Pressure",
+            "shortName": "SPP",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Measured at various visits including Enrollment, Month 2, Month 4",
+            "questionnaireTiming": [
+                "Period   (APPENDIX A: TIME  ): Enrollment (Baseline)",
+                "Period   (APPENDIX A: TIME  ): M2  Visit",
+                "Period   (APPENDIX A: TIME  ): M4  Visit"
+            ]
+        },
+        {
+            "longName": "Quantitative Sensory Testing",
+            "shortName": "QST",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Performed at Enrollment Visit, Month 4, Month 8, Month 12",
+            "questionnaireTiming": [
+                "Period   (APPENDIX A: TIME  ): Enrollment (Baseline)",
+                "Period   (APPENDIX A: TIME  ): M4  Visit",
+                "Period   (APPENDIX A: TIME  ): M8  Visit   (Part B  )"
+            ]
+        },
+        {
+            "longName": "Sural Nerve Conduction Studies",
+            "shortName": "NCS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Conducted at Enrollment, Month 4, Month 12",
+            "questionnaireTiming": [
+                "Period   (APPENDIX A: TIME  ): Enrollment (Baseline)",
+                "Period   (APPENDIX A: TIME  ): M4  Visit"
+            ]
+        },
+        {
+            "longName": "Toronto Clinical Neuropathy Scoring System",
+            "shortName": "TCNSS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Administered at screening and evaluated",
+            "questionnaireTiming": [
+                "Period   (APPENDIX A: TIME  ): Screening Visit   (AND EVENTS SCHEDULE  )",
+                "Period   (APPENDIX A: TIME  ): M4  Visit"
+            ]
+        }
+    ]
+}

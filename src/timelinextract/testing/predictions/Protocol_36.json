@@ -1,0 +1,51 @@
+{
+    "Project Title": "Not Available",
+    "Sponsor": "Hospices Civils de Lyon",
+    "Study Number": "Not Available",
+    "Protocol Version and Date": "Not Available",
+    "Study Title": "Not Available",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Hereditary Hemorrhagic Telangiectasia (HHT)",
+    "Number of Patients": "48",
+    "Number of Sites": "Not Available",
+    "Indication": "HHT complicated by nosebleeds",
+    "Duration of Treatment": "6 weeks",
+    "Schedule of Assessments": "Table 1, Section 4.3",
+    "questionnaires": [
+        {
+            "longName": "Epistaxis Severity Score",
+            "shortName": "ESS",
+            "type": "PRO",
+            "questionnaireSchedule": "Inclusion (V1), End of treatment (V2), End of study (V3)",
+            "questionnaireTiming": [
+                "",
+                "Inclusion  V1 J0",
+                "V2  D43 (to 50)",
+                "V3  D85 (to 100)"
+            ]
+        },
+        {
+            "longName": "SF-36 Quality of Life Questionnaire",
+            "shortName": "SF-36",
+            "type": "PRO",
+            "questionnaireSchedule": "Inclusion (V1), End of treatment (V2), End of study (V3)",
+            "questionnaireTiming": [
+                "Inclusion  V1 J0",
+                "V2  D43 (to 50)",
+                "V3  D85 (to 100)"
+            ]
+        },
+        {
+            "longName": "Nosebleed Monitoring Grids",
+            "shortName": "N/A",
+            "type": "ObsRO",
+            "questionnaireSchedule": "Inclusion (V1), End of treatment (V2), End of study (V3)",
+            "questionnaireTiming": [
+                "Inclusion  V1 J0",
+                "",
+                "V2  D43 (to 50)",
+                "V3  D85 (to 100)"
+            ]
+        }
+    ]
+}

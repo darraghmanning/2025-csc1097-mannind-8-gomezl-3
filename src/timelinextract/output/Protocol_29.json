@@ -1,0 +1,55 @@
+{
+    "Project Title": "Metastatic Renal Cell Carcinoma (ProSun Study)",
+    "Sponsor": "Military Institute of Medicine",
+    "Study Number": "PS-001",
+    "Protocol Version and Date": "1.0; 10 Sep 2017",
+    "Study Title": "To assess an effectiveness of therapy with propranolol plus sunitinib in terms of objective response rate in patients with metastatic renal cell carcinoma.",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Renal Cell Carcinoma (RCC)",
+    "Number of Patients": "33",
+    "Number of Sites": "1",
+    "Indication": "Metastatic Renal Cell Carcinoma",
+    "Duration of Treatment": "Until disease progression, unacceptable toxicity or withdrawal of consent.",
+    "Schedule of Assessments": "Appendix A",
+    "questionnaires": [
+        {
+            "longName": "European Organization for Research and Treatment of Cancer Quality of Life Questionnaire",
+            "shortName": "EORTC QLQ-C30",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening, W1D1, W2D1, W3D1, W7D1, W13D1, W19D1, W25D1, End-of-treatment visit",
+            "questionnaireTiming": [
+                "Assessment: W1D1  5",
+                "Assessment: W7D1",
+                "Assessment: W13D1",
+                "Assessment: W19D1",
+                "Assessment: W25D1   (Postdiscontinuation period  )"
+            ]
+        },
+        {
+            "longName": "FACT-Kidney Symptom Index - 15",
+            "shortName": "FKSI-15",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening, W1D1, W2D1, W3D1, W7D1, W13D1, W19D1, W25D1, End-of-treatment visit",
+            "questionnaireTiming": [
+                "Assessment: W1D1  5",
+                "Assessment: W7D1",
+                "Assessment: W13D1",
+                "Assessment: W19D1",
+                "Assessment: W25D1   (Postdiscontinuation period  )"
+            ]
+        },
+        {
+            "longName": "Perceived Stress Scale",
+            "shortName": "PSS",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening, W1D1, W2D1, W3D1, W7D1, W13D1, W19D1, W25D1, End-of-treatment visit",
+            "questionnaireTiming": [
+                "Assessment: W1D1  5",
+                "Assessment: W7D1",
+                "Assessment: W13D1",
+                "Assessment: W19D1",
+                "Assessment: W25D1   (Postdiscontinuation period  )"
+            ]
+        }
+    ]
+}

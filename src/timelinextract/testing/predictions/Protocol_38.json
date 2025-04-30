@@ -1,0 +1,67 @@
+{
+    "Project Title": "A Phase 3 Randomized, Controlled, Open-label Study of Selinexor, Bortezomib, and Dexamethasone (SVd) versus Bortezomib and Dexamethasone (Vd) in Patients with Relapsed or Refractory Multiple Myeloma (RRMM)",
+    "Sponsor": "Karyopharm Therapeutics Inc.",
+    "Study Number": "KCP-330-023",
+    "Protocol Version and Date": "Version 4.0, 17 August 2018",
+    "Study Title": "BOSTON: Bortezomib, Selinexor, and Dexamethasone in Patients with Multiple Myeloma",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Multiple Myeloma",
+    "Number of Patients": "Approximately 364",
+    "Number of Sites": "Approximately 120",
+    "Indication": "Relapsed or refractory multiple myeloma (RRMM)",
+    "Duration of Treatment": "Not Available",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "EORTC QLQ-CIPN20",
+            "shortName": "QLQ-CIPN20",
+            "type": "PRO",
+            "questionnaireSchedule": "To compare patient-reported peripheral neuropathy as measured from baseline through treatment at specific intervals."
+        },
+        {
+            "longName": "Eastern Cooperative Oncology Group Performance Status",
+            "shortName": "ECOG PS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Day 1 of each cycle to assess participant's performance status."
+        },
+        {
+            "longName": "Serum Free Light Chain Assay",
+            "shortName": "FLC",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Administered at specific visits to measure free light chain levels."
+        },
+        {
+            "longName": "Complete Blood Count with Differential",
+            "shortName": "CBC",
+            "type": "ClinRO",
+            "questionnaireSchedule": "C1D8 only, as part of routine lab tests."
+        },
+        {
+            "longName": "Quality of Life Assessment",
+            "shortName": "QoL",
+            "type": "PRO",
+            "questionnaireSchedule": "At specific intervals as indicated in the schedule."
+        },
+        {
+            "longName": "Physical Examination",
+            "shortName": "PE",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Day 1 of each cycle.",
+            "questionnaireTiming": [
+                "$FWLYLW\\\ue012$VVHVVPHQWD\ue003"
+            ]
+        },
+        {
+            "longName": "Urine Protein Electrophoresis",
+            "shortName": "UPEP",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At each time point outlined in the protocol."
+        },
+        {
+            "longName": "Bone Marrow Aspirate",
+            "shortName": "BMA",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At the time of confirmed response to assess treatment effect."
+        }
+    ]
+}

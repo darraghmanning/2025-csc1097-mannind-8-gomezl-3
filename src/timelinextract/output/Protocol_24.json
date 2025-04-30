@@ -1,0 +1,108 @@
+{
+    "Project Title": "INTERIM: a randomised phase II feasibility study of INTERmittent versus continuous dosing of oral targeted combination therapy In patients with BRAFV600 mutant stage 3 unresectable or metastatic melanoma",
+    "Sponsor": "Cambridge University Hospitals NHS Foundation Trust",
+    "Study Number": "INTERIM17",
+    "Protocol Version and Date": "V1.1, 21 September 2017",
+    "Study Title": "INTERIM: a randomised phase II feasibility study of INTERmittent versus continuous dosing of oral targeted combination therapy In patients with BRAFV600 mutant stage 3 unresectable or metastatic melanoma",
+    "Phase": "Phase II",
+    "Therapeutic Area": "BRAFV600 mutant stage 3 unresectable or metastatic melanoma",
+    "Number of Patients": "150",
+    "Number of Sites": "20",
+    "Indication": "BRAFV600 mutant stage 3 unresectable or metastatic melanoma",
+    "Duration of Treatment": "Until disease progression or beyond, minimum follow-up of 9 months",
+    "Schedule of Assessments": "Section 10.7 - Schedule of Assessments",
+    "questionnaires": [
+        {
+            "longName": "Skindex-16",
+            "shortName": "Skindex-16",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, Cycle 2 Day 1, every 12 weeks",
+            "questionnaireTiming": [
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (\u00b12 days  ) (Screening Pre-randomisation  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 1  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 2  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )_1",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (+ 30 days  ) (Day 1  ) (Cycle 3 onwards1  )"
+            ]
+        },
+        {
+            "longName": "NCI PRO-CTCAE",
+            "shortName": "NCI PRO-CTCAE",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, Cycle 2 Day 1, every 12 weeks",
+            "questionnaireTiming": [
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (\u00b12 days  ) (Screening Pre-randomisation  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 1  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 2  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )_1",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (+ 30 days  ) (Day 1  ) (Cycle 3 onwards1  )"
+            ]
+        },
+        {
+            "longName": "Skin Toxicity Questionnaires",
+            "shortName": "Skin Toxicity",
+            "type": "ClinRO",
+            "questionnaireSchedule": "As needed for patients experiencing skin AEs",
+            "questionnaireTiming": [
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 1  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 2  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )_1",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (+ 30 days  ) (Day 1  ) (Cycle 3 onwards1  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (\u00b12 days  ) (Screening Pre-randomisation  )"
+            ]
+        },
+        {
+            "longName": "Patient Experience Survey",
+            "shortName": "Patient Experience",
+            "type": "PREM",
+            "questionnaireSchedule": "9 months after randomisation",
+            "questionnaireTiming": [
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (\u00b12 days  ) (Screening Pre-randomisation  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (+ 30 days  ) (Day 1  ) (Cycle 3 onwards1  )"
+            ]
+        },
+        {
+            "longName": "ECOG Performance Status",
+            "shortName": "ECOG PS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Every cycle assessment",
+            "questionnaireTiming": [
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (\u00b12 days  ) (Screening Pre-randomisation  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 2  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (+ 30 days  ) (Day 1  ) (Cycle 3 onwards1  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 1  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )_1"
+            ]
+        },
+        {
+            "longName": "Karnofsky Performance Status",
+            "shortName": "Karnofsky PS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Every cycle assessment",
+            "questionnaireTiming": [
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (\u00b12 days  ) (Screening Pre-randomisation  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 1  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 2  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 15  )_1",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (+ 30 days  ) (Day 1  ) (Cycle 3 onwards1  )"
+            ]
+        },
+        {
+            "longName": "Quality of Life Questionnaires",
+            "shortName": "QoL",
+            "type": "PRO",
+            "questionnaireSchedule": "Every 12 weeks",
+            "questionnaireTiming": [
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (\u00b12 days  ) (Screening Pre-randomisation  )",
+                "Physical Examination, weight & Blood pressure   (Pregnancy Test  ) (Medical History2  ) (Informed Consent  ) (Inclusion/Exclusion Assessment  ) (-28 days  ): X   (Day 1  ) (Cycle 2  )"
+            ]
+        }
+    ]
+}

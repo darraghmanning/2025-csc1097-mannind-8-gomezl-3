@@ -1,0 +1,27 @@
+{
+    "Project Title": "An Open-Label, Randomized, Phase 3 Clinical Trial of REGN2810 versus Investigator's Choice of Chemotherapy in Recurrent or Metastatic Cervical Carcinoma",
+    "Sponsor": "Regeneron Pharmaceuticals, Inc.",
+    "Study Number": "R2810-ONC-1676/GOG-3016 (CVP1601) ENGOT-cx9",
+    "Protocol Version and Date": "R2810-ONC-1676/GOG-3016 (CVP1601) ENGOT cx9 Amendment 7",
+    "Study Title": "An Open-Label, Randomized, Phase 3 Clinical Trial of REGN2810 versus Investigator's Choice of Chemotherapy in Recurrent or Metastatic Cervical Carcinoma",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Oncology",
+    "Number of Patients": "Approximately 590 patients projected (460 SCC patients)",
+    "Number of Sites": "Approximately 100 sites globally",
+    "Indication": "Recurrent or metastatic cervical carcinoma that has progressed after platinum-containing chemotherapy",
+    "Duration of Treatment": "Not Available",
+    "Schedule of Assessments": "Table 1: Schedule of Events: Screening and Treatment Period",
+    "questionnaires": [
+        {
+            "longName": "EORTC QLQ-C30",
+            "shortName": "EORTC QLQ-C30",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered during clinic visits prior to any study procedures.",
+            "questionnaireTiming": [
+                "Study Procedure: Screening Visit X",
+                "Study Procedure: Day 1   (Cycles 1 through 16 (cycle length = 6 weeks)  )",
+                "Study Procedure: Follow-up Visits 1 and 21"
+            ]
+        }
+    ]
+}

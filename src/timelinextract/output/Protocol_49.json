@@ -1,0 +1,36 @@
+{
+    "Project Title": "Pilot Study Characterizing Aerobic Exercise in Women with Systemic Lupus Erythematosus (Exercise SLE Pilot)",
+    "Sponsor": "National Institutes of Health",
+    "Study Number": "Not Available",
+    "Protocol Version and Date": "Not Available",
+    "Study Title": "Pilot Study Characterizing Aerobic Exercise in Women with Systemic Lupus Erythematosus (Exercise SLE Pilot)",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Systemic Lupus Erythematosus",
+    "Number of Patients": 20,
+    "Number of Sites": "Not Available",
+    "Indication": "Systemic Lupus Erythematosus",
+    "Duration of Treatment": "12 weeks",
+    "Schedule of Assessments": "(Not Available)",
+    "questionnaires": [
+        {
+            "longName": "Fatigue Severity Scale",
+            "shortName": "FSS",
+            "type": "PRO",
+            "questionnaireSchedule": "At baseline, before and after intervention",
+            "questionnaireTiming": [
+                "Visit 1",
+                "Exercise Training 5"
+            ]
+        },
+        {
+            "longName": "Patient-Reported Outcomes Measurement Information System",
+            "shortName": "PROMIS",
+            "type": "PRO",
+            "questionnaireSchedule": "Visit 2, at baseline, before and after intervention",
+            "questionnaireTiming": [
+                "Visit 2",
+                "Exercise Training 5"
+            ]
+        }
+    ]
+}

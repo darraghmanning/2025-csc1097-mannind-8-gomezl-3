@@ -1,0 +1,77 @@
+{
+    "Project Title": "A randomized, double-blind, placebo-controlled, parallel group study to evaluate the efficacy and safety of dupilumab in children 6 to <12 years of age with uncontrolled persistent asthma",
+    "Sponsor": "Sanofi",
+    "Study Number": "EFC14153",
+    "Protocol Version and Date": "Version number: 1 / 18-Oct-2019",
+    "Study Title": "A randomized, double-blind, placebo-controlled, parallel group study to evaluate the efficacy and safety of dupilumab in children 6 to <12 years of age with uncontrolled persistent asthma",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Uncontrolled persistent asthma",
+    "Number of Patients": "Not Available",
+    "Number of Sites": "Not Available",
+    "Indication": "Uncontrolled persistent asthma",
+    "Duration of Treatment": "Total duration of study (per patient) is expected to be up to 68\u00b11 weeks: 4 (\u00b11) weeks for screening, 52 weeks of treatment, and 12 weeks of post-treatment follow-up",
+    "Schedule of Assessments": "Table of the schedule of assessments is available in the protocol, specific table number not provided.",
+    "questionnaires": [
+        {
+            "longName": "Asthma Control Questionnaire\u2013Interviewer Administered",
+            "shortName": "ACQ-IA",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening and multiple visits over 52 weeks",
+            "questionnaireTiming": [
+                "Week: \u20134 (\u00b11)   (SCRa  )",
+                "Week: 0   (b  RND  ) (Randomized Treatment Period  )",
+                "Week: 2",
+                "Week: 4",
+                "Week: 6",
+                "Week: 8",
+                "Week: 10",
+                "Week: 12",
+                "Week: 16",
+                "Week: 20",
+                "Week: 24",
+                "Week: 28",
+                "Week: 32",
+                "Week: 36",
+                "Week: 40",
+                "Week: 44",
+                "Week: 48   (Post-treatment Period  d  )"
+            ]
+        },
+        {
+            "longName": "Pediatric Asthma Quality of Life Questionnaire with Standardized Activities\u2013Interviewer Administered",
+            "shortName": "PAQLQ(S)-IA",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening and multiple visits over 52 weeks",
+            "questionnaireTiming": [
+                "Week: 0   (b  RND  ) (Randomized Treatment Period  )",
+                "Week: 12",
+                "Week: 24",
+                "Week: 36"
+            ]
+        },
+        {
+            "longName": "Pediatric Rhinoconjunctivitis Quality of Life Questionnaire\u2013Interviewer Administered",
+            "shortName": "PRQLQ-IA",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening and multiple visits over 52 weeks",
+            "questionnaireTiming": [
+                "Week: 0   (b  RND  ) (Randomized Treatment Period  )",
+                "Week: 12",
+                "Week: 24",
+                "Week: 36"
+            ]
+        },
+        {
+            "longName": "EuroQol 5 dimension youth questionnaire",
+            "shortName": "EQ-5D-Y",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening and multiple visits over 52 weeks"
+        },
+        {
+            "longName": "Pediatric Asthma Caregiver's Quality of Life Questionnaire",
+            "shortName": "PACQLQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening and multiple visits over 52 weeks"
+        }
+    ]
+}

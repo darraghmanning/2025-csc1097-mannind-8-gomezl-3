@@ -1,0 +1,75 @@
+{
+    "Project Title": "A Prospective, Randomized, Controlled, Multi-Center, Double Blind Study of ClariVein RES for Treatment of Venous Insufficiency Associated with Incompetent Saphenous Veins due to Superficial Venous Reflux (VICARES)",
+    "Sponsor": "Vascular Insights, LLC",
+    "Study Number": "CL-001",
+    "Protocol Version and Date": "Version 1.1, Date Not Available",
+    "Study Title": "VICARES - Protocol CL-001 Clinical Study Procedure Manual",
+    "Phase": "Phase 2 (Pilot)",
+    "Therapeutic Area": "Venous Insufficiency",
+    "Number of Patients": "50",
+    "Number of Sites": "10",
+    "Indication": "Incompetent Saphenous Veins",
+    "Duration of Treatment": "Single treatment procedure in one day",
+    "Schedule of Assessments": "Table 3 (Visit Schedule and Assessments)",
+    "questionnaires": [
+        {
+            "longName": "Venous Insufficiency Epidemiological and Economic Study - Quality of Life Questionnaire",
+            "shortName": "VEINES-QOL/Sym",
+            "type": "PRO",
+            "questionnaireSchedule": "7 days prior to the Day of Treatment, 7 days post Day of Treatment, 7 days prior to Week 6 follow-up, 7 days prior to Week 12 follow-up",
+            "questionnaireTiming": [
+                "Visit: Visit 2",
+                "Visit: Visit 3",
+                "Visit: Visit 4",
+                "Visit: Visit 5",
+                "Visit: Visit 6"
+            ]
+        },
+        {
+            "longName": "Clinical-Etiology-Anatomy-Pathophysiology Classification",
+            "shortName": "CEAP",
+            "type": "ClinRO",
+            "questionnaireSchedule": "",
+            "questionnaireTiming": [
+                "Visit: Visit 1",
+                "Visit: Visit 6"
+            ]
+        },
+        {
+            "longName": "European Quality of Life - 5 Dimensions",
+            "shortName": "EQ-5D-5L",
+            "type": "ClinRO",
+            "questionnaireSchedule": "",
+            "questionnaireTiming": [
+                "Visit: Visit 2",
+                "Visit: Visit 3",
+                "Visit: Visit 4",
+                "Visit: Visit 5",
+                "Visit: Visit 6"
+            ]
+        },
+        {
+            "longName": "Revised Venous Clinical Severity Score",
+            "shortName": "rVCSS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "",
+            "questionnaireTiming": [
+                "Visit: Visit 1",
+                "Visit: Visit 6"
+            ]
+        },
+        {
+            "longName": "Wong Baker Visual Analog Pain Scale",
+            "shortName": "VAS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "",
+            "questionnaireTiming": [
+                "Visit: Visit 2",
+                "Visit: Visit 3",
+                "Visit: Visit 4",
+                "Visit: Visit 5",
+                "Visit: Visit 6"
+            ]
+        }
+    ]
+}

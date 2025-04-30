@@ -1,0 +1,40 @@
+{
+    "Project Title": "Post-resection/ablation chemotherapy in patients with metastatic colorectal cancer (FIRE-9 \u2013 PORT / AIO-KRK-0418)",
+    "Sponsor": "Charit\u00e9 Universit\u00e4tsmedizin Berlin",
+    "Study Number": "AIO-KRK-0418",
+    "Protocol Version and Date": "Version 3.0 dated 28-Sep-2021",
+    "Study Title": "Post-resection/ablation chemotherapy in patients with metastatic colorectal cancer (FIRE-9 \u2013 PORT / AIO-KRK-0418)",
+    "Phase": "Phase III",
+    "Therapeutic Area": "Metastatic colorectal cancer",
+    "Number of Patients": "507",
+    "Number of Sites": "About 80",
+    "Indication": "Post-resection/ablation chemotherapy in patients with metastatic colorectal cancer",
+    "Duration of Treatment": "6 months",
+    "Schedule of Assessments": "Section 6.1.2, Table 1",
+    "questionnaires": [
+        {
+            "longName": "EQ5D5L Questionnaire",
+            "shortName": "EQ5D5L",
+            "type": "PRO",
+            "questionnaireSchedule": "Every 3 months during the first 24 months after randomization, and every 6 months afterwards for up to 60 months."
+        },
+        {
+            "longName": "Carcinoembryonic antigen",
+            "shortName": "CEA",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Every 3 months during the first 24 months after randomization, and every 6 months afterwards for up to 60 months."
+        },
+        {
+            "longName": "Tumor Imaging",
+            "shortName": "Tumor Imaging",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Every 3 months during the first 24 months after randomization, and every 6 months thereafter."
+        },
+        {
+            "longName": "ECOG Performance Status",
+            "shortName": "ECOG",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At screening and every three months thereafter for the first 2 years after randomization."
+        }
+    ]
+}

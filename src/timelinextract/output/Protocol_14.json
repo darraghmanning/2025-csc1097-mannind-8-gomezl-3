@@ -1,0 +1,46 @@
+{
+    "Project Title": "Pulmonary Rehabilitation before Lung Cancer Resection",
+    "Sponsor": "Alliance for Clinical Trials in Oncology",
+    "Study Number": "Alliance A221502",
+    "Protocol Version and Date": "NCI Version Date 7/28/2017 Update #3",
+    "Study Title": "Breathing Exercises Before Lung Cancer Surgery",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Not Available",
+    "Number of Patients": "194",
+    "Number of Sites": "Not Available",
+    "Indication": "Lung Cancer and Chronic Obstructive Pulmonary Disease (COPD)",
+    "Duration of Treatment": "10 sessions over two weeks",
+    "Schedule of Assessments": "Schedule can be referred to in Section 5.5 (Study Calendar)",
+    "questionnaires": [
+        {
+            "longName": "Chronic Respiratory Questionnaire",
+            "shortName": "CRQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Administration before surgery, 3 months and 6 months after surgery.",
+            "questionnaireTiming": [
+                "Baseline",
+                "At 3 and 6 months after surgery*"
+            ]
+        },
+        {
+            "longName": "Medical Research Council Dyspnea Score",
+            "shortName": "MRC",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Administration before surgery, 3 months and 6 months after surgery.",
+            "questionnaireTiming": [
+                "Baseline",
+                "At 3 and 6 months after surgery*"
+            ]
+        },
+        {
+            "longName": "Linear Analog Self-Assessment",
+            "shortName": "LASA",
+            "type": "PRO",
+            "questionnaireSchedule": "Administration before surgery, 3 months and 6 months after surgery.",
+            "questionnaireTiming": [
+                "Baseline",
+                "At 3 and 6 months after surgery*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "Project Title": "A Phase 2 Study of Apalutamide in Active Surveillance Patients",
+    "Sponsor": "Michael T. Schweizer, MD",
+    "Study Number": "9582",
+    "Protocol Version and Date": "6.0; September 06, 2019",
+    "Study Title": "A Phase 2 Study of Apalutamide in Active Surveillance Patients",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Prostate Cancer",
+    "Number of Patients": "Up to 33 patients",
+    "Number of Sites": "1 (University of Washington Medical Center)",
+    "Indication": "Prostate cancer",
+    "Duration of Treatment": "90 days",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "Functional Assessment of Cancer Therapy - Prostate (FACT-P)",
+            "shortName": "FACT-P",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered on Day 1, 180, 365, 545, and 730",
+            "questionnaireTiming": [
+                "Day 1 (\u00b17 days)   (Treatment phase  )",
+                "Day 91 (\u00b17 days)   (End of Study  )",
+                "Day 180 (\u00b130 days)   (Lona-term follow-up\"  )",
+                "Day 365 (\u00b130 days)",
+                "Day 545 (\u00b130 days)",
+                "Day 730 (\u00b130 days)"
+            ]
+        },
+        {
+            "longName": "Short Form 36 Health Survey (SF-36)",
+            "shortName": "SF-36",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered on Day 1, 180, 365, 545, and 730",
+            "questionnaireTiming": [
+                "Day 1 (\u00b17 days)   (Treatment phase  )",
+                "Day 91 (\u00b17 days)   (End of Study  )",
+                "Day 180 (\u00b130 days)   (Lona-term follow-up\"  )",
+                "Day 365 (\u00b130 days)",
+                "Day 545 (\u00b130 days)",
+                "Day 730 (\u00b130 days)"
+            ]
+        },
+        {
+            "longName": "National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE)",
+            "shortName": "NCI CTCAE",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Ongoing assessment throughout the study",
+            "questionnaireTiming": [
+                "Day 1 (\u00b17 days)   (Treatment phase  )",
+                "Day 91 (\u00b17 days)   (End of Study  )",
+                "Day 180 (\u00b130 days)   (Lona-term follow-up\"  )",
+                "Day 365 (\u00b130 days)",
+                "Day 545 (\u00b130 days)",
+                "Day 730 (\u00b130 days)"
+            ]
+        }
+    ]
+}

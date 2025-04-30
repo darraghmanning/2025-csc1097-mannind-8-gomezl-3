@@ -1,0 +1,72 @@
+{
+    "Project Title": "A Phase 3, randomized, double-blind, placebo-controlled, parallel-group study to evaluate the efficacy and safety of two dose levels of BCX7353 as an oral treatment for the prevention of attacks in subjects with hereditary angioedema (Study BCX7353-301)",
+    "Sponsor": "BioCryst Pharmaceuticals, Inc. (BioCryst)",
+    "Study Number": "BCX7353-301",
+    "Protocol Version and Date": "Version 6.0",
+    "Study Title": "A Phase 3, randomized, double-blind, placebo-controlled, parallel-group study to evaluate the efficacy and safety of two dose levels of BCX7353 as an oral treatment for the prevention of attacks in subjects with hereditary angioedema (Study BCX7353-301)",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Hereditary Angioedema",
+    "Number of Patients": "24",
+    "Number of Sites": "Approximately 15",
+    "Indication": "Hereditary Angioedema",
+    "Duration of Treatment": "24 weeks",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "Angioedema Quality of Life Questionnaire",
+            "shortName": "AE-QoL",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 24 and durability assessments in subsequent weeks.",
+            "questionnaireTiming": [
+                "Assessment: Week 60 Day 421 \u00b1 6 days",
+                "Assessment: Week 72 Day 505 \u00b1 6 days",
+                "Assessment: Week 84 Day 589 \u00b1 6 days",
+                "Assessment: Week 96 Day 673 \u00b1 6 days",
+                "Assessment: Week 104 (Day 729 \u00b1 7 days)",
+                "Assessment: Part 1 Double-Blind, Placebo-Controlled Study Drug Administration"
+            ]
+        },
+        {
+            "longName": "EuroQoL 5-dimensional, 5-level questionnaire",
+            "shortName": "EQ-5D-5L",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at baseline, Week 24, and post-treatment evaluations.",
+            "questionnaireTiming": [
+                "Assessment: Week 60 Day 421 \u00b1 6 days",
+                "Assessment: Week 72 Day 505 \u00b1 6 days",
+                "Assessment: Week 84 Day 589 \u00b1 6 days",
+                "Assessment: Week 96 Day 673 \u00b1 6 days",
+                "Assessment: Week 104 (Day 729 \u00b1 7 days)",
+                "Assessment: Part 1 Double-Blind, Placebo-Controlled Study Drug Administration"
+            ]
+        },
+        {
+            "longName": "Treatment Satisfaction Questionnaire for Medication",
+            "shortName": "TSQM",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 24 and post-treatment evaluations.",
+            "questionnaireTiming": [
+                "Assessment: Week 60 Day 421 \u00b1 6 days",
+                "Assessment: Week 72 Day 505 \u00b1 6 days",
+                "Assessment: Week 84 Day 589 \u00b1 6 days",
+                "Assessment: Week 96 Day 673 \u00b1 6 days",
+                "Assessment: Week 104 (Day 729 \u00b1 7 days)",
+                "Assessment: Part 1 Double-Blind, Placebo-Controlled Study Drug Administration"
+            ]
+        },
+        {
+            "longName": "Work Productivity and Activity Impairment Questionnaire",
+            "shortName": "WPAI",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Week 24 and post-treatment evaluations.",
+            "questionnaireTiming": [
+                "Assessment: Week 60 Day 421 \u00b1 6 days",
+                "Assessment: Week 72 Day 505 \u00b1 6 days",
+                "Assessment: Week 84 Day 589 \u00b1 6 days",
+                "Assessment: Week 96 Day 673 \u00b1 6 days",
+                "Assessment: Week 104 (Day 729 \u00b1 7 days)",
+                "Assessment: Part 1 Double-Blind, Placebo-Controlled Study Drug Administration"
+            ]
+        }
+    ]
+}

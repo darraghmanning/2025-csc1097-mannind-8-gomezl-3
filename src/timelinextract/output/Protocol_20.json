@@ -1,0 +1,39 @@
+{
+    "Project Title": "Not Available",
+    "Sponsor": "Merck",
+    "Study Number": "Not Available",
+    "Protocol Version and Date": "Version Date: 02/09/2020",
+    "Study Title": "Not Available",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Renal Cell Carcinoma",
+    "Number of Patients": "17",
+    "Number of Sites": "Not Available",
+    "Indication": "Renal cell carcinoma with clear cell component",
+    "Duration of Treatment": "Not Available",
+    "Schedule of Assessments": "Trial Flow Chart (Section 6.0)",
+    "questionnaires": [
+        {
+            "longName": "Quality of Life Assessment",
+            "shortName": "FKSI-19",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, halfway through treatment (Cycle 3 Day 1), and after 12 weeks of treatment.",
+            "questionnaireTiming": [
+                "Day:   (Treatment Cycle/Title:  ) (Trial Phase:  ): -3 to 1   (Baseline (Visit 2)a,b  )",
+                "Day:   (Treatment Cycle/Title:  ) (Trial Phase:  ): 43   (3  )",
+                "Day:   (Treatment Cycle/Title:  ) (Trial Phase:  ): Within 14 days of last dose of lenvatinib   (Post-Treatment Phase  )"
+            ]
+        },
+        {
+            "longName": "Frailty Assessment",
+            "shortName": "Fried Frailty score",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline, halfway through treatment (Cycle 3 Day 1), and after 12 weeks of treatment.",
+            "questionnaireTiming": [
+                "Day:   (Treatment Cycle/Title:  ) (Trial Phase:  ): -28 to 1   (Screening (Visit 1)a,b  ) (Pre-treatment Phase  )",
+                "Day:   (Treatment Cycle/Title:  ) (Trial Phase:  ): Within 14 days of last dose of lenvatinib   (Post-Treatment Phase  )",
+                "Day:   (Treatment Cycle/Title:  ) (Trial Phase:  ): -3 to 1   (Baseline (Visit 2)a,b  )",
+                "Day:   (Treatment Cycle/Title:  ) (Trial Phase:  ): 43   (3  )"
+            ]
+        }
+    ]
+}

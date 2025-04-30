@@ -1,0 +1,46 @@
+{
+    "Project Title": "Safety of Simultaneous versus Sequential Administration of mRNA COVID-19 Vaccines and Quadrivalent Inactivated Influenza (IIV4) in Adults and Adolescents: A Randomized Observer Blinded Study",
+    "Sponsor": "Centers for Disease Control & Prevention",
+    "Study Number": "NCT05028361",
+    "Protocol Version and Date": "Version 2.0; September 17, 2021",
+    "Study Title": "Simultaneous mRNA COVID-19 and IIV4 Vaccination Study",
+    "Phase": "Phase IV",
+    "Therapeutic Area": "COVID-19 and Influenza",
+    "Number of Patients": 450,
+    "Number of Sites": 3,
+    "Indication": "COVID-19 and Influenza vaccination",
+    "Duration of Treatment": "120 days",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "Symptom diary",
+            "shortName": "Symptom diary for reactogenicity events",
+            "type": "PRO",
+            "questionnaireSchedule": "Days 1-7 after each vaccination visit"
+        },
+        {
+            "longName": "Health-Related Quality of Life (HRQOL)",
+            "shortName": "HRQOL Assessment",
+            "type": "PRO",
+            "questionnaireSchedule": "At baseline and Days 1-7 after each vaccination visit"
+        },
+        {
+            "longName": "EuroQOL 5 Dimensions - 5 Level (EQ-5D-5L)",
+            "shortName": "EQ-5D-5L",
+            "type": "PRO",
+            "questionnaireSchedule": "After each vaccination visit (specifically Visit 1 and others)"
+        },
+        {
+            "longName": "EuroQOL Visual Analogue Scale (EQ VAS)",
+            "shortName": "EQ VAS",
+            "type": "PRO",
+            "questionnaireSchedule": "After each vaccination visit (specifically Visit 1 and others)"
+        },
+        {
+            "longName": "REDCap electronic diaries",
+            "shortName": "REDCap Diary",
+            "type": "PRO",
+            "questionnaireSchedule": "During the study for symptom reporting"
+        }
+    ]
+}

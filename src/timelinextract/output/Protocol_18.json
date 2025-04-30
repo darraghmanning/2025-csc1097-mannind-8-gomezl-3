@@ -1,0 +1,41 @@
+{
+    "Project Title": "A multicenter, partially-blinded, randomized, 24-week, parallel-group, non-inferiority, open-label active controlled study to compare the efficacy and safety of QVM149 with a free triple combination of salmeterol/fluticasone + tiotropium in patients with uncontrolled asthma",
+    "Sponsor": "Novartis",
+    "Study Number": "CQVM149B2306",
+    "Protocol Version and Date": "Version v 0 2/Clean",
+    "Study Title": "Efficacy study of QVM149 in uncontrolled asthma patients",
+    "Phase": "3b",
+    "Therapeutic Area": "Uncontrolled asthma",
+    "Number of Patients": "1251",
+    "Number of Sites": "Not Available",
+    "Indication": "Uncontrolled asthma",
+    "Duration of Treatment": "24 weeks",
+    "Schedule of Assessments": "Table 6-1, section 9.3",
+    "questionnaires": [
+        {
+            "longName": "Asthma Control Questionnaire (ACQ-7)",
+            "shortName": "ACQ-7",
+            "type": "PRO",
+            "questionnaireSchedule": "Scheduled at clinic as per Assessment Schedule Table 6-1.",
+            "questionnaireTiming": [
+                "Visit number   (Period  ): 101   (Run-in  )",
+                "Visit number   (Period  ): 201   (Treatment  )",
+                "Visit number   (Period  ): 203",
+                "Visit number   (Period  ): 204",
+                "Visit number   (Period  ): TD"
+            ]
+        },
+        {
+            "longName": "Asthma Quality of Life Questionnaire (AQLQ)",
+            "shortName": "AQLQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Scheduled at clinic as per Assessment Schedule Table 6-1.",
+            "questionnaireTiming": [
+                "Visit number   (Period  ): 201   (Treatment  )",
+                "Visit number   (Period  ): 203",
+                "Visit number   (Period  ): 204",
+                "Visit number   (Period  ): TD"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+{
+    "Project Title": "IMOVE: Improvisational MOVEment for people with memory loss and their caregivers",
+    "Sponsor": "Wake Forest School of Medicine",
+    "Study Number": "Not Available",
+    "Protocol Version and Date": "Version 6.0, 11/18/2020",
+    "Study Title": "IMOVE: Improvisational MOVEment for people with memory loss and their caregivers",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Mild Cognitive Impairment and early-stage Alzheimer's Disease",
+    "Number of Patients": "120",
+    "Number of Sites": "Not Available",
+    "Indication": "Mild cognitive impairment or early-stage dementia",
+    "Duration of Treatment": "12 weeks",
+    "Schedule of Assessments": "Table 2 and Section 6.1",
+    "questionnaires": [
+        {
+            "longName": "Falls Efficacy Scale International",
+            "shortName": "FES-I",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline 1, Baseline 2, Follow-up 1, Follow-up 2",
+            "questionnaireTiming": [
+                "Assessment: Baseline 2  w/in 6 wks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "Geriatric Depression Scale",
+            "shortName": "GDS",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline 1, Baseline 2, Follow-up 1, Follow-up 2",
+            "questionnaireTiming": [
+                "Assessment",
+                "Assessment: Baseline 2  w/in 6 wks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "Geriatric Anxiety Scale",
+            "shortName": "GAS",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline 1, Baseline 2, Follow-up 1, Follow-up 2",
+            "questionnaireTiming": [
+                "Assessment",
+                "Assessment: Baseline 2  w/in 6 wks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "Apathy Evaluation Scale",
+            "shortName": "AES",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline 1, Baseline 2, Follow-up 1, Follow-up 2",
+            "questionnaireTiming": [
+                "Assessment: Baseline 2  w/in 6 wks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "Alternative Uses Task",
+            "shortName": "AUT",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline 1, Baseline 2",
+            "questionnaireTiming": [
+                "Assessment: Baseline 2  w/in 6 wks of intervention start",
+                "Assessment: Follow up 2  1-21 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention",
+                "Assessment: Follow-up 1  0-7 days after intervention completion"
+            ]
+        },
+        {
+            "longName": "Multisensory Reaction Time",
+            "shortName": "MRT",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline 1, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 2  w/in 6 wks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Follow up 2  1-21 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "Quality of Life (QoL-AD)",
+            "shortName": "QoL-AD",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline 1, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion"
+            ]
+        },
+        {
+            "longName": "Neuropsychiatric Inventory Questionnaire",
+            "shortName": "NPI-Q",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline 2, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "NEO Five Factor Inventory",
+            "shortName": "NEO-FFI",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "Zarit Caregiver Burden Scale",
+            "shortName": "ZCB",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 2  w/in 6 wks of starting intervention"
+            ]
+        },
+        {
+            "longName": "Expanded Short Physical Performance Battery",
+            "shortName": "eSPPB",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline 1, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment",
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow up 2  1-21 days after intervention completion",
+                "Assessment: Baseline 1  w/in 2 mos of phone screen & 14 wks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion"
+            ]
+        },
+        {
+            "longName": "Montreal Cognitive Assessment",
+            "shortName": "MoCA",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline 1, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow up 2  1-21 days after intervention completion",
+                "Assessment: Baseline 1  w/in 2 mos of phone screen & 14 wks of intervention start"
+            ]
+        },
+        {
+            "longName": "Timed Up and Go",
+            "shortName": "TUG",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline 1, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow up 2  1-21 days after intervention completion",
+                "Assessment: Baseline 1  w/in 2 mos of phone screen & 14 wks of intervention start"
+            ]
+        },
+        {
+            "longName": "Philadelphia Mindfulness Scale",
+            "shortName": "PHLMS",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline 1, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow up 2  1-21 days after intervention completion",
+                "Assessment: Baseline 1  w/in 2 mos of phone screen & 14 wks of intervention start"
+            ]
+        },
+        {
+            "longName": "Fullerton Advanced Balance Scale",
+            "shortName": "FABS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline 1, Follow-up 1",
+            "questionnaireTiming": [
+                "Assessment: Baseline 1  w/in 2 mos of phone screen and 14 weeks of intervention start",
+                "Assessment: Follow-up 1  0-7 days after intervention completion",
+                "Assessment: Baseline 1  w/in 2 mos of phone screen & 14 wks of intervention start"
+            ]
+        }
+    ]
+}

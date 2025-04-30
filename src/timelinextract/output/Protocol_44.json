@@ -1,0 +1,125 @@
+{
+    "Project Title": "Exercise in older women with breast cancer during systemic therapy \u2013 a randomized controlled trial",
+    "Sponsor": "Not Available",
+    "Study Number": "Not Available",
+    "Protocol Version and Date": "v8 18.06.2018",
+    "Study Title": "Exercise in older women with breast cancer during systemic therapy \u2013 a randomized controlled trial",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Breast Cancer",
+    "Number of Patients": 100,
+    "Number of Sites": 1,
+    "Indication": "Breast cancer",
+    "Duration of Treatment": "12 weeks",
+    "Schedule of Assessments": "Table 2 Data collection and tests",
+    "questionnaires": [
+        {
+            "longName": "Patient-Reported Performance Status",
+            "shortName": "PRPS",
+            "type": "PRO",
+            "questionnaireSchedule": "Measured at baseline, midway (6 weeks), post-intervention (12 weeks), and follow-up (16 weeks)",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "M.D. Anderson Symptom Inventory",
+            "shortName": "MDASI",
+            "type": "PRO",
+            "questionnaireSchedule": "Measured weekly",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "EORTC Quality of Life Questionnaire",
+            "shortName": "EORTC-QLQ-C30 & BR23",
+            "type": "PRO",
+            "questionnaireSchedule": "Measured at baseline, midway (6 weeks), post-intervention (12 weeks), and follow-up (16 weeks)",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "Hospital Anxiety and Depression Scale",
+            "shortName": "HADS",
+            "type": "PRO",
+            "questionnaireSchedule": "Measured at baseline, midway (6 weeks), post-intervention (12 weeks), and follow-up (16 weeks)",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "30-Second Chair Stand Test",
+            "shortName": "30s-CST",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Primary outcome measured at baseline, midway (6 weeks), post-intervention (12 weeks)",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "Six-Minute Walk Test",
+            "shortName": "6MWT",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Measured at baseline, midway (6 weeks), post-intervention (12 weeks)",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "Gait Speed Test (6m and 10m)",
+            "shortName": "Gait Speed",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Measured at baseline, midway (6 weeks), post-intervention (12 weeks)",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "Handgrip Strength Test",
+            "shortName": "HST",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Measured at baseline, midway (6 weeks), post-intervention (12 weeks)",
+            "questionnaireTiming": [
+                "",
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        },
+        {
+            "longName": "Stair Climb Test",
+            "shortName": "SCT",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Measured at baseline, midway (6 weeks), post-intervention (12 weeks)",
+            "questionnaireTiming": [
+                "Inclusion (baseline)",
+                "Midway (6 weeks)",
+                "Post-intervention (12 weeks)",
+                "Follow-up (16 weeks)"
+            ]
+        }
+    ]
+}

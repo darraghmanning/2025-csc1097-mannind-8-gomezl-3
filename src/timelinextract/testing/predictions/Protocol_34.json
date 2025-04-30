@@ -1,0 +1,52 @@
+{
+    "Project Title": "Randomized Placebo Controlled Trial of High Dose Intravenous Thiamine for the Prevention of Delirium in Allogeneic Hematopoietic Stem Cell Transplantation",
+    "Sponsor": "University of North Carolina",
+    "Study Number": "LCCC 1726",
+    "Protocol Version and Date": "Version 2, April 2017",
+    "Study Title": "High Dose Intravenous Thiamine for the Prevention of Delirium in Allogeneic Hematopoietic Stem Cell Transplantation",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Delirium prevention in hematopoietic stem cell transplantation",
+    "Number of Patients": "60",
+    "Number of Sites": "Not Available",
+    "Indication": "Delirium",
+    "Duration of Treatment": "7 days",
+    "Schedule of Assessments": "Appendix A, Section 7",
+    "questionnaires": [
+        {
+            "longName": "Functional Assessment of Cancer Therapy \u2013 Bone Marrow Transplant",
+            "shortName": "FACT-BMT",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline (pre-transplant) and at one (F1), three (F2), and six months (F3) after transplant"
+        },
+        {
+            "longName": "Patient Reported Outcomes Measurement Information System \u2013 Depression",
+            "shortName": "PROMIS-D",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline and at one (F1), three (F2), and six months (F3) after transplant"
+        },
+        {
+            "longName": "Post-Traumatic Stress Syndrome Scale 14",
+            "shortName": "PTSS-14",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline and at one (F1), three (F2), and six months (F3) after transplant"
+        },
+        {
+            "longName": "Montreal Cognitive Assessment",
+            "shortName": "MOCA",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline and at one (F1), three (F2), and six months (F3) after transplant"
+        },
+        {
+            "longName": "Eastern Cooperative Oncology Group Performance Status",
+            "shortName": "ECOG-PS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline and at one (F1), three (F2), and six months (F3) after transplant"
+        },
+        {
+            "longName": "Delirium Rating Scale",
+            "shortName": "DRS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline, on post-transplant day 1, and three times weekly thereafter"
+        }
+    ]
+}

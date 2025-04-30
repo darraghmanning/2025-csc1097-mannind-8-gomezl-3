@@ -1,0 +1,79 @@
+{
+    "Project Title": "A Randomized, Double-Blind, Placebo-Controlled Pilot Study of an Oral, Selective Peripheral Opioid Receptor Antagonist in Advanced Non-Small Cell Lung Cancer",
+    "Sponsor": "Alliance",
+    "Study Number": "A221504",
+    "Protocol Version and Date": "Update 2, Version Date 6/25/2019",
+    "Study Title": "A Randomized, Double-Blind, Placebo-Controlled Pilot Study Of An Oral, Selective Peripheral Opioid Receptor Antagonist In Advanced Non-Small Cell Lung Cancer",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Advanced Non-Small Cell Lung Cancer",
+    "Number of Patients": "200",
+    "Number of Sites": "Not Available",
+    "Indication": "Advanced non-small cell lung cancer",
+    "Duration of Treatment": "Up to 2 years",
+    "Schedule of Assessments": "Not Available",
+    "questionnaires": [
+        {
+            "longName": "Functional Assessment of Cancer Therapy-Lung",
+            "shortName": "FACT-L",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, every 3 weeks for the first year of treatment",
+            "questionnaireTiming": [
+                "\u2022",
+                "\u2022: Prior to the start of treatment*",
+                "\u2022: Every 6 weeks (+/- 7 days) until 1 year after start of treatment**",
+                "\u2022: Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment"
+            ]
+        },
+        {
+            "longName": "Patient-Reported Outcomes Common Terminology Criteria for Adverse Events",
+            "shortName": "PRO-CTCAE",
+            "type": "PRO",
+            "questionnaireSchedule": "Every 3 weeks for the first year, then every 3 months",
+            "questionnaireTiming": [
+                "\u2022",
+                "\u2022: Prior to the start of treatment*",
+                "\u2022: Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment"
+            ]
+        },
+        {
+            "longName": "Urinary Hesitancy Question",
+            "shortName": "Urinary Hesitancy",
+            "type": "PRO",
+            "questionnaireSchedule": "Every 3 weeks for the first year, then every 3 months",
+            "questionnaireTiming": [
+                "\u2022",
+                "\u2022: Prior to the start of treatment*",
+                "\u2022: Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment"
+            ]
+        },
+        {
+            "longName": "Bowel Function Diary",
+            "shortName": "BF-Diary",
+            "type": "PRO",
+            "questionnaireSchedule": "Every 3 weeks for the first year, then every 3 months",
+            "questionnaireTiming": [
+                "3 and 6 weeks after start of treatment",
+                "Every 6 weeks* until 1 year after start of treatment",
+                "Every 3 months",
+                "\u2022",
+                "\u2022: Prior to the start of treatment*",
+                "\u2022: Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment"
+            ]
+        },
+        {
+            "longName": "Pain and Pain Medication Diary",
+            "shortName": "Pain Diary",
+            "type": "PRO",
+            "questionnaireSchedule": "Every 3 weeks for the first year, then every 3 months",
+            "questionnaireTiming": [
+                "3 and 6 weeks after start of treatment",
+                "Every 6 weeks* until 1 year after start of treatment",
+                "Every 3 months",
+                "\u2022",
+                "\u2022: Prior to the start of treatment*",
+                "\u2022: Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment",
+                "\u2022: Every 6 weeks (+/- 7 days) until 1 year after start of treatment**"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "Project Title": "OSTPDL1, A Phase II Trial of Avelumab, a Fully Human Antibody that Targets Cells Expressing PDL1 in Patients with Recurrent or Progressive Osteosarcoma",
+    "Sponsor": "St. Jude Children\u2019s Research Hospital",
+    "Study Number": "IND# 132,874",
+    "Protocol Version and Date": "Revision 1.1, dated: 01-19-2018",
+    "Study Title": "OSTPDL1, A Phase II Trial of Avelumab, a Fully Human Antibody that Targets Cells Expressing PDL1 in Patients with Recurrent or Progressive Osteosarcoma",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Recurrent or Progressive Osteosarcoma",
+    "Number of Patients": "32 evaluable patients; 40 total patients",
+    "Number of Sites": "Not Available",
+    "Indication": "Recurrent or progressive osteosarcoma",
+    "Duration of Treatment": "Up to 24 months, or 26 cycles (with therapy administered every 2 weeks)",
+    "Schedule of Assessments": "Table 2, Section 9.1",
+    "questionnaires": [
+        {
+            "longName": "Patient Reported Outcome Measurement Information System (PROMIS) \u2013 Pediatric Profile",
+            "shortName": "PROMIS Pediatric",
+            "type": "PRO",
+            "questionnaireSchedule": "At diagnosis, end of cycle 2, end of cycle 4, end of avelumab therapy",
+            "questionnaireTiming": [
+                "Studies to be Obtained: Baseline",
+                "Studies to be Obtained: Prior to  Subsequent  Cycles",
+                "Studies to be Obtained: End of  Therapy"
+            ]
+        },
+        {
+            "longName": "Patient Reported Outcome Measurement Information System (PROMIS) \u2013 Adult Profile",
+            "shortName": "PROMIS Adult",
+            "type": "PRO",
+            "questionnaireSchedule": "At diagnosis, end of cycle 2, end of cycle 4, end of avelumab therapy",
+            "questionnaireTiming": [
+                "Studies to be Obtained: Baseline",
+                "Studies to be Obtained: Prior to  Subsequent  Cycles",
+                "Studies to be Obtained: End of  Therapy"
+            ]
+        },
+        {
+            "longName": "EORTC QLQ-C30",
+            "shortName": "EORTC QLQ-C30",
+            "type": "PRO",
+            "questionnaireSchedule": "Not specified in the document, used for patient-reported quality of life measures.",
+            "questionnaireTiming": [
+                "Studies to be Obtained: Baseline",
+                "Studies to be Obtained: Prior to  Subsequent  Cycles",
+                "Studies to be Obtained: End of  Therapy"
+            ]
+        }
+    ]
+}

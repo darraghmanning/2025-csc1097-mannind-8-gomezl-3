@@ -1,0 +1,181 @@
+{
+    "Project Title": "Protocol 251PP301",
+    "Sponsor": "Biogen MA Inc.",
+    "Study Number": "251PP301",
+    "Protocol Version and Date": "Version 7",
+    "Study Title": "Phase 2b Study of BIIB092 in Participants with Progressive Supranuclear Palsy",
+    "Phase": "Phase 2b",
+    "Therapeutic Area": "Progressive Supranuclear Palsy",
+    "Number of Patients": "Approximately 459 participants",
+    "Number of Sites": "Approximately 98 sites planned globally",
+    "Indication": "Progressive Supranuclear Palsy",
+    "Duration of Treatment": "52 weeks for double-blind treatment, followed by an open-label extension period",
+    "Schedule of Assessments": "Table 1, Table 2, Table 3, Table 4",
+    "questionnaires": [
+        {
+            "longName": "Progressive Supranuclear Palsy Rating Scale",
+            "shortName": "PSPRS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At Weeks 4, 8, 16, 20, and others as specified",
+            "questionnaireTiming": [
+                "Procedure: Screening Visit",
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: Week48  (\u00b13 days)",
+                "Procedure: Week 52  (\u00b13 days)",
+                "Procedure: Early  Discontinuation,",
+                "Procedure: 12 week intervals after Week 52c  (\u00b17 days)",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 64, 88,  112, 136, 160, 184  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)"
+            ]
+        },
+        {
+            "longName": "Movement Disorder Society-sponsored revision of the Unified Parkinson\u2019s Disease Rating Scale, Part II",
+            "shortName": "MDS-UPDRS Part II",
+            "type": "ClinRO",
+            "questionnaireSchedule": "As per study schedule at Weeks 4, 8, 16, 20 and others.",
+            "questionnaireTiming": [
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: Week 52  (\u00b13 days)",
+                "Procedure: Early  Discontinuation,",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)"
+            ]
+        },
+        {
+            "longName": "Clinical Global Impression of Severity",
+            "shortName": "CGI-S",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At Week 52",
+            "questionnaireTiming": [
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Early Discontinuation"
+            ]
+        },
+        {
+            "longName": "Clinical Global Impression of Change",
+            "shortName": "CGI-C",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At Week 52",
+            "questionnaireTiming": [
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Early Discontinuation"
+            ]
+        },
+        {
+            "longName": "Repeatable Battery for the Assessment of Neuropsychological Disease Severity",
+            "shortName": "RBANS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At Week 52",
+            "questionnaireTiming": [
+                "Procedure: Screening Visit",
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: Week 52  (\u00b13 days)",
+                "Procedure: Early  Discontinuation,",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)"
+            ]
+        },
+        {
+            "longName": "Schwab and England Activities of Daily Living Scale",
+            "shortName": "SEADL",
+            "type": "ClinRO",
+            "questionnaireSchedule": "At Weeks 48 & 52",
+            "questionnaireTiming": [
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)",
+                "Procedurea: Week 0  (Day 1)",
+                "Procedurea: (\u00b13 days)  Weeks  12, 24, 36",
+                "Procedurea: Week 48  (\u00b13 days)"
+            ]
+        },
+        {
+            "longName": "Phonemic Fluency Test",
+            "shortName": "Phonemic Fluency",
+            "type": "PRO",
+            "questionnaireSchedule": "At Weeks 48 & 52",
+            "questionnaireTiming": [
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)",
+                "Procedurea: Week 0  (Day 1)",
+                "Procedurea: (\u00b13 days)  Weeks  12, 24, 36",
+                "Procedurea: Week 48  (\u00b13 days)"
+            ]
+        },
+        {
+            "longName": "Letter-Number Sequencing Test",
+            "shortName": "LNS",
+            "type": "PRO",
+            "questionnaireSchedule": "At Weeks 48 & 52",
+            "questionnaireTiming": [
+                "Procedure: Screening Visit",
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)",
+                "Procedurea: Week 0  (Day 1)",
+                "Procedurea: (\u00b13 days)  Weeks  12, 24, 36",
+                "Procedurea: Week 48  (\u00b13 days)"
+            ]
+        },
+        {
+            "longName": "Color Trails Test",
+            "shortName": "CTT",
+            "type": "PRO",
+            "questionnaireSchedule": "At Weeks 48 & 52",
+            "questionnaireTiming": [
+                "Procedure: Screening Visit",
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: Week48  (\u00b13 days)",
+                "Procedure: Week 52  (\u00b13 days)",
+                "Procedure: Early  Discontinuation,",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)",
+                "Procedurea: Week 0  (Day 1)",
+                "Procedurea: (\u00b13 days)  Weeks  12, 24, 36",
+                "Procedurea: Week 48  (\u00b13 days)"
+            ]
+        },
+        {
+            "longName": "Montreal Cognitive Assessment",
+            "shortName": "MoCA",
+            "type": "PRO",
+            "questionnaireSchedule": "At Weeks 48 & 52",
+            "questionnaireTiming": [
+                "Procedure: Screening Visit",
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedurea: Week 0  (Day 1)",
+                "Procedurea: (\u00b13 days)  Weeks  12, 24, 36",
+                "Procedurea: Week 48  (\u00b13 days)"
+            ]
+        },
+        {
+            "longName": "Progressive Supranuclear Palsy Quality of Life scale",
+            "shortName": "PSP-QoL",
+            "type": "PRO",
+            "questionnaireSchedule": "At Week 52",
+            "questionnaireTiming": [
+                "Procedure: Screening Visit",
+                "Procedure: Week0  (Day 1)",
+                "Procedure: Weeks 12,  24,36  (\u00b13 days)",
+                "Procedure: Week48  (\u00b13 days)",
+                "Procedure: Week 52  (\u00b13 days)",
+                "Procedure: Early  Discontinuation,",
+                "Procedure: 12 week intervals after Week 52c  (\u00b17 days)",
+                "Procedure: 24 week intervals after Week 52d  (\u00b17 days)",
+                "Procedure: Weeks 64, 88,  112, 136, 160, 184  (\u00b17 days)",
+                "Procedure: Weeks 76, 100,  124,148,172,196  (\u00b17 days)"
+            ]
+        }
+    ]
+}

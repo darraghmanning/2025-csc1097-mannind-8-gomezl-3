@@ -1,0 +1,86 @@
+{
+    "Project Title": "A Multicenter, Double-blind, Randomized, Placebo-controlled Study to Evaluate the Safety and Efficacy of Intravenous CR845 in Hemodialysis Patients with Moderate-to-Severe Pruritus, with a 52-Week Open-label Extension",
+    "Sponsor": "Cara Therapeutics, Inc.",
+    "Study Number": "CR845-CLIN3102",
+    "Protocol Version and Date": "Version 1.0, December 21, 2017",
+    "Study Title": "A Multicenter, Double-blind, Randomized, Placebo-controlled Study to Evaluate the Safety and Efficacy of Intravenous CR845 in Hemodialysis Patients with Moderate-to-Severe Pruritus, with a 52-Week Open-label Extension",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Moderate-to-Severe Pruritus in Hemodialysis Patients",
+    "Number of Patients": "350 (may increase to 500)",
+    "Number of Sites": "80",
+    "Indication": "Moderate-to-Severe Pruritus in Hemodialysis Patients",
+    "Duration of Treatment": "Up to 12 weeks",
+    "Schedule of Assessments": "Section 8 and relevant tables in the protocol",
+    "questionnaires": [
+        {
+            "longName": "Worst Itching Intensity Numerical Rating Scale (NRS)",
+            "shortName": "NRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Patients report daily during study visits.",
+            "questionnaireTiming": [
+                "Study Procedures  Visit Days \ufffd: -7 to 1   (Day -7 to  Day 1  ) (Run-in  Period!  )",
+                "Study Procedures  Visit Days \ufffd: 85   (First Day of  Week13  ) (Double-blind End of  Treatment/  Early Termination  )",
+                "Study Procedures  Visit Days \ufffd: 85 to 98   (DP Days 2 -14  ) (Discontinuation  Period  )"
+            ]
+        },
+        {
+            "longName": "Skindex-10 Scale",
+            "shortName": "Skindex-10",
+            "type": "PRO",
+            "questionnaireSchedule": "Completion at the end of Weeks 4, 8, 10, and 12.",
+            "questionnaireTiming": [
+                "Study Procedures  Visit Days \ufffd",
+                "Study Procedures  Visit Days \ufffd: 1   (M/Tu  ) (Weekl  ) (Double-blind Treatment Period  )",
+                "Study Procedures  Visit Days \ufffd: 8   (M/Tu  ) (Week 2 to 12  )",
+                "Study Procedures  Visit Days \ufffd: 85   (First Day of  Week13  ) (Double-blind End of  Treatment/  Early Termination  )"
+            ]
+        },
+        {
+            "longName": "5-D Itch Scale",
+            "shortName": "5-D Itch",
+            "type": "PRO",
+            "questionnaireSchedule": "Completion at the end of Weeks 4, 8, 10, and 12.",
+            "questionnaireTiming": [
+                "Study Procedures  Visit Days \ufffd",
+                "Study Procedures  Visit Days \ufffd: 1   (M/Tu  ) (Weekl  ) (Double-blind Treatment Period  )",
+                "Study Procedures  Visit Days \ufffd: 8   (M/Tu  ) (Week 2 to 12  )",
+                "Study Procedures  Visit Days \ufffd: 85   (First Day of  Week13  ) (Double-blind End of  Treatment/  Early Termination  )",
+                "Study Procedures: Week 4",
+                "Study Procedures: Week 8",
+                "Study Procedures: Week 12",
+                "Study Procedures: Week 24",
+                "Study Procedures: Week 36",
+                "Study Procedures: First Dialysis of Week  53  End of Treatment /arly  Termination"
+            ]
+        },
+        {
+            "longName": "Patient Global Impression of Change",
+            "shortName": "PGIC",
+            "type": "PRO",
+            "questionnaireSchedule": "Completion at the end of treatment and other designated visits.",
+            "questionnaireTiming": [
+                "Study Procedures  Visit Days \ufffd: 85   (First Day of  Week13  ) (Double-blind End of  Treatment/  Early Termination  )"
+            ]
+        },
+        {
+            "longName": "Short Opiate Withdrawal Scale",
+            "shortName": "ShOWS",
+            "type": "PRO",
+            "questionnaireSchedule": "Daily completion during the Discontinuation Period.",
+            "questionnaireTiming": [
+                "Study Procedures  Visit Days \ufffd: 85   (First Day of  Week13  ) (Double-blind End of  Treatment/  Early Termination  )",
+                "Study Procedures  Visit Days \ufffd: 85 to 98   (DP Days 2 -14  ) (Discontinuation  Period  )"
+            ]
+        },
+        {
+            "longName": "Objective Opiate Withdrawal Scale",
+            "shortName": "OOWS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Completion by trained observer at each dialysis visit.",
+            "questionnaireTiming": [
+                "Study Procedures  Visit Days \ufffd: 85   (First Day of  Week13  ) (Double-blind End of  Treatment/  Early Termination  )",
+                "Study Procedures  Visit Days \ufffd: 85 to 98   (DP Days 2 -14  ) (Discontinuation  Period  )"
+            ]
+        }
+    ]
+}

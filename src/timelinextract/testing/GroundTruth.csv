@@ -1,8 +1,8 @@
 ﻿ProtocolName,Sponsor,TherapeuticArea,Questionnaires,Timelines,
 Protocol_01,LEO Pharma France,Dermatogoly,"Dermatology Life Quality Index (DLQI)
 PSO-TARGET Quality of Life Component Grid (PSO-TARGET QoL Component Grid)
-","['Base-line Visit (Day 0)', '3 months Visit (week 12-16)', '12 months visit (week 48-56)']
-['Base-line Visit (Day 0)', '3 months Visit (week 12-16)', '12 months visit (week 48-56)']",Psoriasis area and severity index (PASI) (Not marked as PROs in protocol)
+","['Reporter: Base-line Visit (Day 0)', 'Reporter: 3 months Visit (week 12-16)', 'Reporter: 12 months visit (week 48-56)']
+['Reporter: Base-line Visit (Day 0)', 'Reporter: 3 months Visit (week 12-16)', 'Reporter: 12 months visit (week 48-56)']",
 Protocol_02,"National Cancer Institute 
 ",Oncology,Functional Assessment of Cancer Therapy-General (FACT-G),"['Cycle 1', 'Cycle 4', 'Treatment Discontinuation', 'Off Study']",
 Protocol_03,Amgen Inc.,Immunology & Fibrosis Clinical Development,"Dermatology Life Quality Index (DLQI)
@@ -11,12 +11,12 @@ Skin Discomfort/Pain Visual Analog Scale (VAS)
 Psoriasis Area and Severity Index (PASI)
 European Quality of Life 5-Dimension Questionnaire (EQ-5D)
 The Work Productivity and Activity Impairment Questionnaire: Psoriasis (WPAI:
-PSO)","['Visit Number: 1 (Screening)', 'Visit Number: Baseline 2', 'Visit Number: 3 (Placebo-Controlled)', 'Visit Number: 4 (Phase)', 'Visit Number: 5', 'Visit Number: 6', 'Visit Number: 7 (Apremilast)', 'Visit Number: 9/ETc (Phaseb)']
-['Visit Number: Baseline 2', 'Visit Number: 3 (Placebo-Controlled)', 'Visit Number: 4 (Phase)', 'Visit Number: 5', 'Visit Number: 6', 'Visit Number: 7 (Apremilast)', 'Visit Number: 9/ETc (Phaseb)']
-['Visit Number: Baseline 2', 'Visit Number: 3 (Placebo-Controlled)', 'Visit Number: 4 (Phase)', 'Visit Number: 5', 'Visit Number: 6', 'Visit Number: 7 (Apremilast)', 'Visit Number: 9/ETc (Phaseb)']
-['Visit Number: 1 (Screening)', 'Visit Number: Baseline 2', 'Visit Number: 3 (Placebo-Controlled)', 'Visit Number: 4 (Phase)', 'Visit Number: 5', 'Visit Number: 6', 'Visit Number: 7 (Apremilast)', 'Visit Number: 9/ETc (Phaseb)']
-['Visit Number: Baseline 2', 'Visit Number: 5', 'Visit Number: 9/ETc (Phaseb)']
-['Visit Number: Baseline 2', 'Visit Number: 5', 'Visit Number: 9/ETc (Phaseb)']",
+PSO)","['Visit Number: 1 (Screening)', 'Visit Number: Baseline 2 (Placebo-Controlled Phasea )', 'Visit Number: 3', 'Visit Number: 4', 'Visit Number: 5', 'Visit Number: 6 (Apremilast Extension Phaseb )', 'Visit Number: 7 ', 'Visit Number: 9/ETc ']
+['Visit Number: Baseline 2 (Placebo-Controlled Phasea )', 'Visit Number: 3', 'Visit Number: 4', 'Visit Number: 5', 'Visit Number: 6 (Apremilast Extension Phaseb )', 'Visit Number: 7', 'Visit Number: 9/ETc']
+['Visit Number: Baseline 2 (Placebo-Controlled Phasea )', 'Visit Number: 3', 'Visit Number: 4', 'Visit Number: 5', 'Visit Number: 6 (Apremilast Extension Phaseb )', 'Visit Number: 7', 'Visit Number: 9/ETc']
+['Visit Number: 1 (Screening)', 'Visit Number: Baseline 2 (Placebo-Controlled Phasea )', 'Visit Number: 3', 'Visit Number: 4', 'Visit Number: 5', 'Visit Number: 6 (Apremilast Extension Phaseb )', 'Visit Number: 7', 'Visit Number: 9/ETc']
+['Visit Number: Baseline 2 (Placebo-Controlled Phasea )', 'Visit Number: 5', 'Visit Number: 9/ETc']
+['Visit Number: Baseline 2 (Placebo-Controlled Phasea )', 'Visit Number: 5', 'Visit Number: 9/ETc']",
 Protocol_04,Huntsman Cancer Institute (HCI),Oncology,"Functional Assessment of Cancer Therapy - Prostate (FACT-P)
 Functional Assessment of Cancer Therapy/Gynecologic Oncology Group - Neurotoxicity (FACT/GOG-NTX)
 Patient-Reported Outcomes Measurement Information System Fatigue (PROMIS Fatigue)","['Protocol Procedures: M0 (Day 1)', 'Protocol Procedures: M3', 'Protocol Procedures: M6 (Months (+/-4)', 'Protocol Procedures: M9 (days))', 'Protocol Procedures: M12', 'Protocol Procedures: M18']
@@ -44,7 +44,7 @@ NEO Five Factor Inventory (NEO-FFI)","['Assessment: Baseline 1 w/in 2 mos of pho
 ['Assessment: Baseline 2 w/in 6 wks of starting intervention', 'Assessment: Follow-up 1 0-7 days after intervention completion', 'Assessment: Baseline 2 w/in 6 wks of intervention start']
 ['Assessment: Baseline 2 w/in 6 wks of starting intervention', 'Assessment: Follow-up 1 0-7 days after intervention completion', 'Assessment: Baseline 2 w/in 6 wks of intervention start']
 ['Assessment: Baseline 2 w/in 6 wks of starting intervention']",
-Protocol_07,Roswell Park Cancer Institute,Oncology,University of Washington Quality of Life Questionnaire Version 4 (UW-QoLQ v4),"['Baseline, ~12-16 Weeks Post Treatment', 'Follow-Up, About 12-16 W Post Surgery']",
+Protocol_07,Roswell Park Cancer Institute,Oncology,University of Washington Quality of Life Questionnaire Version 4 (UW-QoLQ v4),"['Baseline1, ~12-16 Weeks Post Treatment', 'Follow-Up2', 'About 12-16 W Post Surgery']",
 Protocol_08,Oregon Health & Science University (OHSU),Oncology,"Godin Leisure-Time Exercise Questionnaire (GLTEQ)
 PROMIS-Cancer Physical Function Measure (PROMIS-Cancer-PF)
 36-Item Short Form Health Survey (SF-36)
@@ -53,13 +53,13 @@ Functional Assessment of Cancer Therapy-Fatigue (FACT-F)","['Procedures: Baselin
 ['Procedures: Baseline/W1', 'Procedures: Follow Up*', 'Informed Consent (Treating physician evaluation) (Eligibility review) (Procedures): Baseline /W1', 'Informed Consent (Treating physician evaluation) (Eligibility review) (Procedures): Follow Up*']
 ['Procedures: Baseline/W1', 'Procedures: Follow Up*', 'Informed Consent (Treating physician evaluation) (Eligibility review) (Procedures): Baseline /W1', 'Informed Consent (Treating physician evaluation) (Eligibility review) (Procedures): Follow Up*']",
 Protocol_09,University of Washington / Seattle Cancer Care Alliance,Urologic oncology,"Functional Assessment of Cancer Therapy - Prostate (FACT-P)
-Short Form Health Survey (SF-36)","['Day 1 (±7 days)', 'Day 91 (±7 days) (End of Study)', 'Day 180 (± 30 days)', 'Day 365 (±30 days) (Long-term)', 'Day 545 (±30 days) (follow-up)', 'Day 730 (±30 days)']
-['Day 1 (±7 days)', 'Day 91 (±7 days) (End of Study)', 'Day 180 (± 30 days)', 'Day 365 (±30 days) (Long-term)', 'Day 545 (±30 days) (follow-up)', 'Day 730 (±30 days)']","In the Schedule of Events table, both questionnaires are under 'Quality of life questionnaires'"
+Short Form Health Survey (SF-36)","['Day 1 (±7 days)', 'Day 91 (±7 days) (End of Study)', 'Day 180 (± 30 days) (Long-term follow-up)', 'Day 365 (±30 days)', 'Day 545 (±30 days)', 'Day 730 (±30 days)']
+['Day 1 (±7 days)', 'Day 91 (±7 days) (End of Study)', 'Day 180 (± 30 days) (Long-term follow-up)', 'Day 365 (±30 days)', 'Day 545 (±30 days)', 'Day 730 (±30 days)']",
 Protocol_10,Boehringer Ingelheim,Pulmonology,"St. George's Respiratory Questionnaire (SGRQ)
 King's Brief Interstitial Lung Disease questionnaire (K-BILD)
-University of California, San Diego Shortness of Breath Questionnaire (UCSD-SOBQ)","['Visit: 1', 'Visit: 2', 'Visit: 5', 'Visit: 7 (EOT)']
-['Visit: 1', 'Visit: 2', 'Visit: 5', 'Visit: 7 (EOT)']
-['Visit: 1', 'Visit: 2', 'Visit: 5', 'Visit: 7 (EOT)']",
+University of California, San Diego Shortness of Breath Questionnaire (UCSD-SOBQ)","['Visit: 1', 'Visit: 2 (Treatment) (Interventional Period)', 'Visit: 5', 'Visit: 7 (EOT)']
+['Visit: 1', 'Visit: 2 (Treatment) (Interventional Period)', 'Visit: 5', 'Visit: 7 (EOT)']
+['Visit: 1', 'Visit: 2 (Treatment) (Interventional Period)', 'Visit: 5', 'Visit: 7 (EOT)']",
 Protocol_11,St. Jude Children's Research Hospital,Oncology,"PROMIS Pediatric Profile (PROMIS-37 Profile v.1.1)
 PROMIS Adult Profile (PROMIS-43 Profile v.2.0)","['Studies to be Obtained: Prior to Subsequent Cycles', 'Studies to be Obtained: End of Therapy', 'Studies to be Obtained: Baseline']
 ['Studies to be Obtained: Prior to Subsequent Cycles', 'Studies to be Obtained: End of Therapy', 'Studies to be Obtained: Baseline']",
@@ -71,7 +71,7 @@ Pain and Pain Medication Diary (Pain Diary)","['Prior to the start of treatment*
 ['Prior to the start of treatment*', 'Every 6 weeks (+/- 7 days) until 1 year after start of treatment**', 'Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment']
 ['Prior to the start of treatment*', 'Every 6 weeks (+/- 7 days) until 1 year after start of treatment**', 'Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment']
 ['Prior to the start of treatment*', 'Every 6 weeks (+/- 7 days) until 1 year after start of treatment**', 'Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment']
-['Prior to the start of treatment*', 'Every 6 weeks (+/- 7 days) until 1 year after start of treatment**', 'Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment']","This schedule of events contains many appendices, and the output might be inaccurate because, instead of using 'X,' they continue referencing items in the appendix with 'A' or 'B'"
+['Prior to the start of treatment*', 'Every 6 weeks (+/- 7 days) until 1 year after start of treatment**', 'Every 3 months (+/- 7 days) from 1 year to 2 years after the start of treatment']",
 Protocol_13,Centers for Disease Control & Prevention (CDC),Infectious diseases and Preventive medicine,"Late Life Function & Disability Instrument (LLFDI)
 EuroQOL 5 dimensions-5 level (EQ-5D-5L)
 EuroQOL visual analogue scale (EQ VAS)
@@ -85,7 +85,7 @@ Protocol_14,Alliance for Clinical Trials in Oncology,Oncology,"Chronic Respirato
 Medical Research Council Dyspnea Score (MRC)
 Linear Analog Self-Assessment (LASA)","['Baseline', 'At 3 and 6 months after surgery*']
 ['Baseline', 'At 3 and 6 months after surgery*']
-['Baseline', 'At 3 and 6 months after surgery*']","It is not able to extract the schedule of events, might need to modify prompt? or add a different technique to extract schedule of events (have 2 techniques so that we don't rely only on chatgpt)? Extracted tables data is missing."
+['Baseline', 'At 3 and 6 months after surgery*']",
 Protocol_15,Alliance for Clinical Trials in Oncology,Oncology,"Numerical Analogue Mouth Pain Scale
 Numerical Analogue Self-Assessment
 PRO-CTCAE items Mouth/throat sores, Sleep and Fatigue items (PRO-CTCAE)
@@ -102,15 +102,9 @@ Patient Global Satisfaction Score (Likert Scale)","['Week (Visit number) (Phase 
 Protocol_18,Novartis,Asthma,"Asthma Quality of Life Questionnaire (AQLQ)
 Asthma Control Questionnaire  (ACQ-7)","['Visit number (Period): 201 (Treatment)', 'Visit number (Period): 203', 'Visit number (Period): 204', 'Visit number (Period): TD']
 ['Visit number (Period): 101 (Run-in)', 'Visit number (Period): 201 (Treatment)', 'Visit number (Period): 203', 'Visit number (Period): 204', 'Visit number (Period): TD']",
-Protocol_19,AstraZeneca,Oncology,"Functional Assessment of Cancer Therapy-Prostate (FACT-P)
-International Index of Erectile Function (IIEF)","['Cycle 1 (Day 1 (±7d))', 'Cycle 4 (Day 1 (±7d))', 'Cycle ? 5 (Day 1 (±7d))', 'End of Study (?30 d from stopping treatment)']
-['Cycle 1 (Day 1 (±7d))', 'Cycle 4 (Day 1 (±7d))', 'Cycle ? 5 (Day 1 (±7d))', 'End of Study (?30 d from stopping treatment)']","The schedule of events is split across two pages, but the second table is missing a header"
-Protocol_20,Mayo Clinic Cancer Center,Oncology & Hematology,"Myeloproliferative Neoplasm Symptom Assessment Form Total Symptom Score (MPN-SAF TSS)
-European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire (EORTC QLQ-C30)","['Tests and procedures: ?14 days prior to registration', 'Tests and procedures: Cycle 1 Days 1, 8, 15, & 28(+3 days) 5, 13',  'Tests and procedures: Cycles 2 & 3 Days 1, 15, and 28 (+ 3 days) 5, 13', 'Tests and procedures: Cycles 4+Day 1 and Beyond(+/-3 days) 5,17', 'Tests and procedures: EOS2']
-['Tests and procedures: ?14 days prior to registration', 'Tests and procedures: Cycle 1 Days 1, 8, 15, & 28(+3 days) 5, 13',  'Tests and procedures: Cycles 2 & 3 Days 1, 15, and 28 (+ 3 days) 5, 13', 'Tests and procedures: Cycles 4+Day 1 and Beyond(+/-3 days) 5,17', 'Tests and procedures: EOS2']","The schedule of events is split across two pages, but the second table is missing a header"
-Protocol_21,Onconova Therapeutics Inc,Myelodysplastic Syndrome (MDS),Myeloproliferative Neoplasm Symptom Assessment Form Total Symptom Score (MPN-SAF TSS),"['Tests/Evaluations: Baseline/ C1D1b', 'Tests/Evaluations: Q4W for 12 Wk then Q8Wb']",
-Protocol_22,"Mehmet Asim Bilen, MD",Oncology(Renal Cell Carcinoma (RCC)),Functional Assessment of Cancer Therapy-Kidney Specific Index-19 (FKSI-19),"['Day: (Treatment Cycle/Title:): -3 to 1 (Baseline (Visit 2)a,b)', 'Day: (Treatment Cycle/Title:): 43', 'Day: (Treatment Cycle/Title:): Within 14 days of last dose of lenvatinib']",
-Protocol_23,Department of Defense (DoD),Orthopedic Surgery,"Multiple Ligament Quality of Life Questionnaire (MLQoL)
+Protocol_19,Onconova Therapeutics Inc,Myelodysplastic Syndrome (MDS),Myeloproliferative Neoplasm Symptom Assessment Form Total Symptom Score (MPN-SAF TSS),"['Tests/Evaluations: Baseline/ C1D1b', 'Tests/Evaluations: Q4W for 12 Wk then Q8Wb']",
+Protocol_20,"Mehmet Asim Bilen, MD",Oncology(Renal Cell Carcinoma (RCC)),Functional Assessment of Cancer Therapy-Kidney Specific Index-19 (FKSI-19),"['Day: (Treatment Cycle/Title:) (Trial Phase: ): -3 to 1 (Baseline (Visit 2)a,b)', 'Day: (Treatment Cycle/Title:) (Trial Phase: ): 43 (3)', 'Day: (Treatment Cycle/Title:) (Trial Phase: ): Within 14 days of last dose of lenvatinib (Post-Treatment Phase )']",
+Protocol_21,Department of Defense (DoD),Orthopedic Surgery,"Multiple Ligament Quality of Life Questionnaire (MLQoL)
 Patient Reported Outcome Measurement Information System Physical Function Scale (PROMIS PF)
 PROMIS Global 10 (PROMIS Global 10)
 International Knee Documentation Committee Subjective Knee Form (IKDC-SKF)
@@ -127,23 +121,23 @@ Functional Comorbidity Index (FCI)","['Forms: Baseline (Screening/)', 'Forms: Su
 ['Forms: Baseline (Screening/)', 'Forms: 6 m', 'Forms: 12 m', 'Forms: 24 m']
 ['Forms: Baseline (Screening/)', 'Forms: 6 m', 'Forms: 12 m', 'Forms: 24 m']
 ['Forms: Baseline (Screening/)']",
-Protocol_24,"Medtronic, Inc. / Medtronic International Trading Sàrl / Medtronic of Canada",Overactive Bladder (OAB),International Consultation on Incontinence Questionnaire - Overactive Bladder Quality of Life (ICIQ-OABqol),"['Enrollment / Baseline', '12-Week Follow-Up Visit (+/- 7 days)']",Extracted tables data is missing.
-Protocol_25,Charité Universitätsmedizin Berlin,Metastatic colorectal cancer,EQ-5D-5L Quality of Life Questionnaire (EQ5D5L),"['Inclusion is possible 3-10 weeks after the SOC intervention after successful screening (Screening and Randomization Phase)', '3mo. (± 2w) (Structured Follow-up)', '6mo. (± 2w) (Structured Follow-up)', '9mo. - 24mo. (q3mo. ± 2w) Structured Follow-up', at least 60mo. after random. or until death (q6mo. ± 1mo.) (Structured Follow-up)']",Extracted tables data is missing.
-Protocol_26,Cambridge University Hospital NHS Foundation Trust,Oncology,"Skindex-16 (Skindex-16)
+Protocol_22,"Medtronic, Inc. / Medtronic International Trading Sàrl / Medtronic of Canada",Overactive Bladder (OAB),International Consultation on Incontinence Questionnaire - Overactive Bladder Quality of Life (ICIQ-OABqol),"['Enrollment / Baseline', '12-Week Follow-Up Visit (+/- 7 days)']",
+Protocol_23,Charité Universitätsmedizin Berlin,Metastatic colorectal cancer,EQ-5D-5L Quality of Life Questionnaire (EQ5D5L),"['Inclusion is possible 3-10 weeks after the SOC intervention after successful screening (Screening and Randomization Phase)', '3mo. (± 2w) (Structured Follow-up)', '6mo. (± 2w) (Structured Follow-up)', '9mo. - 24mo. (q3mo. ± 2w) Structured Follow-up', at least 60mo. after random. or until death (q6mo. ± 1mo.) (Structured Follow-up)']",Extracted tables data is missing.
+Protocol_24,Cambridge University Hospital NHS Foundation Trust,Oncology,"Skindex-16 (Skindex-16)
 Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE)
 European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire (EORTC QLQ-C30)","['Pre-randomisation (Screening)', 'Day 1 (Cycle 2)', 'Day 1 (Cycle 3 onwards 1)', 'Treatment (End of)', '(prior to progression)1 (4-weekly Follow-up) ', 'Progression (Disease)', 'after progression (3-Monthly Follow-up)']
 ['Pre-randomisation (Screening)', 'Day 1 (Cycle 2)', 'Day 1 (Cycle 3 onwards 1)', 'Treatment (End of)', '(prior to progression)1 (4-weekly Follow-up) ', 'Progression (Disease)', 'after progression (3-Monthly Follow-up)']
 ['Pre-randomisation (Screening)', 'Day 1 (Cycle 2)', 'Day 1 (Cycle 3 onwards 1)', 'Treatment (End of)', '(prior to progression)1 (4-weekly Follow-up) ', 'Progression (Disease)', 'after progression (3-Monthly Follow-up)']",Table with merged cells
-Protocol_27,Patient-Centered Outcomes Research Institute,Oncology,"European Organization for Research and Treatment of Cancer - Quality of Life Questionnaire (EORTC QLQ-C30)
+Protocol_25,Patient-Centered Outcomes Research Institute,Oncology,"European Organization for Research and Treatment of Cancer - Quality of Life Questionnaire (EORTC QLQ-C30)
 European Organization for Research and Treatment of Cancer - Quality of Life Questionnaire - Neuroendocrine Carcinoid Module (EORTC QLQ-GI.NET21)","['Concept/measure: Baseline Survey', 'Concept/measure: Follow- up Surveys']
-['Concept/measure: Baseline Survey', 'Concept/measure: Follow- up Surveys']","+ [Month 6, Month 12, Month 18] But only mentioned on text not on table"
-Protocol_28,"Parminder Singh, MD",Oncology,"European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30)
-European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Bladder Cancer Module (EORTC QLQ-BLM30)","['Tests and procedures: Screening (?28 days prior to reg)', 'Tests and procedures: End of Treatment (30 days after last dose) (Monitoring)', 'Tests and procedures: EOS (12 Mo after registration) (Clinical Follow-up)']
-['Tests and procedures: Screening (?28 days prior to reg)', 'Tests and procedures: End of Treatment (30 days after last dose) (Monitoring)', 'Tests and procedures: EOS (12 Mo after registration) (Clinical Follow-up)']",
-Protocol_29,Biogen MA Inc./Biogen Idec Research Limited/ Biogen Japan Ltd./Biogen Australia PTY Ltd.,Neurology,"Progressive Supranuclear Palsy Quality of Life scale (PSP-QoL)
-EuroQol (EQ-5D)","['Procedure: Week 0 (Day 1)', 'Procedure: Weeks 12, 24, 36 (+3 days)', 'Procedure: Week 52 (+3 days)', 'Procedure: Early Discontinuation', 'Procedure: Weeks 76, 100, 124, 148, 172, 196 (+7 days)', 'Procedure: 24 week intervals after Week 52d (+7 days)']","It has a See Notes section in the Schedule of Events (At Week 64)
-EQ-5D timeline is hidden"
-Protocol_30,National Institute of Nursing Research (NINR),Transitional care,"Care Transitions Measure-15 (CTM-15)
+['Concept/measure: Baseline Survey', 'Concept/measure: Follow- up Surveys']",
+Protocol_26,"Parminder Singh, MD",Oncology,"European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30)
+European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Bladder Cancer Module (EORTC QLQ-BLM30)","['Tests and procedures: Screening (<28 days prior to reg)', 'Tests and procedures: End of Treatment (30 days after last dose) (Monitoring)', 'Tests and procedures: EOS (12 Mo after registration) (Clinical Follow-up)']
+['Tests and procedures: Screening (<28 days prior to reg)', 'Tests and procedures: End of Treatment (30 days after last dose) (Monitoring)', 'Tests and procedures: EOS (12 Mo after registration) (Clinical Follow-up)']",
+Protocol_27,Biogen MA Inc./Biogen Idec Research Limited/ Biogen Japan Ltd./Biogen Australia PTY Ltd.,Neurology,"Progressive Supranuclear Palsy Quality of Life scale (PSP-QoL)
+EuroQol (EQ-5D)","['Procedure: Screening Visit', 'Procedure: Week 0 (Day 1)', 'Procedure: Weeks 12, 24, 36 (+3 days)', 'Procedure: Week 48 (+ 3 days) 'Procedure: Week 52 (+3 days)', 'Procedure: Early Discontinuation', 'Procedure: Weeks 76, 100, 124, 148, 172, 196 (+7 days)', 'Procedure: 12 week intervals after Week 52c (±7 days)', 'Procedure: 24 week intervals after Week 52d (+7 days)', 'Procedure: Weeks 64, 88, 112, 136, 160, 184 (±7 days)']
+['Procedure: Week 0 (Day 1)', 'Procedure: Weeks 12, 24, 36 (+3 days)', 'Procedure: Week 52 (+3 days)', 'Procedure: Early Discontinuation', 'Procedure: Weeks 76, 100, 124, 148, 172, 196 (+7 days)', 'Procedure: 24 week intervals after Week 52d (+7 days)']",
+Protocol_28,National Institute of Nursing Research (NINR),Transitional care,"Care Transitions Measure-15 (CTM-15)
 Preparedness for Caregiving Scale (PCS)
 McGill Quality of Life Questionnaire-Revised (MQoL-R)
 Life Space Assessment (LSA)
@@ -166,28 +160,28 @@ Death Report by Caregiver (Death Report)","['Assessments and Procedures: 7 Days 
 ['Assessments and Procedures: 30 Days Post- Discharge (+/- 7 days)', 'Assessments and Procedures: 60 Days Post- Discharge (+/-7 days)']
 ['Assessments and Procedures: 30 Days Post- Discharge (+/- 7 days)', 'Assessments and Procedures: 60 Days Post- Discharge (+/-7 days)']
 ['Assessments and Procedures: 30 Days Post- Discharge (+/- 7 days)', 'Assessments and Procedures: 60 Days Post- Discharge (+/-7 days)']",
-Protocol_31,Military Institute of Medicine,Oncology,"The European Organization for Research and Treatment of Cancer Quality of Life Questionnaire  (EORTC QLQ-C30)
+Protocol_29,Military Institute of Medicine,Oncology,"European Organization for Research and Treatment of Cancer Quality of Life Questionnaire  (EORTC QLQ-C30)
 FACT-Kidney Symptom Index - 15 (FKSI-15)
 Perceived Stress Scale (PSS)","['Assessment: W1D1 5', 'Assessment: W7D1', 'Assessment: W13D1', 'Assessment: W19D1', 'Assessment: W25D1', 'Assessment: After beginning of W25', 'Assessment: End-of- treatment visit']
 ['Assessment: W1D1 5', 'Assessment: W7D1', 'Assessment: W13D1', 'Assessment: W19D1', 'Assessment: W25D1', 'Assessment: After beginning of W25', 'Assessment: End-of- treatment visit']
 ['Assessment: W1D1 5', 'Assessment: W7D1', 'Assessment: W13D1', 'Assessment: W19D1', 'Assessment: W25D1', 'Assessment: After beginning of W25', 'Assessment: End-of- treatment visit']",
-Protocol_32,Alliance for Clinical Trials in Oncology,Oncology,"Prostate Cancer Treatment Questionnaire (PCTQ)
+Protocol_30,Alliance for Clinical Trials in Oncology,Oncology,"Prostate Cancer Treatment Questionnaire (PCTQ)
 Decisional Conflict Scale (DCS)
 Expanded Prostate Cancer Index Composite Short Form (EPIC-26)
 Decisional Regret Scale (DRS)","['Baseline*', '12 months after baseline*']
 ['Baseline*', '12 months after baseline*']",Weird structure of Schedule of Events + Different names
-Protocol_33,Genzyme Corporation,Hematology,"Hemophilia Quality of Life Questionnaire for Adults (Haem-A-QOL)
+Protocol_31,Genzyme Corporation,Hematology,"Hemophilia Quality of Life Questionnaire for Adults (Haem-A-QOL)
 Hemophilia Quality of Life Questionnaire for children and adolescents (Haemo-QOL)
 Treatment Satisfaction Questionnaire for Medication (TSQM)
 Hemophilia Activities List (HAL)
 Pediatric Hemophilia Activities List (pedHAL)
-EuroQol-5 dimension (EQ-5D)","['Study Day (+Visit Window) (Study Visit (Month)): Baseline (Onset Period)', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
-['Study Day (+Visit Window) (Study Visit (Month)): Baseline (Onset Period)', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
-['Study Day (+Visit Window) (Study Visit (Month)): Baseline (Onset Period)', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
-['Study Day (+Visit Window) (Study Visit (Month)): Baseline (Onset Period)', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
-['Study Day (+Visit Window) (Study Visit (Month)): Baseline (Onset Period)', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
-['Study Day (+Visit Window) (Study Visit (Month)): Baseline (Onset Period)', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']",
-Protocol_34,"Cara Therapeutics, Inc.",Nephrology,"Worst Itching Intensity Numerical Rating Scale (Worst Itching Intensity NRS)
+EuroQol-5 dimension (EQ-5D)","['Study Day (±Visit Window) (Study Visit (Month) ): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
+['Study Day (±Visit Window) (Study Visit (Month) ): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
+['Study Day (±Visit Window) (Study Visit (Month) ): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
+['Study Day (±Visit Window) (Study Visit (Month) ): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
+['Study Day (±Visit Window) (Study Visit (Month) ): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']
+['Study Day (±Visit Window) (Study Visit (Month) ): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Day (+Visit Window) (Study Visit (Month)): Month 9 (EOS/ ET)']",
+Protocol_32,"Cara Therapeutics, Inc.",Nephrology,"Worst Itching Intensity Numerical Rating Scale (Worst Itching Intensity NRS)
 Skindex-10 Scale (Skindex-10)
 5-D Itch Scale (5-D Itch)
 Patient Global Impression of Change (PGIC)
@@ -196,60 +190,55 @@ Short Opiate Withdrawal Scale (ShOWS)","['Visit Days (Study Procedures): -7 to 1
 ['Visit Days (Study Procedures): 1 (M/Tu)', 'Visit Days (Study Procedures): 8 (M/Tu)', 'Visit Days (Study Procedures): 85 (First Day of Week 13) (Double-blind End of Treatment Early Termination)', 'Study Procedures: Week 4', 'Study Procedures: Week 8', 'Study Procedures: Week 12', 'Study Procedures: Week 24', 'Study Procedures: Week 36', 'Study Procedures: First Dialysis of Week 53b End of Treatment /Early Termination (of Dosing)']
 ['Visit Days (Study Procedures): 85 (First Day of Week 13) (Double-blind End of Treatment Early Termination)']
 ['Visit Days (Study Procedures): 85 (First Day of Week 13) (Double-blind End of Treatment Early Termination)', 'Visit Days (Study Procedures): 85 to 98 (DP Days 2b -14) (Discontinuation Period)']","A lot of merged cells, organisation is difficult to understand"
-Protocol_35,Sanofi Genzyme,Neurology,"Pediatric Quality of Life Inventory (PedsQL)
+Protocol_33,Sanofi Genzyme,Neurology,"Pediatric Quality of Life Inventory (PedsQL)
 Pediatric Neuro Quality of Life (Ped NeuroQoL)","['Visit number (Visit): V1 (Scrn. visitb)', 'Visit number (Visit): V3 (D-14 to D-7c) (DMT)', 'Visit number (Visit): V8 (M4)', 'Visit number (Visit): V12 (M8) (phase)', 'Visit number (Visit): V16v (M12)', 'Visit Day: M18', 'Visit Day: M24 (EOTP)', 'Visit Day: M36b', 'Visit Day: M48b', 'Visit Day: M60b']
 ['Visit number (Visit): V1 (Scrn. visitb)', 'Visit number (Visit): V3 (D-14 to D-7c) (DMT)', 'Visit number (Visit): V8 (M4)', 'Visit number (Visit): V12 (M8) (phase)', 'Visit number (Visit): V16v (M12)', 'Visit Day: M18', 'Visit Day: M24 (EOTP)', 'Visit Day: M36b', 'Visit Day: M48b', 'Visit Day: M60b']","In the last table, the header continues below the other rows instead of extending horizontally or being placed in a separate table"
-Protocol_36,"Merck Sharp & Dohme Corp., a subsidiary of Merck & Co., Inc.",Ontology,"European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30)
-European Organization for Research and Treatment of Cancer Lung Cancer Module 13 (EORTC QLQ-LC13)
-European Quality of Life Five-dimension Five-level Scale Questionnaire (EQ-5D-5L)","['Treatment Cycle: 1', 'Treatment Cycle: 2', 'Treatment Cycle: 3', 'Treatment Cycle: 4', 'Treatment Cycle: 5-35', 'Treatment Cycle: Discon1 (End of Treatment)', 'Treatment Cycle: Safety Follow- up2']
-['Treatment Cycle: 1', 'Treatment Cycle: 2', 'Treatment Cycle: 3', 'Treatment Cycle: 4', 'Treatment Cycle: 5-35', 'Treatment Cycle: Discon1 (End of Treatment)', 'Treatment Cycle: Safety Follow- up2']
-['Treatment Cycle: 1', 'Treatment Cycle: 2', 'Treatment Cycle: 3', 'Treatment Cycle: 4', 'Treatment Cycle: 5-35', 'Treatment Cycle: Discon1 (End of Treatment)', 'Treatment Cycle: Safety Follow- up2']",
-Protocol_37,Lineberger Comprehensive Cancer Center,Supportive care in oncology,"Functional Assessment of Cancer Therapy \u2013 Bone Marrow Transplant (FACT-BMT)
+Protocol_34,Lineberger Comprehensive Cancer Center,Supportive care in oncology,"Functional Assessment of Cancer Therapy \u2013 Bone Marrow Transplant (FACT-BMT)
 Patient Reported Outcomes Measurement Information System Depression (PROMIS-D)
 Post Traumatic Stress Syndrome Scale 14 (PTSS-14)","['Baseline (Pre- Transplant)', 'F1', 'F2', 'F3']
 ['Baseline (Pre- Transplant)', 'F1', 'F2', 'F3']
 ['Baseline (Pre- Transplant)', 'F1', 'F2', 'F3']","Instead of an X,  the mark is a point which might be confusing for textract"
-Protocol_38,"Regeneron Pharmaceuticals, Inc.",Cervical Cancer (Ontology),European Organization for Research and Treatment of Cancer Quality of Life Questionnaire-Core 30 (EORTC QLQ-C30),"['Study Procedure: Screening Visit X', 'Study Procedure: Day 1', 'Study Procedure: Follow-up Visits 1 and 21']",
-Protocol_39,Hospices Civils de Lyon,Hemorrhagic Hereditary Telangiectasia (HHT),"SF36 Quality of Life Questionnaire (SF36)
+Protocol_35,"Regeneron Pharmaceuticals, Inc.",Cervical Cancer (Ontology),European Organization for Research and Treatment of Cancer Quality of Life Questionnaire-Core 30 (EORTC QLQ-C30),"['Study Procedure: Screening Visit X', 'Study Procedure: Day 1 (Cycles 1 through 16 (cycle length = 6 weeks) )', 'Study Procedure: Follow-up Visits 1 and 21']",
+Protocol_36,Hospices Civils de Lyon,Hemorrhagic Hereditary Telangiectasia (HHT),"SF36 Quality of Life Questionnaire (SF36)
 Epistaxis Severity Score (ESS)","['Inclusion V1 JO', 'V2 D43 (to 50)', 'V3 D85 (to 100)']
 ['Inclusion V1 JO', 'V2 D43 (to 50)', 'V3 D85 (to 100)']",
-Protocol_40,"BioCryst Pharmaceuticals, Inc. (BioCryst)",Hereditary Angioedema (HAE),"Angioedema Quality of Life Questionnaire (AE-QoL)
+Protocol_37,"BioCryst Pharmaceuticals, Inc. (BioCryst)",Hereditary Angioedema (HAE),"Angioedema Quality of Life Questionnaire (AE-QoL)
 EuroQol 5-Dimension 5-Level (EQ-5D-5L)
 Treatment Satisfaction Questionnaire for Medication (TSQM)
 Work Productivity and Activity Impairment Questionnaire (WPAI)","['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 + 2 days', 'Assessment: Week 8 Day 57 + 2 days', 'Assessment: Week 12 Day 85 + 2 days', 'Assessment: Week 18 Day 127 + 2 days', 'Assessment: Week 24 Day 169d', 'Assessment: Week 28 Day 197 + 2 days', 'Assessment: Week 32 Day 225 + 2 days', 'Assessment: Week 36 Day 253 + 2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 52 (Day 365) + 2 days', 'Assessment: Week 60 Day 421 + 6 days', 'Assessment: Week 72 Day 505 + 6 days', 'Assessment: Week 84 Day 589 + 6 days', 'Assessment: Week 96 Day 673 + 6 days', 'Assessment: Week 104 (Day 729 7 days)']
 ['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 + 2 days', 'Assessment: Week 8 Day 57 + 2 days', 'Assessment: Week 12 Day 85 + 2 days', 'Assessment: Week 18 Day 127 + 2 days', 'Assessment: Week 24 Day 169d', 'Assessment: Week 28 Day 197 + 2 days', 'Assessment: Week 32 Day 225 + 2 days', 'Assessment: Week 36 Day 253 + 2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 52 (Day 365) + 2 days', 'Assessment: Week 60 Day 421 + 6 days', 'Assessment: Week 72 Day 505 + 6 days', 'Assessment: Week 84 Day 589 + 6 days', 'Assessment: Week 96 Day 673 + 6 days', 'Assessment: Week 104 (Day 729 7 days)']
 ['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 + 2 days', 'Assessment: Week 8 Day 57 + 2 days', 'Assessment: Week 12 Day 85 + 2 days', 'Assessment: Week 18 Day 127 + 2 days', 'Assessment: Week 24 Day 169d', 'Assessment: Week 28 Day 197 + 2 days', 'Assessment: Week 32 Day 225 + 2 days', 'Assessment: Week 36 Day 253 + 2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 52 (Day 365) + 2 days', 'Assessment: Week 60 Day 421 + 6 days', 'Assessment: Week 72 Day 505 + 6 days', 'Assessment: Week 84 Day 589 + 6 days', 'Assessment: Week 96 Day 673 + 6 days', 'Assessment: Week 104 (Day 729 7 days)']
 ['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 + 2 days', 'Assessment: Week 8 Day 57 + 2 days', 'Assessment: Week 12 Day 85 + 2 days', 'Assessment: Week 18 Day 127 + 2 days', 'Assessment: Week 24 Day 169d', 'Assessment: Week 28 Day 197 + 2 days', 'Assessment: Week 32 Day 225 + 2 days', 'Assessment: Week 36 Day 253 + 2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 52 (Day 365) + 2 days', 'Assessment: Week 60 Day 421 + 6 days', 'Assessment: Week 72 Day 505 + 6 days', 'Assessment: Week 84 Day 589 + 6 days', 'Assessment: Week 96 Day 673 + 6 days', 'Assessment: Week 104 (Day 729 7 days)']",
-Protocol_41,Karyopharm Therapeutics Inc.,Multiple myeloma (Oncology),European Organization for Research and Treatment of Cancer Chemotherapy-induced Peripheral Neuropathy (QLQ-CIPN20) (EORTC QLQ-CIPN20),"['Screening', 'In-clinic Dosing Visits (> C1D2) (See Table 13), 'EoT Visit']",Extracted tables data is missing.
-Protocol_42,Sanofi Group,Respiratory diseases,"Asthma Control Questionnaire Interviewer Administered, 7-question version (ACQ-7-IA)
+Protocol_38,Karyopharm Therapeutics Inc.,Multiple myeloma (Oncology),European Organization for Research and Treatment of Cancer Chemotherapy-induced Peripheral Neuropathy (QLQ-CIPN20) (EORTC QLQ-CIPN20),"['Screening', 'In-clinic Dosing Visits (> C1D2) (See Table 13), 'EoT Visit']",Extracted tables data is missing.
+Protocol_39,Sanofi Group,Respiratory diseases,"Asthma Control Questionnaire Interviewer Administered, 7-question version (ACQ-7-IA)
 Asthma Control Questionnaire Interviewer Administered, 5-question version (ACQ-5-IA)
 Pediatric Asthma Quality of Life Questionnaire with Standardized Activities Interviewer Administered (PAQLQ(S)-IA)
 Paediatric Asthma Caregiver's Quality of Life Questionnaire (PACQLQ)
 EuroQol 5-Dimension Youth (EQ-5D-Y)
 Pediatric Rhinoconjunctivitis Quality of Life Questionnaire – Interviewer 
-Administered (PRQLQ-IA)","['Week -4 ± 1', 'Week 0', 'Week 2', 'Week 4', 'Week 6', 'Week 8', 'Week 10', 'Week 12', 'Week 16', 'Week 20', 'Week 24', 'Week 28', 'Week 32', 'Week 36', 'Week 40', 'Week 44', 'Week 48', 'Week 52', 'Week 64']
-['Week -4 ± 1', 'Week 0', 'Week 2', 'Week 4', 'Week 6', 'Week 8', 'Week 10', 'Week 12', 'Week 16', 'Week 20', 'Week 24', 'Week 28', 'Week 32', 'Week 36', 'Week 40', 'Week 44', 'Week 48', 'Week 52', 'Week 64']
-['Week 0', 'Week 12', 'Week 24', 'Week 36', 'Week 52', 'Week 64']
-['Week 0', 'Week 12', 'Week 24', 'Week 36', 'Week 52', 'Week 64']
-['Week 0', 'Week 24', 'Week 52', 'Week 64']
-['Week 0', 'Week 12', 'Week 24', 'Week 36', 'Week 52', 'Week 64']",Extracted tables data is missing.
-Protocol_43,Sanofi Genzyme Corporation,Hematology,"Hemophilia Quality of Life Questionnaire for Adults (Haem-A-QOL)
+Administered (PRQLQ-IA)","['Week -4 (±1) (SCRa )', 'Week 0 (b RND ) (Randomized Treatment Period )', 'Week 2', 'Week 4', 'Week 6', 'Week 8', 'Week 10', 'Week 12', 'Week 16', 'Week 20', 'Week 24', 'Week 28', 'Week 32', 'Week 36', 'Week 40', 'Week 44', 'Week 48 (Post-treatment Period d )', 'Week 52', 'Week 64']
+['Week -4 (±1) (SCRa )', 'Week 0 (b RND ) (Randomized Treatment Period )', 'Week 2', 'Week 4', 'Week 6', 'Week 8', 'Week 10', 'Week 12', 'Week 16', 'Week 20', 'Week 24', 'Week 28', 'Week 32', 'Week 36', 'Week 40', 'Week 44', 'Week 48 (Post-treatment Period d )', 'Week 52', 'Week 64']
+['Week 0 (b RND ) (Randomized Treatment Period )', 'Week 12', 'Week 24', 'Week 36', 'Week 52', 'Week 64']
+['Week 0 ['Procedure: Week 0 (Day 1)', 'Procedure: Weeks 12, 24, 36 (+3 days)', 'Procedure: Week 52 (+3 days)', 'Procedure: Early Discontinuation', 'Procedure: Weeks 76, 100, 124, 148, 172, 196 (+7 days)', 'Procedure: 24 week intervals after Week 52d (+7 days)']', 'Week 12', 'Week 24', 'Week 36', 'Week 52', 'Week 64']
+['Week 0 ['Procedure: Week 0 (Day 1)', 'Procedure: Weeks 12, 24, 36 (+3 days)', 'Procedure: Week 52 (+3 days)', 'Procedure: Early Discontinuation', 'Procedure: Weeks 76, 100, 124, 148, 172, 196 (+7 days)', 'Procedure: 24 week intervals after Week 52d (+7 days)']', 'Week 24', 'Week 52', 'Week 64']
+['Week 0 ['Procedure: Week 0 (Day 1)', 'Procedure: Weeks 12, 24, 36 (+3 days)', 'Procedure: Week 52 (+3 days)', 'Procedure: Early Discontinuation', 'Procedure: Weeks 76, 100, 124, 148, 172, 196 (+7 days)', 'Procedure: 24 week intervals after Week 52d (+7 days)']', 'Week 12', 'Week 24', 'Week 36', 'Week 52', 'Week 64']",Extracted tables data is missing.
+Protocol_40,Sanofi Genzyme Corporation,Hematology,"Hemophilia Quality of Life Questionnaire for Adults (Haem-A-QOL)
 Treatment Satisfaction Questionnaire for Medication (TSQM)
 Hemophilia Activities List (HAL)
 Pediatric Hemophilia Activities List (pedHAL)
 EuroQol-5 Dimension (EQ-5D)
-Hemophilia Quality of Life Questionnaire for Children and Adolescents (Haemo-QOL)","['Study Visit (Month): Onset Period', 'Study Visit (Month): EOS/ ET']
-['Study Visit (Month): Onset Period', 'Study Visit (Month): EOS/ ET']
-['Study Visit (Month): Onset Period', 'Study Visit (Month): EOS/ ET']
-['Study Visit (Month): Onset Period', 'Study Visit (Month): EOS/ ET']
-['Study Visit (Month): Onset Period', 'Study Visit (Month): EOS/ ET']
-['Study Visit (Month): Onset Period', 'Study Visit (Month): EOS/ ET']",Schedule of Events Timepoints written vertically
-Protocol_44,Cochlear Bone Anchored Solutions AB,Otolaryngology,"Abbreviated Profile of Hearing Aid Benefit (APHAB)
+Hemophilia Quality of Life Questionnaire for Children and Adolescents (Haemo-QOL)","['Study Visit (Month) Study Day (±Visit Window): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Visit (Month): EOS/ ET']
+['Study Visit (Month) Study Day (±Visit Window): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Visit (Month): EOS/ ET']
+['Study Visit (Month) Study Day (±Visit Window): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Visit (Month): EOS/ ET']
+['Study Visit (Month) Study Day (±Visit Window): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Visit (Month): EOS/ ET']
+['Study Visit (Month) Study Day (±Visit Window): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Visit (Month): EOS/ ET']
+['Study Visit (Month) Study Day (±Visit Window): Day 1 (Baseline ) (Onset Period ) (Treatment Period )', 'Study Visit (Month): EOS/ ET']",Schedule of Events Timepoints written vertically
+Protocol_41,Cochlear Bone Anchored Solutions AB,Otolaryngology,"Abbreviated Profile of Hearing Aid Benefit (APHAB)
 Speech, Spatial and Qualities of Hearing Scale (SSQ)
 Health Utilities Index (HUI)","['Screening And Baseline', 'Follow up 3M', 'Follow up 6M']
 ['Screening And Baseline', 'Follow up 3M', 'Follow up 6M']
 ['Screening And Baseline', 'Follow up 3M', 'Follow up 6M']",
-Protocol_45,LEO Pharma A/S,Dermatology,"Eczema-related Sleep numeric rating scale (Eczema-related Sleep NRS)
+Protocol_42,LEO Pharma A/S,Dermatology,"Eczema-related Sleep numeric rating scale (Eczema-related Sleep NRS)
 Worst Daily Pruritus numeric rating scale (Worst Daily Pruritus NRS)
 Average Daily Pruritus numeric rating scale (Average Daily Pruritus NRS)
 Patient Global Impression of Bother (PGI-B)
@@ -267,32 +256,25 @@ Treatment Satisfaction Questionnaire for Medicine (TSQM)","['Visit: 3', 'Visit: 
 ['Visit: 3', 'Visit: 7', 'Visit: 12', 'Visit: 14', 'Visit: 18', 'Visit: 22', 'Visit: 26', 'Visit: 30']
 ['Visit: 3', 'Visit: 5', 'Visit: 7', 'Visit: 9', 'Visit: 12', 'Visit: 14', 'Visit: 18', 'Visit: 22', 'Visit: 26', 'Visit: 30']
 ['Visit: 4', 'Visit: 12', 'Visit: 16', 'Visit: 30']",
-Protocol_46,"Astellas Pharma Global Development, Inc. (APGD)",Oncology (Urothelial cancer),"European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire (EORTC QLQ-C30)
-EuroQOL 5-dimensions 5-Level Questionnaire (EQ-5D-5L)","['Base Date (Visit): Day -7 to -1 (Screening/Baseline 1)', 'Base Date (Visit): Day 1', 'Base Date (Visit): Date of Last Dose (End of Treatment)', 'Base Date (Visit): Date of last Dose + 30 days (Follow-up)']
-['Base Date (Visit): Day -7 to -1 (Screening/Baseline 1)', 'Base Date (Visit): Day 1', 'Base Date (Visit): Date of Last Dose (End of Treatment)', 'Base Date (Visit): Date of last Dose + 30 days (Follow-up)']",2 different Shcedule of Events
-Protocol_47,AbbVie Inc.,Oncology,"European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30)
-European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Lung Cancer 13 (EORTC QLQ-LC13)
-EQ-5D-5L (EQ-5D-5L)","['Category: Day -21 to Day -1 (Screening)', 'Category: Day 1 (-3d)', 'Category: Day 1 (+3d) (Non-treatment Cycle Visit)', 'Category: Within 7 Days of Decision to Discontinue Treatment (End of Treatment)', 'Category: q6 Weeks (+1wk) (PTFUC)']
-['Category: Day -21 to Day -1 (Screening)', 'Category: Day 1 (-3d)', 'Category: Day 1 (+3d) (Non-treatment Cycle Visit)', 'Category: Within 7 Days of Decision to Discontinue Treatment (End of Treatment)', 'Category: q6 Weeks (+1wk) (PTFUC)']
-['Category: Day -21 to Day -1 (Screening)', 'Category: Day 1 (-3d)', 'Category: Day 1 (+3d) (Non-treatment Cycle Visit)', 'Category: Within 7 Days of Decision to Discontinue Treatment (End of Treatment)', 'Category: q6 Weeks (+1wk) (PTFUC)']",
-Protocol_48,VELUX Foundation,Oncology,"EORTC Quality of Life Questionnaire (EORTC QLQ-C30 & BR23)
+Protocol_43,"Astellas Pharma Global Development, Inc. (APGD)",Oncology (Urothelial cancer),"European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire (EORTC QLQ-C30)
+EuroQOL 5-dimensions 5-Level Questionnaire (EQ-5D-5L)","['Base Date (Visit): Day -7 to -1 (Screening/Baseline 1)', 'Base Date (Visit): Day 1 (Every Cycle )', 'Base Date (Visit): Date of Last Dose (End of Treatment1)', 'Base Date (Visit): Date of last Dose + 30 days (Follow-up2)']
+['Base Date (Visit): Day -7 to -1 (Screening/Baseline 1)', 'Base Date (Visit): Day 1 (Every Cycle )', 'Base Date (Visit): Date of Last Dose (End of Treatment1)', 'Base Date (Visit): Date of last Dose + 30 days (Follow-up2)']",2 different Shcedule of Events
+Protocol_44,VELUX Foundation,Oncology,"EORTC Quality of Life Questionnaire (EORTC QLQ-C30 & BR23)
 Hospital Anxiety and Depression Scale (HADS)
 M.D. Anderson Symptom Inventory (MDASI)","['Inclusion (baseline)', 'Midway (6 weeks)', 'Post-intervention (12 weeks)', 'Follow-up (16 weeks)']
 ['Inclusion (baseline)', 'Midway (6 weeks)', 'Post-intervention (12 weeks)', 'Follow-up (16 weeks)']
 ['Inclusion (baseline)', 'Midway (6 weeks)', 'Post-intervention (12 weeks)', 'Follow-up (16 weeks)']",
-Protocol_49,"Regenesis Biomedical, Inc.",,"Patient Global Impression (PGI)
+Protocol_45,"Regenesis Biomedical, Inc.",,"Patient Global Impression (PGI)
 Work Productivity and Activity Impairment Questionnaire (WPAIQ)
-Neuro-QoL (NeuroQoL)
-Numeric Pain Rating Scale (NPRS)","['Study Day: 30 (+3)', 'Study Day: 60 (+3)', 'Study Day: 90 (+3)', 'Study Day: 121 (+3)', 'Study Day: 240 (+3)', 'Study Day: 361 (+3)']
-['Study Day: 0', 'Study Day: 60 (+3)', 'Study Day: 121 (+3)']
-['Study Day: 0', 'Study Day: 60 (+3)', 'Study Day: 121 (+3)', 'Study Day: 240 (+3)', 'Study Day: 361 (+3)']
-['Study Day: -15', 'Study Day: 0']",
-Protocol_50,MeiraGTx UK II Ltd.,Gene Therapy for Achromatopsia (CNGA3),"Impact of Visual Impairment questionnaire (IVI)
+Neuro-QoL (NeuroQoL)","['Period (APPENDIX A: TIME ): M1 Visit (Part A )', Period (APPENDIX A: TIME ): M2 Visit', 'Period (APPENDIX A: TIME ): M3 Visit', 'Period (APPENDIX A: TIME ): M4 Visit', 'Period (APPENDIX A: TIME ): M8 Visit (Part B )']
+['Period (APPENDIX A: TIME ): Enrollment (Baseline)', 'Period (APPENDIX A: TIME ): M2 Visit', 'Period (APPENDIX A: TIME ): M4 Visit']
+['Period (APPENDIX A: TIME ): Enrollment (Baseline)', 'Period (APPENDIX A: TIME ): M2 Visit', 'Period (APPENDIX A: TIME ): M4 Visit', 'Period (APPENDIX A: TIME ): M8 Visit (Part B )']",
+Protocol_46,MeiraGTx UK II Ltd.,Gene Therapy for Achromatopsia (CNGA3),"Impact of Visual Impairment questionnaire (IVI)
 EQ5D-5L questionnaire (EQ5D-5L)
 EQ5D-Y questionnaire (EQ5D-Y)","['Baseline', 'W24']
 ['Baseline', 'W24']
 ['Baseline', 'W24']",Extracted tables data is missing.
-Protocol_51,LEO Pharma A/S,Atopic dermatitis (AD),"Eczema-related Sleep Numeric Rating Scale (Eczema-related Sleep NRS)
+Protocol_47,LEO Pharma A/S,Atopic dermatitis (AD),"Eczema-related Sleep Numeric Rating Scale (Eczema-related Sleep NRS)
 Worst Daily Pruritus Numeric Rating Scale (Worst Daily Pruritus NRS)
 Average Daily Pruritus Numeric Rating Scale (Average Daily Pruritus NRS)
 Patient Days of Topical Treatment Use
@@ -305,7 +287,7 @@ Hospital Anxiety and Depression Scale (HADS)","['Visit: 3', 'Visit: 4', 'Visit: 
 ['Visit: 3', 'Visit: 4', 'Visit: 5', 'Visit: 6', 'Visit: 7', 'Visit: 9, 'Visit: 11', 'Visit: 13', 'Visit: 17', 'Visit: 19', 'Nominal Week 16 visit2 (if applicable)', 'Early termination', 'Unscheduled visit (if applicable)']
 ['Visit: 3', 'Visit: 5', 'Visit: 7', 'Visit: 9, 'Visit: 11', 'Visit: 13', 'Visit: 17', 'Visit: 19', 'Early termination', 'Unscheduled visit (if applicable)']
 ['Visit: 3', 'Visit: 5', 'Visit: 7', 'Visit: 9, 'Visit: 11', 'Visit: 13', 'Visit: 17', 'Visit: 19', 'Early termination', 'Unscheduled visit (if applicable)']",Some questionnaires match to any 'N/A' timeline point if the shortName is equal to 'N/A'
-Protocol_52,"Canadian Institute of Health Research (CIHR)
+Protocol_48,"Canadian Institute of Health Research (CIHR)
 National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",Musculoskeletal Disorders,"ACL Quality of Life Questionnaire (ACL-QOL)
 International Knee Documentation Committee Subjective Knee Form (IKDC-SKF)
 Knee injury and Osteoarthritis Outcome Survey (KOOS)
@@ -313,17 +295,10 @@ European Quality of Life Scale (EQ-5D)","['Baseline', '6 weeks', '3 months', '6 
 ['Baseline', '6 weeks', '3 months', '6 months', '12 months', '24 months']
 ['Baseline', '6 weeks', '3 months', '6 months', '12 months', '24 months']
 ['Baseline', '6 weeks', '3 months', '6 months', '12 months', '24 months']",
-Protocol_53,"National Institutes of Health (NIH),",Rheumatology,"Patient Reported Outcomes Measurement Information System (PROMIS)
-Fatigue Severity Scale (FSS)","['Visit 2', 'Visit 7']
-['Visit 1', 'Visit 7']",
-Protocol_54,"BioCryst Pharmaceuticals, Inc.",Hereditary angioedema,"Angioedema Quality of Life Questionnaire (AE-QoL)
-EuroQoL 5-dimensional, 5-level questionnaire (EQ-5D-5L)
-Treatment Satisfaction Questionnaire for Medication (TSQM)
-Work Productivity and Activity Impairment Questionnaire (WPAI)","['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 ±2 days', 'Assessment: Week 8 Day 57 ±2 days', 'Assessment: Week 12 Day 85 ±2 days', 'Assessment: Week 18 Day 127 ±2 days', 'Assessment: Week 24 Day 169', 'Assessment: Week 28 Day 197 ±2 days', 'Assessment: Week 32 Day 225 ±2 days', 'Assessment: Week 36 Day 253 ±2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 60 Day 421 ± 6 days', 'Assessment: Week 72 Day 505 ± 6 days', 'Assessment: Week 84 Day 589 ± 6 days', 'Assessment: Week 96 Day 673 ± 6 days', 'Assessment: Visits every 12 weeks until Week 144 ± 6 days']
-['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 ±2 days', 'Assessment: Week 8 Day 57 ±2 days', 'Assessment: Week 12 Day 85 ±2 days', 'Assessment: Week 18 Day 127 ±2 days', 'Assessment: Week 24 Day 169', 'Assessment: Week 28 Day 197 ±2 days', 'Assessment: Week 32 Day 225 ±2 days', 'Assessment: Week 36 Day 253 ±2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 60 Day 421 ± 6 days', 'Assessment: Week 72 Day 505 ± 6 days', 'Assessment: Week 84 Day 589 ± 6 days', 'Assessment: Week 96 Day 673 ± 6 days', 'Assessment: Visits every 12 weeks until Week 144 ± 6 days']
-['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 ±2 days', 'Assessment: Week 8 Day 57 ±2 days', 'Assessment: Week 12 Day 85 ±2 days', 'Assessment: Week 18 Day 127 ±2 days', 'Assessment: Week 24 Day 169', 'Assessment: Week 28 Day 197 ±2 days', 'Assessment: Week 32 Day 225 ±2 days', 'Assessment: Week 36 Day 253 ±2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 60 Day 421 ± 6 days', 'Assessment: Week 72 Day 505 ± 6 days', 'Assessment: Week 84 Day 589 ± 6 days', 'Assessment: Week 96 Day 673 ± 6 days', 'Assessment: Visits every 12 weeks until Week 144 ± 6 days']
-['Assessment: Day 1 (Baseline)', 'Assessment: Week 4 Day 29 ±2 days', 'Assessment: Week 8 Day 57 ±2 days', 'Assessment: Week 12 Day 85 ±2 days', 'Assessment: Week 18 Day 127 ±2 days', 'Assessment: Week 24 Day 169', 'Assessment: Week 28 Day 197 ±2 days', 'Assessment: Week 32 Day 225 ±2 days', 'Assessment: Week 36 Day 253 ±2 days', 'Assessment: Week 48 Day 337 + 7 days', 'Assessment: Week 60 Day 421 ± 6 days', 'Assessment: Week 72 Day 505 ± 6 days', 'Assessment: Week 84 Day 589 ± 6 days', 'Assessment: Week 96 Day 673 ± 6 days', 'Assessment: Visits every 12 weeks until Week 144 ± 6 days']",
-Protocol_55,"Vascular Insights, LLC",Vascular Surgery,"VEINES-QOL/Sym Questionnaire (VEINES-QOL/Sym)
+Protocol_49,"National Institutes of Health (NIH),",Rheumatology,"Patient Reported Outcomes Measurement Information System (PROMIS)
+Fatigue Severity Scale (FSS)","['Visit 2', 'Exercise Training 5']
+['Visit 1', 'Exercise Training 5']",
+Protocol_50,"Vascular Insights, LLC",Vascular Surgery,"VEINES-QOL/Sym Questionnaire (VEINES-QOL/Sym)
 European Quality of Life Scale (EQ-5D-5L)
 Wong Baker Visual Analog Pain Scale (VAS)","['Visit: Visit 2', 'Visit: Visit 3', 'Visit: Visit 4', 'Visit: Visit 5', 'Visit: Visit 6']
 ['Visit: Visit 2', 'Visit: Visit 3', 'Visit: Visit 4', 'Visit: Visit 5', 'Visit: Visit 6']

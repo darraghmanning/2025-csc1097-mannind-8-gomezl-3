@@ -1,0 +1,133 @@
+{
+    "Project Title": "Connect-Home: Testing the Efficacy of Transitional Care of Patients and Caregivers during Transitions from Skilled Nursing Facilities to Home",
+    "Sponsor": "National Institute of Nursing Research",
+    "Study Number": "NCT03810534",
+    "Protocol Version and Date": "Version 2.0, 13 July 2020",
+    "Study Title": "Connect-Home: Testing the Efficacy of Transitional Care of Patients and Caregivers during Transitions from Skilled Nursing Facilities to Home",
+    "Phase": "N/A",
+    "Therapeutic Area": "Transitional Care",
+    "Number of Patients": "360",
+    "Number of Sites": "6",
+    "Indication": "Care for seriously ill patients post-discharge from Skilled Nursing Facilities",
+    "Duration of Treatment": "up to 60 days post-discharge",
+    "Schedule of Assessments": "Table 1, Schedule of Activities (SoA)",
+    "questionnaires": [
+        {
+            "longName": "Care Transitions Measure-15 (CTM-15)",
+            "shortName": "CTM-15",
+            "type": "PRO",
+            "questionnaireSchedule": "7 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 7 Days Post-Discharge (+ 10/- 3 days)"
+            ]
+        },
+        {
+            "longName": "Preparedness for Caregiving Scale (PCS)",
+            "shortName": "PCS",
+            "type": "PRO",
+            "questionnaireSchedule": "7 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 7 Days Post-Discharge (+/- 2 days)"
+            ]
+        },
+        {
+            "longName": "McGill Quality of Life Questionnaire - Revised (MQoL-R)",
+            "shortName": "MQoL-R",
+            "type": "PRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Life Space Assessment",
+            "shortName": "Life Space Assessment",
+            "type": "PRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Zarit Caregiver Burden Scale",
+            "shortName": "Zarit Scale",
+            "type": "ClinRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Distress Thermometer",
+            "shortName": "Distress Thermometer",
+            "type": "ClinRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Number of Patient Falls with Injury and Without Injury",
+            "shortName": "Falls Assessment",
+            "type": "ObsRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Home Health Care Use",
+            "shortName": "Home Health Care",
+            "type": "ClinRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Hospice Enrollment",
+            "shortName": "Hospice Enrollment",
+            "type": "PRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Emergency Department Use",
+            "shortName": "ED Use",
+            "type": "ObsRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Hospital Readmissions",
+            "shortName": "Hospital Readmissions",
+            "type": "PRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "Death Report by Caregiver",
+            "shortName": "Death Report",
+            "type": "ObsRO",
+            "questionnaireSchedule": "30 and 60 days post-discharge",
+            "questionnaireTiming": [
+                "Assessments and Procedures: 30 Days Post-Discharge (+/- 7 days)",
+                "Assessments and Procedures: 60 Days Post-Discharge (+/- 7 days)"
+            ]
+        }
+    ]
+}

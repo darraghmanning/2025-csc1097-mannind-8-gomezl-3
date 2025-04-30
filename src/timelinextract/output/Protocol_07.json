@@ -1,0 +1,40 @@
+{
+    "Project Title": "A Randomized Multicenter Phase II Study Using 2-1[Hexyloxyethyl]-2-Devinylpyropheophorbide-A (HPPH) with PDT versus Standard of Care Surgery for Patients with T1/T2 N0 Squamous Cell Carcinoma of the Oral Cavity",
+    "Sponsor": "Roswell Park Cancer Institute",
+    "Study Number": "I 33616",
+    "Protocol Version and Date": "Initial Date: 15 July 2016",
+    "Study Title": "A Randomized Multicenter Phase II Study Using 2-1[Hexyloxyethyl]-2-Devinylpyropheophorbide-A (HPPH) with PDT versus Standard of Care Surgery for Patients with T1/T2 N0 Squamous Cell Carcinoma of the Oral Cavity",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Squamous Cell Carcinoma of the Oral Cavity",
+    "Number of Patients": "114",
+    "Number of Sites": "3",
+    "Indication": "T1/T2 N0 Squamous Cell Carcinoma of the Oral Cavity",
+    "Duration of Treatment": "Not Available",
+    "Schedule of Assessments": "Table 2 and Table 3",
+    "questionnaires": [
+        {
+            "longName": "University of Washington Quality of Life Questionnaire Version 4",
+            "shortName": "UW-QoLQ v4",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, 18, 24 months",
+            "questionnaireTiming": [
+                "Baseline1",
+                "~12-16 Weeks Post Treatment",
+                "Follow-Up2",
+                "About 12-16 W Post Surgery"
+            ]
+        },
+        {
+            "longName": "ECOG Performance Status",
+            "shortName": "ECOG",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline, post treatment at 12-16 weeks, and at follow-up visits",
+            "questionnaireTiming": [
+                "Baseline1",
+                "~12-16 Weeks Post Treatment",
+                "Follow-Up2",
+                "About 12-16 W Post Surgery"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "Project Title": "STABILITY 2: ACL Reconstruction +/- Lateral Tenodesis with Patellar vs. Quad Tendon",
+    "Sponsor": "Not Available",
+    "Study Number": "PRO19020231",
+    "Protocol Version and Date": "Version 1.4 February 2, 2021",
+    "Study Title": "STABILITY 2",
+    "Phase": "III",
+    "Therapeutic Area": "ACL injury/reconstruction",
+    "Number of Patients": 1236,
+    "Number of Sites": 21,
+    "Indication": "ACL deficient knee",
+    "Duration of Treatment": "24 months",
+    "Schedule of Assessments": "Appendix B: Schedule of Events",
+    "questionnaires": [
+        {
+            "longName": "International Knee Documentation Committee Subjective Knee Evaluation Form",
+            "shortName": "IKDC-SKF",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6 weeks, 3, 6, 12, and 24 months",
+            "questionnaireTiming": [
+                "Baseline",
+                "6 weeks",
+                "3 months",
+                "6 months",
+                "12 months",
+                "24 months"
+            ]
+        },
+        {
+            "longName": "Knee Injury and Osteoarthritis Outcome Score",
+            "shortName": "KOOS",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6 weeks, 3, 6, 12, and 24 months",
+            "questionnaireTiming": [
+                "Baseline",
+                "6 weeks",
+                "3 months",
+                "6 months",
+                "12 months",
+                "24 months"
+            ]
+        },
+        {
+            "longName": "Anterior Cruciate Ligament Quality of Life Questionnaire",
+            "shortName": "ACL-QOL",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6 weeks, 3, 6, 12, and 24 months",
+            "questionnaireTiming": [
+                "Baseline",
+                "6 weeks",
+                "3 months",
+                "6 months",
+                "12 months",
+                "24 months"
+            ]
+        },
+        {
+            "longName": "EuroQol Visual Analog Scale",
+            "shortName": "EQ5D VAS",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6 weeks, 3, 6, 12, and 24 months",
+            "questionnaireTiming": [
+                "Baseline",
+                "6 weeks",
+                "3 months",
+                "6 months",
+                "12 months",
+                "24 months"
+            ]
+        },
+        {
+            "longName": "EuroQol Index",
+            "shortName": "EQ5D Index",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6 weeks, 3, 6, 12, and 24 months",
+            "questionnaireTiming": [
+                "Baseline",
+                "6 weeks",
+                "3 months",
+                "6 months",
+                "12 months",
+                "24 months"
+            ]
+        },
+        {
+            "longName": "Marx Activity Rating Scale",
+            "shortName": "Marx Activity",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6 weeks, 3, 6, 12, and 24 months",
+            "questionnaireTiming": [
+                "",
+                "Baseline",
+                "6 weeks",
+                "3 months",
+                "6 months",
+                "12 months",
+                "24 months"
+            ]
+        },
+        {
+            "longName": "Sports Participation Questionnaire",
+            "shortName": "Sports Participation",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, during rehabilitation",
+            "questionnaireTiming": [
+                "Baseline"
+            ]
+        },
+        {
+            "longName": "Return to Sport Questionnaire",
+            "shortName": "Return to Sport",
+            "type": "PRO",
+            "questionnaireSchedule": "6 months, 12 months, 24 months",
+            "questionnaireTiming": [
+                "6 months",
+                "12 months",
+                "24 months"
+            ]
+        }
+    ]
+}

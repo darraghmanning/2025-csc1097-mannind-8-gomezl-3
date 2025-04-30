@@ -1,0 +1,61 @@
+{
+    "Project Title": "A Prospective, Multicentre, Open Clinical Investigation Evaluating Clinical Performance, Safety and Patient Reported Outcomes With an Active Osseointegrated Steady-State Implant System (OSI) in Adult Subjects With Conductive Hearing Loss, Mixed Hearing Loss or Single-sided Sensorineural Deafness",
+    "Sponsor": "Cochlear Bone Anchored Solutions AB",
+    "Study Number": "CBAS5751",
+    "Protocol Version and Date": "Version 2.0, 08-Nov-2019",
+    "Study Title": "Clinical performance, safety and PROs of an Active Osseointegrated Steady-State Implant System (OSI)",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Hearing Loss",
+    "Number of Patients": "30",
+    "Number of Sites": "3",
+    "Indication": "Conductive hearing loss, mixed hearing loss or single-sided sensorineural deafness",
+    "Duration of Treatment": "6 months",
+    "Schedule of Assessments": "Table reference not explicitly mentioned",
+    "questionnaires": [
+        {
+            "longName": "Abbreviated Profile of Hearing Aid Benefit",
+            "shortName": "APHAB",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 3 months, 6 months follow-up ",
+            "questionnaireTiming": [
+                "-: Screening  And  Baseline",
+                "-: Follow up  3M",
+                "-: - Follow up  6M"
+            ]
+        },
+        {
+            "longName": "Speech, Spatial and Qualities of Hearing Scale",
+            "shortName": "SSQ-12",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 3 months, 6 months follow-up ",
+            "questionnaireTiming": [
+                "-: Screening  And  Baseline",
+                "-: Follow up  3M",
+                "-: - Follow up  6M"
+            ]
+        },
+        {
+            "longName": "Health Utilities Index",
+            "shortName": "HUI3",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 3 months, 6 months follow-up ",
+            "questionnaireTiming": [
+                "-: Screening  And  Baseline",
+                "-: Follow up  3M",
+                "-: - Follow up  6M"
+            ]
+        },
+        {
+            "longName": "Visual Analogue Scale for Sound Processor Retention",
+            "shortName": "VAS",
+            "type": "ObsRO",
+            "questionnaireSchedule": "At first fitting and all follow-up visits "
+        },
+        {
+            "longName": "Visual Analogue Scale for Comfort of Sound Processor",
+            "shortName": "VAS",
+            "type": "ObsRO",
+            "questionnaireSchedule": "At first fitting and all follow-up visits "
+        }
+    ]
+}

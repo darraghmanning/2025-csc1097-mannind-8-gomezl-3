@@ -1,0 +1,43 @@
+{
+    "Project Title": "Improving Physical Function in Sarcoma Survivors",
+    "Sponsor": "OHSU Knight Cancer Institute",
+    "Study Number": "eIRB# 19942",
+    "Protocol Version and Date": "Version # 4.0 16 APR 2020",
+    "Study Title": "A resistance training program to improve physical function in sarcoma survivors",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Sarcoma Survivors",
+    "Number of Patients (if known)": "10",
+    "Number of Sites (if known)": "1 (Single-site)",
+    "Indication": "Physical Function Limitations in Sarcoma Survivors",
+    "Duration of Treatment": "12 weeks",
+    "Schedule of Assessments": "Table 1, Section 5.8",
+    "questionnaires": [
+        {
+            "longName": "Godin Leisure-Time Exercise Questionnaire",
+            "shortName": "GLTEQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline and at end of study visit",
+            "questionnaireTiming": [
+                "Questionnaires   (Informed Consent  ) (Treating physician evaluation  ) (Eligibility review  ) (Procedures  )"
+            ]
+        },
+        {
+            "longName": "PROMIS-Cancer-Physical Function Measure",
+            "shortName": "PROMIS-PF",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline and at end of study visit"
+        },
+        {
+            "longName": "36-Item Short Form Health Survey",
+            "shortName": "SF-36",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline and at end of study visit"
+        },
+        {
+            "longName": "Functional Assessment of Cancer Therapy - Fatigue",
+            "shortName": "FACT-F",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline and at end of study visit"
+        }
+    ]
+}

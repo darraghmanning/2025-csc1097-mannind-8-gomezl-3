@@ -1,0 +1,96 @@
+{
+    "Project Title": "FLUAD vs Fluzone-HD",
+    "Sponsor": "Duke University Medical Center, Boston Medical Center, Cincinnati Children's Hospital",
+    "Study Number": "Pro00083845",
+    "Protocol Version and Date": "Version 5.0, September 25, 2018",
+    "Study Title": "FLUAD vs Fluzone-HD",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Influenza",
+    "Number of Patients": "880",
+    "Number of Sites": "3",
+    "Indication": "Influenza vaccination in older adults",
+    "Duration of Treatment": "Approximately 18 months for enrollment during two consecutive flu seasons",
+    "Schedule of Assessments": "Table 1",
+    "questionnaires": [
+        {
+            "longName": "Mini-Cog",
+            "shortName": "Mini-Cog",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Screening Visit",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1",
+                "Procedure: Visit 3 Day 9 + 3"
+            ]
+        },
+        {
+            "longName": "Rowland Universal Dementia Assessment Scale (RUDAS)",
+            "shortName": "RUDAS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "As needed during Screening",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1",
+                "Procedure: Visit 3 Day 9 + 3"
+            ]
+        },
+        {
+            "longName": "Patient Symptom Diary",
+            "shortName": "Symptom Diary",
+            "type": "PRO",
+            "questionnaireSchedule": "Days 1-8 post-vaccination",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1",
+                "Procedure: Visit 3 Day 9 + 3"
+            ]
+        },
+        {
+            "longName": "FACES Pain Scale",
+            "shortName": "FACES",
+            "type": "PRO",
+            "questionnaireSchedule": "Days 1-8 post-vaccination",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1",
+                "Procedure: Visit 3 Day 9 + 3"
+            ]
+        },
+        {
+            "longName": "EQ-5D-5L (EuroQOL 5 dimensions)",
+            "shortName": "EQ-5D-5L",
+            "type": "PRO",
+            "questionnaireSchedule": "Day 3 and Day 9 post-vaccination",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1",
+                "Procedure: Visit 3 Day 9 + 3"
+            ]
+        },
+        {
+            "longName": "Vaccine Reaction Questionnaire",
+            "shortName": "Vaccine Reaction",
+            "type": "PRO",
+            "questionnaireSchedule": "Day 3 and Day 9 post-vaccination",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1"
+            ]
+        },
+        {
+            "longName": "Perceptions of the Vaccination Experience",
+            "shortName": "Perceptions of Vaccination",
+            "type": "PRO",
+            "questionnaireSchedule": "Days 9 and 29 post-vaccination",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1",
+                "Procedure: Visit 3 Day 9 + 3",
+                "Procedure: Visit 4 Day 29 + 7"
+            ]
+        },
+        {
+            "longName": "Late Life Function & Disability Instrument",
+            "shortName": "LLFDI",
+            "type": "PRO",
+            "questionnaireSchedule": "Pre-vaccination and post-vaccination assessments",
+            "questionnaireTiming": [
+                "Procedure: Visit 1 Day 1",
+                "Procedure: Visit 3 Day 9 + 3"
+            ]
+        }
+    ]
+}

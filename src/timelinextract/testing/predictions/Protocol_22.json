@@ -1,0 +1,49 @@
+{
+    "Project Title": "InterStim Amplitude Study",
+    "Sponsor": "Medtronic, Inc.",
+    "Study Number": "MDT17030",
+    "Protocol Version and Date": "Version 2.0",
+    "Study Title": "InterStim Amplitude Study",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Overactive Bladder (OAB)",
+    "Number of Patients": "Approximately 60 subjects are estimated to be enrolled",
+    "Number of Sites": "Approximately 20 clinical sites",
+    "Indication": "Overactive bladder (OAB)",
+    "Duration of Treatment": "Approximately 16 weeks",
+    "Schedule of Assessments": "Refer to Figure 9-1",
+    "questionnaires": [
+        {
+            "longName": "International Consultation on Incontinence Modular Questionnaire - Overactive Bladder Symptoms Quality of Life Questionnaire (ICIQ-OABqol)",
+            "shortName": "ICIQ-OABqol",
+            "type": "PRO",
+            "questionnaireSchedule": "Enrollment/Baseline; 12-Week Follow-up Visit",
+            "questionnaireTiming": [
+                "Enrollment /  Baseline",
+                "12-Week Follow-Up Visit (+/- 7 days)"
+            ]
+        },
+        {
+            "longName": "3-Day Voiding Diary",
+            "shortName": "Voiding Diary",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed prior to each follow-up visit, and at the end of therapy evaluation period",
+            "questionnaireTiming": [
+                "Enrollment /  Baseline",
+                "Therapy Evaluation",
+                "6-Week Follow-Up Visit (+/- 7 days)",
+                "12-Week Follow-Up Visit (+/- 7 days)",
+                "Unscheduled Visit"
+            ]
+        },
+        {
+            "longName": "Patient Global Impression of Improvement (PGI-I)",
+            "shortName": "PGI-I",
+            "type": "ClinRO",
+            "questionnaireSchedule": "1-Week Follow-up Visit; 6-Week Follow-up Visit",
+            "questionnaireTiming": [
+                "6-Week Follow-Up Visit (+/- 7 days)",
+                "12-Week Follow-Up Visit (+/- 7 days)"
+            ]
+        }
+    ]
+}

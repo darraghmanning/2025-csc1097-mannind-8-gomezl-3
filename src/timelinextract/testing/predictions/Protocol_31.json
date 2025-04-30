@@ -1,0 +1,85 @@
+{
+    "Project Title": "SAR439774 (formerly ALN-AT3SC) (fitusiran) Clinical Study Protocol ALN-AT3SC-003",
+    "Sponsor": "Sanofi Genzyme",
+    "Study Number": "EFC14768",
+    "Protocol Version and Date": "Version not specified, Date: 27 Jun 2018",
+    "Study Title": "ALN-AT3SC-003",
+    "Phase": "Phase 3",
+    "Therapeutic Area": "Hemophilia A or B",
+    "Number of Patients": "Approximately 54 patients",
+    "Number of Sites": "Approximately 100 clinical study centers worldwide",
+    "Indication": "Severe hemophilia A or B with inhibitors",
+    "Duration of Treatment": "9 months",
+    "Schedule of Assessments": "Table 1, Schedule of Assessments",
+    "questionnaires": [
+        {
+            "longName": "Haemophilia Quality of Life Questionnaire for Adults",
+            "shortName": "Haem-A-QOL",
+            "type": "PRO",
+            "questionnaireSchedule": "To be administered over the study duration based on patient age (\u226517 years)",
+            "questionnaireTiming": [
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): -60 to -1",
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): Day 1  (Baseline ) (Onset Period  ) (Treatment Period  )",
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): 15 \u00b13",
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): 29 \u00b17   (Month 1 ) (Efficacy Period  )",
+                "Predose",
+                "Postdose 10 min (\u00b15 min)d",
+                "Postdose 60 min (\u00b15 min)d"
+            ]
+        },
+        {
+            "longName": "Hemophilia Quality of Life Questionnaire for children and adolescents",
+            "shortName": "Haemo-QOL",
+            "type": "PRO",
+            "questionnaireSchedule": "To be administered over the study duration based on patient age (<17 years)",
+            "questionnaireTiming": [
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): Day 1  (Baseline ) (Onset Period  ) (Treatment Period  )"
+            ]
+        },
+        {
+            "longName": "Treatment Satisfaction Questionnaire for Medication",
+            "shortName": "TSQM-9",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered as specified in the Schedule of Assessments",
+            "questionnaireTiming": [
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): Day 1  (Baseline ) (Onset Period  ) (Treatment Period  )"
+            ]
+        },
+        {
+            "longName": "Hemophilia Activities List",
+            "shortName": "HAL",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered as specified in the Schedule of Assessments (patients \u226518 years)",
+            "questionnaireTiming": [
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): Day 1  (Baseline ) (Onset Period  ) (Treatment Period  )"
+            ]
+        },
+        {
+            "longName": "Pediatric Hemophilia Activities List",
+            "shortName": "pedHAL",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered as specified in the Schedule of Assessments (patients <18 years)",
+            "questionnaireTiming": [
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): Day 1  (Baseline ) (Onset Period  ) (Treatment Period  )"
+            ]
+        },
+        {
+            "longName": "EuroQol-5 Dimension",
+            "shortName": "EQ-5D",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered as specified in the Schedule of Assessments",
+            "questionnaireTiming": [
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): Day 1  (Baseline ) (Onset Period  ) (Treatment Period  )"
+            ]
+        },
+        {
+            "longName": "Hemophilia Joint Health Score",
+            "shortName": "HJHS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Administered as specified in the Schedule of Assessments",
+            "questionnaireTiming": [
+                "Study Day (\u00b1Visit Window)   (Study Visit (Month)  ): Day 1  (Baseline ) (Onset Period  ) (Treatment Period  )"
+            ]
+        }
+    ]
+}

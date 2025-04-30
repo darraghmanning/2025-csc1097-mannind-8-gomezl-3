@@ -1,0 +1,68 @@
+{
+    "Project Title": "Not Available",
+    "Sponsor": "Boehringer Ingelheim",
+    "Study Number": "BITrial No.: 1199-0324",
+    "Protocol Version and Date": "001-MCS-4O-106-RD-03 (14.0) / Saved on: 17 October 2016",
+    "Study Title": "Not Available",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Idiopathic Pulmonary Fibrosis (IPF)",
+    "Number of Patients": "282",
+    "Number of Sites": "Not Available",
+    "Indication": "Idiopathic Pulmonary Fibrosis",
+    "Duration of Treatment": "30 months",
+    "Schedule of Assessments": "Section 6.1",
+    "questionnaires": [
+        {
+            "longName": "PRO Active Tool",
+            "shortName": "PRO Tool",
+            "type": "PRO",
+            "questionnaireSchedule": "Visits 1, 2, 5, and 7",
+            "questionnaireTiming": [
+                "Visit: 0   (Screening  )",
+                "Visit: 1",
+                "Visit: 2   (Treatment  ) (Interventional Period  )"
+            ]
+        },
+        {
+            "longName": "St. George's Respiratory Questionnaire",
+            "shortName": "SGRQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Visits 1, 2, 5, and 7",
+            "questionnaireTiming": [
+                "Visit: 1",
+                "Visit: 2   (Treatment  ) (Interventional Period  )"
+            ]
+        },
+        {
+            "longName": "King's Brief Illness Perception Questionnaire",
+            "shortName": "K-BILD",
+            "type": "PRO",
+            "questionnaireSchedule": "Visits 1, 2, 5, and 7",
+            "questionnaireTiming": [
+                "Visit: 1",
+                "Visit: 2   (Treatment  ) (Interventional Period  )"
+            ]
+        },
+        {
+            "longName": "UCSDSOBQ (University of California San Diego Shortness of Breath Questionnaire)",
+            "shortName": "UCSDSOBQ",
+            "type": "PRO",
+            "questionnaireSchedule": "Visits 1, 2, 5, and 7",
+            "questionnaireTiming": [
+                "Visit: 1",
+                "Visit: 2   (Treatment  ) (Interventional Period  )"
+            ]
+        },
+        {
+            "longName": "Six Minute Walk Test",
+            "shortName": "6MWT",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Visits 2, 5, and 7",
+            "questionnaireTiming": [
+                "Visit",
+                "Visit: 1",
+                "Visit: 2   (Treatment  ) (Interventional Period  )"
+            ]
+        }
+    ]
+}

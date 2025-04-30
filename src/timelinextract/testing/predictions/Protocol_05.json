@@ -1,0 +1,78 @@
+{
+    "Project Title": "Carbomer and Carboxymethylcellulose",
+    "Sponsor": "GlaxoSmithKline Consumer Healthcare",
+    "Study Number": "209510",
+    "Protocol Version and Date": "V1.0, 18-May-18",
+    "Study Title": "Carbomer and Carboxymethylcellulose",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Not Available",
+    "Number of Patients": "126",
+    "Number of Sites": "Not Available",
+    "Indication": "Not Available",
+    "Duration of Treatment": "12 weeks",
+    "Schedule of Assessments": "Table 1-1, Section 8",
+    "questionnaires": [
+        {
+            "longName": "Gum-Comfort Questionnaire",
+            "shortName": "Gum Comfort",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Baseline and all assessment visits (Visits 1-5)",
+            "questionnaireTiming": [
+                "Procedure/Assessment: Visit 1 Screening / Baseline Day1",
+                "Procedure/Assessment: Visit 2 Day 7\u00b11",
+                "Procedure/Assessment: Visit 3 Day 28\u00b13",
+                "Procedure/Assessment: Visit 4 Day 56\u00b13",
+                "Procedure/Assessment: Visit 5 Day 84\u00b13"
+            ]
+        },
+        {
+            "longName": "Oral Health Impact Profile for Edentulous Patients",
+            "shortName": "OHIP-Edent",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at Baseline and all assessment visits (Visits 1-5)",
+            "questionnaireTiming": [
+                "Procedure/Assessment: Visit 1 Screening / Baseline Day1",
+                "Procedure/Assessment: Visit 2 Day 7\u00b11",
+                "Procedure/Assessment: Visit 3 Day 28\u00b13",
+                "Procedure/Assessment: Visit 4 Day 56\u00b13",
+                "Procedure/Assessment: Visit 5 Day 84\u00b13"
+            ]
+        },
+        {
+            "longName": "General Oral Health Assessment Index",
+            "shortName": "GOHAI",
+            "type": "PRO",
+            "questionnaireSchedule": "Administered at all assessment visits (Visits 1-5)",
+            "questionnaireTiming": [
+                "Procedure/Assessment: Visit 1 Screening / Baseline Day1",
+                "Procedure/Assessment: Visit 2 Day 7\u00b11",
+                "Procedure/Assessment: Visit 3 Day 28\u00b13",
+                "Procedure/Assessment: Visit 4 Day 56\u00b13",
+                "Procedure/Assessment: Visit 5 Day 84\u00b13"
+            ]
+        },
+        {
+            "longName": "Sensory Questionnaire",
+            "shortName": "Sensory",
+            "type": "ObsRO",
+            "questionnaireSchedule": "Completed by subjects randomized to the adhesive group at Visit 3 only",
+            "questionnaireTiming": [
+                "Procedure/Assessment: Visit 1 Screening / Baseline Day1",
+                "Procedure/Assessment: Visit 3 Day 28\u00b13"
+            ]
+        },
+        {
+            "longName": "Mucosal Score Assessment",
+            "shortName": "MSA",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Performed at each visit along with OST examination",
+            "questionnaireTiming": [
+                "Procedure/Assessment: Visit 1 Screening / Baseline Day1",
+                "Procedure/Assessment: Visit 2 Day 7\u00b11",
+                "Procedure/Assessment: Visit 3 Day 28\u00b13",
+                "Procedure/Assessment: Visit 4 Day 56\u00b13",
+                "Procedure/Assessment: Visit 5 Day 84\u00b13"
+            ]
+        }
+    ]
+}

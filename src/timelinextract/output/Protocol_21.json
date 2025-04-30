@@ -1,0 +1,82 @@
+{
+    "Project Title": "Surgical Timing and Rehabilitation for Multiple Ligament Knee Injuries: A Multicenter Integrated Clinical Trial",
+    "Sponsor": "Not Available",
+    "Study Number": "PRO16090503",
+    "Protocol Version and Date": "Version 1.0, 08 May 2018",
+    "Study Title": "Surgical Timing and Rehabilitation for Multiple Ligament Knee Injuries: A Multicenter Integrated Clinical Trial",
+    "Phase": "Phase III",
+    "Therapeutic Area": "Multiple Ligament Knee Injury (MLKI)",
+    "Number of Patients (if known)": "690 (392 for Aim 1 and 298 for Aim 2)",
+    "Number of Sites (if known)": "25",
+    "Indication": "Multiple Ligament Knee Injury (MLKI)",
+    "Duration of Treatment": "24 months",
+    "Schedule of Assessments": "Table B, Section 8.1",
+    "questionnaires": [
+        {
+            "longName": "Multi-Ligament Quality of Life (MLQoL) Questionnaire",
+            "shortName": "MLQoL",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "International Knee Documentation Committee Subjective Knee Form",
+            "shortName": "IKDC-SKF",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "Patient Reported Outcome Measurement Information System (PROMIS) Physical Function Scale",
+            "shortName": "PROMIS PF",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "PROMIS Global 10",
+            "shortName": "PROMIS Global 10",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "Patient Acceptable Symptom State/Global Rating of Change",
+            "shortName": "PASS/Global Rating of Change",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "Tampa Scale for Kinesiophobia",
+            "shortName": "TSK",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "Brief Resilience Scale",
+            "shortName": "Brief Resilience Scale",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "Functional Comorbidity Index",
+            "shortName": "Functional Comorbidity Index",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Not specified"
+        },
+        {
+            "longName": "Marx Activity Rating Scale",
+            "shortName": "Marx Activity Scale",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "Return to Activity Monitoring Survey",
+            "shortName": "Return to Activity",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Baseline, 6, 12, and 24 months follow-up"
+        },
+        {
+            "longName": "Patient Reported Rehabilitation",
+            "shortName": "Patient Reported Rehabilitation",
+            "type": "PRO",
+            "questionnaireSchedule": "Not specified"
+        }
+    ]
+}

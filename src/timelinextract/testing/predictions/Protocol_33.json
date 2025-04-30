@@ -1,0 +1,89 @@
+{
+    "Project Title": "Not Available",
+    "Sponsor": "Sanofi Group",
+    "Study Number": "GZ402673-EFC13429",
+    "Protocol Version and Date": "Version number: 1, 15-Dec-2021",
+    "Study Title": "Protocol No. 05: alemtuzumab",
+    "Phase": "Not Available",
+    "Therapeutic Area": "Multiple Sclerosis",
+    "Number of Patients": "At least 60",
+    "Number of Sites": "Not Available",
+    "Indication": "Not Available",
+    "Duration of Treatment": "Approximately 2 years",
+    "Schedule of Assessments": "Table 2 - Schedule of events in Year 2",
+    "questionnaires": [
+        {
+            "longName": "Expanded Disability Status Scale",
+            "shortName": "EDSS",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Screening, D-7, M4, M8, M12, M15, M18, M21, M24/at EOTP; every 6 months in Safety Monitoring Phase, and at every relapse visit.",
+            "questionnaireTiming": [
+                "Visit Daya: M30",
+                "Visit Daya: b  M36",
+                "Visit Daya: Relapse Visit",
+                "Visit Daya: M15",
+                "Visit Daya: M18",
+                "Visit Daya: M21",
+                "Visit Daya: M24 (EOTP)",
+                "Visit Daya: Relapse Visit  b"
+            ]
+        },
+        {
+            "longName": "Symbol Digit Modality Test",
+            "shortName": "SDMT",
+            "type": "PRO",
+            "questionnaireSchedule": "X at multiple visit points: M0, M1, M2, M3, M4, M8, M12, M16.",
+            "questionnaireTiming": [
+                "Visit Daya: b  M36",
+                "Visit Daya: M18",
+                "Visit Daya: M24 (EOTP)"
+            ]
+        },
+        {
+            "longName": "Brief Visuospatial Memory Test - Revised",
+            "shortName": "BVMT-R",
+            "type": "PRO",
+            "questionnaireSchedule": "X at multiple visit points: M0, M1, M2, M3, M4, M8, M12, M16.",
+            "questionnaireTiming": [
+                "Visit Daya: b  M36",
+                "Visit Daya: M18",
+                "Visit Daya: M24 (EOTP)"
+            ]
+        },
+        {
+            "longName": "Pediatric Quality of Life Inventory",
+            "shortName": "PedsQL",
+            "type": "PRO",
+            "questionnaireSchedule": "X at multiple visit points: M0, M1, M4, M12.",
+            "questionnaireTiming": [
+                "Visit Daya: M30",
+                "Visit Daya: b  M36",
+                "Visit Daya: Relapse Visit",
+                "Visit Daya: M15",
+                "Visit Daya: M18",
+                "Visit Daya: M21",
+                "Visit Daya: M24 (EOTP)",
+                "Visit Daya: Relapse Visit  b"
+            ]
+        },
+        {
+            "longName": "Pediatric Neuro-QoL",
+            "shortName": "Peds NeuroQoL",
+            "type": "PRO",
+            "questionnaireSchedule": "X at multiple visit points: M0, M1, M4, M12.",
+            "questionnaireTiming": [
+                "Visit Daya: b  M36"
+            ]
+        },
+        {
+            "longName": "Tanner Staging",
+            "shortName": "Tanner",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Screening, M12, M24/at EOTP; annually in the safety monitoring phase.",
+            "questionnaireTiming": [
+                "Visit Daya: b  M36",
+                "Visit Daya: M24 (EOTP)"
+            ]
+        }
+    ]
+}

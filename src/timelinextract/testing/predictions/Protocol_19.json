@@ -1,0 +1,28 @@
+{
+    "Project Title": "Not Available",
+    "Sponsor": "Not Available",
+    "Study Number": "2014-0546",
+    "Protocol Version and Date": "Not Available",
+    "Study Title": "Phase II Study of Oral Rigosertib in Patients with Myelofibrosis and Anemia",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Myelofibrosis",
+    "Number of Patients": "35",
+    "Number of Sites": "5",
+    "Indication": "Myelofibrosis with anemia",
+    "Duration of Treatment": "Up to 48 weeks",
+    "Schedule of Assessments": "Appendix 6",
+    "questionnaires": [
+        {
+            "longName": "Myeloproliferative Neoplasm Symptom Assessment Form Total Symptom Score",
+            "shortName": "MPN-SAF TSS",
+            "type": "PRO",
+            "questionnaireSchedule": "Screening, Baseline/C1D1, QW, Q4W for 12 Weeks, then Q8W, Week 24 and Week 48"
+        },
+        {
+            "longName": "ECOG Performance Status",
+            "shortName": "ECOG",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Screening, Baseline/C1D1, QW, Q4W for 12 Weeks, then Q8W, Week 24 and Week 48"
+        }
+    ]
+}

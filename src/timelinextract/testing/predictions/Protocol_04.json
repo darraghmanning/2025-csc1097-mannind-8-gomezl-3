@@ -1,0 +1,64 @@
+{
+    "Project Title": "A Randomized Phase II Clinical Trial of ADT Combined with Abiraterone or Docetaxel in Metastatic Hormone Sensitive Prostate Cancer.",
+    "Sponsor": "Huntsman Cancer Institute",
+    "Study Number": "HCI-18-GU-11",
+    "Protocol Version and Date": "Version 2: 13MAR2019",
+    "Study Title": "ACADEMIC: ADT + Docetaxel vs ADT + Abiraterone",
+    "Phase": "Phase II",
+    "Therapeutic Area": "Metastatic hormone sensitive prostate cancer",
+    "Number of Patients": "89",
+    "Number of Sites": "Up to 8 (including Huntsman Cancer Institute and up to 7 additional centers)",
+    "Indication": "Not Available",
+    "Duration of Treatment": "18 months or until disease progression, whichever occurs first.",
+    "Schedule of Assessments": "Table 10 and Section 10",
+    "questionnaires": [
+        {
+            "longName": "Functional Assessment of Cancer Therapy - Prostate",
+            "shortName": "FACT-P",
+            "type": "PRO",
+            "questionnaireSchedule": "Baseline and Month 12",
+            "questionnaireTiming": [
+                "Fresh Tissue Collection   (Archival Tissue Submission (if available)  ) (Whole Body Bone Scan  ) (CT \u2013 Chest/Abdomen/Pelvis10  ) (PSA  ) (Testosterone  ) (Urinalysis  ) (Comprehensive Metabolic Panel (CMP)  ) (Complete Blood Count (CBC) with Platelet Count, Differential  ) (Physical Exam with ECOG  ) (Vital Signs  ) (Inclusion/Exclusion Criteria  ) (Informed Consent  ) (Protocol Procedures  )"
+            ]
+        },
+        {
+            "longName": "Functional Assessment of Cancer Therapy - Gynecologic Oncology Group - Neuropathy",
+            "shortName": "FACT/GOG-NTX",
+            "type": "PRO",
+            "questionnaireSchedule": "Month 0, 3, 6, 9, 12, 18",
+            "questionnaireTiming": [
+                "Fresh Tissue Collection   (Archival Tissue Submission (if available)  ) (Whole Body Bone Scan  ) (CT \u2013 Chest/Abdomen/Pelvis10  ) (PSA  ) (Testosterone  ) (Urinalysis  ) (Comprehensive Metabolic Panel (CMP)  ) (Complete Blood Count (CBC) with Platelet Count, Differential  ) (Physical Exam with ECOG  ) (Vital Signs  ) (Inclusion/Exclusion Criteria  ) (Informed Consent  ) (Protocol Procedures  )"
+            ]
+        },
+        {
+            "longName": "Patient-Reported Outcomes Measurement Information System Fatigue",
+            "shortName": "PROMIS Fatigue",
+            "type": "PRO",
+            "questionnaireSchedule": "Month 0, 3, 6, 9, 12, 18",
+            "questionnaireTiming": [
+                "Fresh Tissue Collection   (Archival Tissue Submission (if available)  ) (Whole Body Bone Scan  ) (CT \u2013 Chest/Abdomen/Pelvis10  ) (PSA  ) (Testosterone  ) (Urinalysis  ) (Comprehensive Metabolic Panel (CMP)  ) (Complete Blood Count (CBC) with Platelet Count, Differential  ) (Physical Exam with ECOG  ) (Vital Signs  ) (Inclusion/Exclusion Criteria  ) (Informed Consent  ) (Protocol Procedures  )"
+            ]
+        },
+        {
+            "longName": "Overall Treatment Utility Form",
+            "shortName": "OTU",
+            "type": "ClinRO",
+            "questionnaireSchedule": "Completed by the physician at Month 3"
+        },
+        {
+            "longName": "Was It Worth It Questionnaire",
+            "shortName": "WIWI",
+            "type": "PRO",
+            "questionnaireSchedule": "End of Treatment (Month 18 or Progression Visit)",
+            "questionnaireTiming": [
+                "Fresh Tissue Collection   (Archival Tissue Submission (if available)  ) (Whole Body Bone Scan  ) (CT \u2013 Chest/Abdomen/Pelvis10  ) (PSA  ) (Testosterone  ) (Urinalysis  ) (Comprehensive Metabolic Panel (CMP)  ) (Complete Blood Count (CBC) with Platelet Count, Differential  ) (Physical Exam with ECOG  ) (Vital Signs  ) (Inclusion/Exclusion Criteria  ) (Informed Consent  ) (Protocol Procedures  )"
+            ]
+        },
+        {
+            "longName": "End of Study Evaluation Form",
+            "shortName": "End of Study Evaluation",
+            "type": "PRO",
+            "questionnaireSchedule": "End of Treatment (Month 18 or Progression Visit)"
+        }
+    ]
+}

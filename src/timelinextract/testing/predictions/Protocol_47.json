@@ -1,0 +1,94 @@
+{
+    "Project Title": "ECZTRA 3 (ECZema TRAlokinumab trial no. 3)",
+    "Sponsor": "LEO Pharma A/S, Industriparken 55, DK-2750 Ballerup, Denmark",
+    "Study Number": "LP0162-1339",
+    "Protocol Version and Date": "Version: 4.0, Date: 29-Aug-2018",
+    "Study Title": "A randomised, double-blind, placebo-controlled, phase 3 trial to evaluate the efficacy and safety of tralokinumab in combination with topical corticosteroids (TCS) in subjects with moderate-to-severe atopic dermatitis (AD) who are candidates for systemic therapy.",
+    "Phase": "Phase III",
+    "Therapeutic Area": "Moderate-to-severe atopic dermatitis",
+    "Number of Patients": "369",
+    "Number of Sites": "Approximately 70",
+    "Indication": "Atopic dermatitis",
+    "Duration of Treatment": "Approximately 52 weeks (32 weeks of treatment and 14-week follow-up period)",
+    "Schedule of Assessments": "Panel 2, Schedule of trial procedures: screening and treatment periods",
+    "questionnaires": [
+        {
+            "longName": "Eczema-related Sleep numeric rating scale",
+            "shortName": "Eczema-related Sleep NRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed daily from Week -2 (visit 2) until Week 32."
+        },
+        {
+            "longName": "Worst Daily Pruritus numeric rating scale",
+            "shortName": "Worst Daily Pruritus NRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed daily from Week -2 (visit 2) until Week 32."
+        },
+        {
+            "longName": "Average Daily Pruritus numeric rating scale",
+            "shortName": "Average Daily Pruritus NRS",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed daily from Week -2 (visit 2) until Week 32."
+        },
+        {
+            "longName": "Patient Days of Topical Treatment Use",
+            "shortName": "Patient Days of Topical Treatment Use",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed daily from baseline (Week 0 [visit 3]) until Week 32."
+        },
+        {
+            "longName": "Patient Global Impression of Bother",
+            "shortName": "PGI-B",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed daily from Week -2 (visit 2) until Week 32."
+        },
+        {
+            "longName": "Patient Global Impression of Severity",
+            "shortName": "PGI-S",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed daily from Week -2 (visit 2) until Week 32."
+        },
+        {
+            "longName": "Patient-Oriented Eczema Measure",
+            "shortName": "POEM",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed electronically according to the schedule of procedures.",
+            "questionnaireTiming": [
+                "Nominal  Week 16 visit  (if applicable)",
+                "Early termination  (if applicable)",
+                "Unscheduled visit (if  applicable)"
+            ]
+        },
+        {
+            "longName": "Dermatology Life Quality Index",
+            "shortName": "DLQI",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed electronically according to the schedule of procedures.",
+            "questionnaireTiming": [
+                "Nominal  Week 16 visit  (if applicable)",
+                "Early termination  (if applicable)",
+                "Unscheduled visit (if  applicable)"
+            ]
+        },
+        {
+            "longName": "EuroQoL 5-Dimension Health Questionnaire 5 Level",
+            "shortName": "EQ-5D-5L",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed electronically according to the schedule of procedures.",
+            "questionnaireTiming": [
+                "Early termination  (if applicable)",
+                "Unscheduled visit (if  applicable)"
+            ]
+        },
+        {
+            "longName": "Hospital Anxiety and Depression Scale",
+            "shortName": "HADS",
+            "type": "PRO",
+            "questionnaireSchedule": "Completed electronically according to the schedule of procedures.",
+            "questionnaireTiming": [
+                "Early termination  (if applicable)",
+                "Unscheduled visit (if  applicable)"
+            ]
+        }
+    ]
+}
