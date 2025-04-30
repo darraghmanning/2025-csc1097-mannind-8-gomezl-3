@@ -68,6 +68,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://2025-csc1097-mannind-8-gomezl-3.vercel.app/auth/callback/google",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
