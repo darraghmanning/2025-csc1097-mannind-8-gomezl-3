@@ -16,7 +16,7 @@ function Login({ onLoginSuccess }) {
   
       try {
         // Send token to Django backend for verification
-        const res = await axios.post("https://2025-csc1097-mannind-8-gomezl-3.vercel.app/auth/callback/google", { token: credential });
+        const res = await axios.post("https://2025-csc1097-mannind-8-gomezl-3.vercel.app/auth/google", { token: credential });
   
         // Save token & user info
         localStorage.setItem("token", res.data.access);
