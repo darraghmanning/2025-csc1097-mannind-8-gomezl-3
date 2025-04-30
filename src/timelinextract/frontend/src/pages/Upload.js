@@ -37,7 +37,7 @@ function Upload() {
       {loading ? (
         <div className="loading-container">
           <h2 className="loading-title">Processing your file...</h2>
-          <p className="loading-message">Please wait while we analyze your PDF.</p>
+          <p className="loading-message">Please wait while we analyse your PDF.</p>
           <div className="spinner"></div>
         </div>
       ) : (
