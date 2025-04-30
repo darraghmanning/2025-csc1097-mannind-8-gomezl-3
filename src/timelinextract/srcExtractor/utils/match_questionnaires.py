@@ -9,14 +9,16 @@ logging.basicConfig(level=logging.INFO)
 QUALITY_OF_LIFE_TERMS = [
     "quality of life", "qol", "qol assessment", "qol survey", "hrqol", "hrql", "hr-qol", "qol instruments"
     "health-related quality of life", "patient quality of life", "quality of life questionnaires", "patient questionnaire booklet"
-    "quality of life measures", "health-related quality of life questionnaires", "patient-reported outcomes", "health-related quality of life assessments"
+    "quality of life measures", "health-related quality of life questionnaires", "patient-reported outcomes",
+    "health-related quality of life assessments"
 ]
 
 
 def is_quality_of_life_related(text):
     """
     Check if the study procedure is related to a quality of life term.
-    The quality of life terms are different variations of the term "quality of life" and its abbreviations. 
+    The quality of life terms are different variations of
+    the term "quality of life" and its abbreviations.
     This function uses a similarity threshold to determine if the text is related to any of the quality of life terms.
     Which are different names that could be used for the questionnaires.
     Args:
@@ -108,7 +110,7 @@ def find_matching_questionnaires(questionnaire_json_file, timeline_json_folder, 
                             q["questionnaireTiming"] = []
                             for tp in qol_timepoints:
                                 if clean_string(tp) not in [clean_string(x) for x in q["questionnaireTiming"]]:
-                                    q["questionnaireTiming"].append(tp)                            
+                                    q["questionnaireTiming"].append(tp)
 
         # Save the modified questionnaire JSON back to file
         with open(questionnaire_json_file, "w", encoding="utf-8") as f:

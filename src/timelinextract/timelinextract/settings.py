@@ -162,8 +162,3 @@ REST_FRAMEWORK = {
 # Login redirect URL
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
-
-# Allow CORS for React Frontend
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-]

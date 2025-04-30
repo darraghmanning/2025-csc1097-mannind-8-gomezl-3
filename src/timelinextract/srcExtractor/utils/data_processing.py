@@ -303,6 +303,7 @@ def clean_string(text):
     # Remove non-alphanumeric characters and spaces, then lowercase
     return re.sub(r'\s+', '', re.sub(r'[^a-zA-Z0-9]', '', cleaned_text)).lower()
 
+
 def words_in_other(a, b):
     """
     Check if all words from string 'a' exist within string 'b'.
