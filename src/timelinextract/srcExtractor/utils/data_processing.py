@@ -5,6 +5,7 @@ import csv
 from .data_validation import is_json
 from pathlib import Path
 from difflib import SequenceMatcher
+from collections import Counter
 
 
 def clean_text(content):
@@ -73,37 +74,91 @@ def save_merged_data_to_json(merged_data, pdf_file_path, output_directory='outpu
 
 def csv_to_json(csv_file_path, json_file_path):
     """
-    Convert a CSV file to a JSON file.
+    Convert a CSV file to a structured JSON file.
+
+    This function reads a CSV file, handles multi-row headers, ensures column uniqueness,
+    and writes the content to a JSON file.
 
     Args:
-        csv_file_path (str): Path to the CSV file.
-        json_file_path (str): Path to save the JSON file.
+        csv_file_path (str): Path to the input CSV file.
+        json_file_path (str): Path to save the output JSON file.
 
     Returns:
-        dict: Success or error message.
+        dict: A dictionary with a "success" or "error" message.
     """
     try:
-        with open(csv_file_path, mode='r', encoding='utf-8-sig') as csv_file:
+        with open(csv_file_path, mode="r", encoding="utf-8-sig") as csv_file:
             reader = csv.reader(csv_file)
-            header = next(reader)
 
-            # Ensure headers are unique and non-empty
-            first_row = next(reader)
-            header = [col if col.strip() else first_row[i] for i, col in enumerate(header)]
+            # Collect header rows until we find one with enough content
+            header_rows = []
+            while True:
+                try:
+                    row = next(reader)
+                    header_rows.append(row)
+                    if row.count("") < 2:
+                        break
+                except StopIteration:
+                    return {"error": "No valid header row found in CSV."}
 
-            csv_file.seek(0)
-            csv_reader = csv.DictReader(csv_file, fieldnames=header)
-            next(csv_reader, None)  # Skip header row
+            # Merge multi-line headers into one
+            merged_header = header_rows[-1]
+            for previous in reversed(header_rows[:-1]):
+                merged_header = merge_headers(previous, merged_header)
 
-            data = [row for row in csv_reader]
+            # Add prefix from first column to clarify repeated headers
+            prefix = merged_header[0].strip() if len(merged_header) > 1 else ""
+            if prefix:
+                merged_header = [
+                    col if i == 0 else f"{prefix}: {col}".strip()
+                    for i, col in enumerate(merged_header)
+                ]
 
-        with open(json_file_path, 'w', encoding='utf-8') as json_file:
+            # Make column names unique
+            header_counts = Counter()
+            unique_headers = []
+            for col in merged_header:
+                if col in header_counts:
+                    header_counts[col] += 1
+                    unique_headers.append(f"{col}_{header_counts[col]}")
+                else:
+                    header_counts[col] = 0
+                    unique_headers.append(col)
+
+            # Read the remaining rows into structured JSON
+            data = [dict(zip(unique_headers, row)) for row in reader]
+
+        with open(json_file_path, "w", encoding="utf-8") as json_file:
             json.dump(data, json_file, indent=4)
-        return {"success": "CSV file converted to JSON successfully."}
+
+        return {"success": "CSV successfully converted to JSON."}
+
     except FileNotFoundError:
         return {"error": f"File not found: {csv_file_path}"}
     except Exception as e:
-        return {"error": f"An unexpected error occurred while turning a CSV file into a JSON file: {e}"}
+        return {"error": f"Unexpected error: {str(e)}"}
+
+
+def merge_headers(old, new):
+    """
+    Merge two header rows by filling in blanks and combining mismatched labels.
+
+    Args:
+        old (List[str]): First header row.
+        new (List[str]): Second header row.
+
+    Returns:
+        List[str]: Merged header row.
+    """
+    merged = []
+    for old_val, new_val in zip(old, new):
+        if not new_val and old_val:
+            merged.append(old_val)
+        elif old_val and new_val and old_val != new_val:
+            merged.append(f"{new_val} ({old_val})")
+        else:
+            merged.append(new_val or "")
+    return merged
 
 
 def convert_valid_files_to_json(yes_files, output_folder):
@@ -165,31 +220,39 @@ def merge_json_files(folder_path1, folder_path2, output_file):
 
 def similar(a, b):
     """
-    Calculate the similarity ratio between two strings.
+    Calculate the similarity between two strings.
+    Full containment or word match returns 1.0, otherwise uses SequenceMatcher.
 
     Args:
         a (str): First string.
         b (str): Second string.
 
     Returns:
-        float: Similarity ratio (0.0 to 1.0).
+        float: Similarity ratio between 0.0 and 1.0.
     """
-    if a.lower().strip() in b.lower().strip():
+    clean_a = clean_string(a)
+    clean_b = clean_string(b)
+
+    if clean_a in clean_b or words_in_other(a, b):
         return 1.0
-    return SequenceMatcher(None, a, b).ratio()
+    return SequenceMatcher(None, clean_a, clean_b).ratio()
 
 
 def extract_time_points(entry):
     """
-    Extracts keys from a dictionary where the corresponding value is marked as "X" (case-insensitive).
+    Extract keys from a dictionary where the value indicates selection (e.g., contains 'x' or 'selected').
 
     Args:
-        entry (dict): Dictionary containing various key-value pairs.
+        entry (dict): Dictionary representing a table row.
 
     Returns:
-        list: List of keys where the value is exactly "X".
+        list: List of keys with marked selection.
     """
-    return [key.strip() for key, value in entry.items() if isinstance(value, str) and value.strip().lower() == "x"]
+    return [
+        key.strip()
+        for key, value in entry.items()
+        if isinstance(value, str) and re.search(r"(x|\bselected\b)", value.strip().lower().replace("\ufffd", ""))
+    ]
 
 
 def merge_json_files_into_one(pdf_file_name):
@@ -223,3 +286,38 @@ def merge_json_files_into_one(pdf_file_name):
         return {"error": errors}
 
     return {"success": merged_data}
+
+
+def clean_string(text):
+    """
+    Clean a string by removing non-alphanumeric characters, spaces, and appendix references.
+
+    Args:
+        text (str): Input string.
+
+    Returns:
+        str: Cleaned string.
+    """
+    # Remove appendix references like (Appendix A)
+    cleaned_text = re.sub(r"\s*\(Appendix [A-Z]\)", "", text)
+    # Remove non-alphanumeric characters and spaces, then lowercase
+    return re.sub(r'\s+', '', re.sub(r'[^a-zA-Z0-9]', '', cleaned_text)).lower()
+
+def words_in_other(a, b):
+    """
+    Check if all words from string 'a' exist within string 'b'.
+
+    Args:
+        a (str): First string.
+        b (str): Second string.
+
+    Returns:
+        bool: True if all words in 'a' are found in 'b', False otherwise.
+    """
+    def to_words(s):
+        return re.findall(r'\b\w+\b', s.lower())
+
+    words_a = to_words(a)
+    words_b = to_words(b)
+
+    return all(word in words_b for word in words_a)
