@@ -10,7 +10,7 @@ function Login({ onLoginSuccess }) {
     const [error, setError] = useState(null);
   
     const handleSuccess = async (response) => {
-      console.log("Google Login Success:", response);
+      console.log("Google Login Success");
       const { credential } = response;
       const decoded = jwtDecode(credential);
   

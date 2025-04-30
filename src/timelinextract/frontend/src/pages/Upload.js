@@ -21,7 +21,7 @@ function Upload() {
     }
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/srcExtractor/upload/", formData);
+      const response = await axios.post("https://two025-csc1097-mannind-8-gomezl-3.onrender.com/srcExtractor/upload/", formData);
       localStorage.setItem("response", JSON.stringify(response.data));
       navigate("/response");
     } catch (error) {
