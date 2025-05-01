@@ -1,12 +1,12 @@
 PROMPTS = {
     "protocol_extraction": (
         """
-            Please analyze the attached file. 
+            Please analyse the attached file. 
             Extract the following structured information from the provided clinical trial protocol. The output should be in JSON format, including the required fields as described below. Ensure the extraction is accurate and based on the described locations in the protocol.
 
             Required Fields:
             0. Project Title: The title of the protocol. Extract the protocol name, typically found on the first pages of the protocol.
-            1. Sponsor: The organiaation sponsoring the clinical trial. Extract the sponsor's name, usually found on the first page of the protocol.
+            1. Sponsor: The organisation sponsoring the clinical trial. Extract the sponsor's name, usually found on the first page of the protocol.
             2. Study Number: The unique identifier for the protocol. Extract the protocol number, found on the first page beneath the protocol objective.
             3. Protocol Version and Date: Extract the version and date of the protocol, located on the first page beneath the protocol objective.
             4. Study Title: The title of the clinical trial study. Extract the full protocol name, typically found on the first page of the protocol.
