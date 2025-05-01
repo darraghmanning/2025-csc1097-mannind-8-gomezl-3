@@ -20,15 +20,11 @@ test:
   script:
     - echo "Running Django system checks and tests..."
     - python3 src/timelinextract/manage.py test src/timelinextract/srcExtractor/tests
-  variables:
-    DJANGO_SETTINGS_MODULE: timelinextract.settings
-
-lint:
-  stage: lint
-  script:
     - echo "Running flake8 linting..."
     - cd src/timelinextract
     - flake8 .
+  variables:
+    DJANGO_SETTINGS_MODULE: timelinextract.settings
 
 deploy:
   stage: deploy
