@@ -29,7 +29,6 @@ test:
 deploy:
   stage: deploy
   script:
-    - echo "Define your deployment steps here!"
-    - echo "No deployment for now"
+    - echo "Deployment is done automatically each time code is committed to the deployment branch, using Render and Vercel."
   environment: production
 
